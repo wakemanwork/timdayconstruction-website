@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Smoke test against a deployment or the live domain. Usage: scripts/qa/smoke.sh https://host
 # Optional: VERCEL_BYPASS=<automation bypass secret> for protected previews.
-B=${1:?base url}; H=(); [ -n "$VERCEL_BYPASS" ] && H=(-H "x-vercel-protection-bypass: $VERCEL_BYPASS" -H "x-vercel-set-bypass-cookie: true")
+B=${1:?base url}; H=(); [ -n "$VERCEL_BYPASS" ] && H=(-H "x-vercel-protection-bypass: $VERCEL_BYPASS")
 fail=0
 check() { # path expected_status [expected_location_or_content_type_substring]
   out=$(curl -s -o /dev/null -w "%{http_code} %{redirect_url} %{content_type}" "${H[@]}" "$B$1")
