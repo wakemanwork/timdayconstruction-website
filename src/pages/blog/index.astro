@@ -1,0 +1,33 @@
+---
+// Blog index (DESIGN.md 5 "Blog index"). Live: page banner → #blog-cards. All 13 posts, newest
+// first, no pagination (/blog/page/* 301s to /blog/, F16). Banner/SEO: src/data/pages/blog.json.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import BlogCards from '../../components/blog/BlogCards.astro';
+import page from '../../data/pages/blog.json';
+import { graph, webPage, breadcrumbs, pageTitle, SITE } from '../../lib/seo';
+
+const entries = (await getCollection('posts')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const cards = entries.map((e) => ({ href: `/${e.data.slug}/`, title: e.data.title.trim(), image: e.data.featuredImage, date: e.data.date }));
+
+const path = '/blog/';
+const title = pageTitle(page.seo.title, page.title);
+const description = page.seo.description; // F10 draft
+const ogImage = page.bannerImage; // the page's lead photo (banner)
+const jsonld = graph(
+  webPage(path, title, description, { type: 'CollectionPage', published: new Date(page.published), modified: new Date(page.modified), image: ogImage }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: page.title, path }]),
+  {
+    '@type': 'ItemList',
+    '@id': `${SITE}${path}#posts`,
+    itemListOrder: 'https://schema.org/ItemListOrderDescending',
+    numberOfItems: cards.length,
+    itemListElement: cards.map((c, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}${c.href}`, name: c.title })),
+  },
+);
+---
+<BaseLayout title={title} description={description} ogImage={ogImage} jsonld={jsonld} bodyClass="blog-index">
+  <PageBanner title={page.title} image={page.bannerImage} />
+  <BlogCards cards={cards} />
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+// Legal pages (DESIGN.md 5 "Legal": page banner → blog content column; 6.18 Article styling).
+// The live /privacy-policy/ and /cookies/ are blank (F1): text restored from capture/rest/pages.json
+// by scripts/extract_blog.py into src/data/pages/<name>.json.
+// PageBanner rather than the blog title banner: these are pages, not dated articles, and DESIGN.md
+// specifies the page banner for this template. The banner photo is the generic one /blog/ uses.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../PageBanner.astro';
+import { graph, webPage, breadcrumbs, pageTitle } from '../../lib/seo';
+interface Props {
+  path: string;
+  page: { title: string; published: string; modified: string; html: string; seo: { title: string | null; description: string } };
+  bannerImage: string;
+}
+const { path, page, bannerImage } = Astro.props;
+const title = pageTitle(page.seo.title, page.title);
+const description = page.seo.description; // F10 draft
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.published), modified: new Date(page.modified), image: bannerImage }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: page.title, path }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={bannerImage} jsonld={jsonld} bodyClass="legal">
+  <PageBanner title={page.title} image={bannerImage} />
+  <div class="blog legal-content">
+    <div class="content blog-width-container" set:html={page.html} />
+  </div>
+</BaseLayout>

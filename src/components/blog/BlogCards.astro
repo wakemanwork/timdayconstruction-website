@@ -1,0 +1,29 @@
+---
+// DESIGN.md 6.17. Live #blog-cards: 3 / 2 / 1 columns, photo + title link + date.
+// The photo link repeats the title link, so it's taken out of the tab order and the accessibility
+// tree (F13: the live photo link has no accessible name); the title link names the card.
+import Img from '../Img.astro';
+import PostDate from './PostDate.astro';
+interface Card { href: string; title: string; image: string | null; date: Date; }
+interface Props { cards: Card[]; }
+const { cards } = Astro.props;
+---
+<section class="width-container" id="blog-cards">
+  {cards.map((c) => (
+    <article class="blog-card">
+      <a href={c.href} tabindex="-1" aria-hidden="true">
+        {c.image && <Img class="blog-card__img" src={c.image} alt="" sizes="(max-width: 560px) 90vw, (max-width: 1360px) 45vw, 28vw" />}
+      </a>
+      <div class="blog-card-content">
+        <h2 class="blog-card-content__title"><a class="teal-txt" href={c.href}>{c.title}</a></h2>
+        <PostDate class="blog-card-content__date teal-txt" date={c.date} />
+      </div>
+    </article>
+  ))}
+</section>
+
+<style is:global>
+  /* F13 / DESIGN.md 7.6: the live date is teal at opacity 0.4 (2.04:1 on white, fails AA).
+     0.75 is the lowest opacity that passes (4.56:1) and keeps the faded look. */
+  #blog-cards .blog-card .blog-card-content .blog-card-content__date { opacity: 0.75; }
+</style>

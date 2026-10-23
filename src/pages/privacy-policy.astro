@@ -1,0 +1,7 @@
+---
+// /privacy-policy/: text restored verbatim from WordPress (F1). Heading levels only adjusted (see extract_blog.py).
+import LegalPage from '../components/blog/LegalPage.astro';
+import page from '../data/pages/privacy-policy.json';
+import blog from '../data/pages/blog.json';
+---
+<LegalPage path="/privacy-policy/" page={page} bannerImage={blog.bannerImage} />

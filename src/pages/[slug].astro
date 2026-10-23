@@ -1,0 +1,79 @@
+---
+// Blog post (DESIGN.md 5 "Post", 6.18 Article). Live: article.blog → .blog-title-banner (H1 + date)
+// → featured image → .content column. Content: src/content/posts/*.md (F20 H2s already applied).
+// F2: "What is a Passive House?" moves from /placeholder-blog-post-6/ to its own slug (301 in vercel.json).
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Img from '../components/Img.astro';
+import PostDate from '../components/blog/PostDate.astro';
+import posts from '../data/pages/posts.json';
+import { alt } from '../lib/alt';
+import { graph, webPage, breadcrumbs, pageTitle, abs, ORG_ID, SITE } from '../lib/seo';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('posts');
+  return entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+// Two artefacts in the extracted markdown, corrected at render so the page matches live (and the
+// content file can be fixed later without touching this page; see the build report):
+//  - live paragraphs starting "1. ", "2. ", "3. ", "5. " became one-item <ol start=N> lists: back to "<p>N. …</p>";
+//  - a link to the WordPress dev host (http://tim-day.local/contact/), broken on live too: made relative.
+const tidy = (html: string) => html
+  .replace(/<ol(?: start="(\d+)")?>\s*<li>([\s\S]*?)<\/li>\s*<\/ol>/g, (_m, n, t) => `<p>${n ?? 1}. ${t}</p>`)
+  .replace(/https?:\/\/tim-day\.local\//g, '/');
+const body = tidy(entry.rendered?.html ?? '');
+const d = entry.data;
+const name = d.title.trim();
+const path = `/${d.slug}/`;
+// Frontmatter dates are UTC wall-clock without a zone (see PostDate.astro)
+const asUtc = (x: Date) => new Date(Date.UTC(x.getFullYear(), x.getMonth(), x.getDate(), x.getHours(), x.getMinutes(), x.getSeconds()));
+const published = asUtc(d.date);
+const modified = asUtc(d.modified);
+// F11 via pageTitle. Built from the F19-corrected title rather than seo.title, which repeats the
+// uncorrected one ("Fitout", "Why Should you"); every post's Yoast title is "<title> - <suffix>".
+const title = pageTitle(null, name);
+const description = (posts as Record<string, { description: string }>)[d.slug].description; // F10 draft
+const image = d.featuredImage;
+
+const jsonld = graph(
+  webPage(path, title, description, { published, modified, image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog/' }, { name, path }]),
+  {
+    '@type': 'BlogPosting',
+    '@id': `${SITE}${path}#article`,
+    headline: name,
+    description,
+    datePublished: published.toISOString(),
+    dateModified: modified.toISOString(),
+    author: { '@id': ORG_ID },
+    publisher: { '@id': ORG_ID },
+    ...(image ? { image: { '@type': 'ImageObject', url: abs(image) } } : {}),
+    mainEntityOfPage: { '@id': `${SITE}${path}` },
+    isPartOf: { '@id': `${SITE}/blog/` },
+    inLanguage: 'en-GB',
+  },
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} ogType="article" published={published} modified={modified} jsonld={jsonld} bodyClass="post">
+  <article class="blog">
+    <section class="blog-title-banner">
+      <div class="blog-width-container">
+        <h1 class="blog-title-banner__title">{name}</h1>
+        <PostDate class="blog-title-banner__date" date={d.date} />
+      </div>
+    </section>
+    {image && <Img class="blog-featured-img blog-width-container" src={image} alt={alt(image)} sizes="(max-width: 1360px) 85vw, (max-width: 1800px) 65vw, 50vw" priority />}
+    <div class="content blog-width-container">
+      <Fragment set:html={body} />
+    </div>
+  </article>
+</BaseLayout>
+
+<style is:global>
+  /* F13 / DESIGN.md 7.6: the live date is white at opacity 0.5 over the dot-grid banner
+     (4.28:1 on --teal-dark, 3.89:1 on the --teal-deep grid lines; fails AA at 17.6px).
+     0.6 passes on both (5.45:1 and 4.87:1). */
+  .blog .blog-title-banner .blog-title-banner__date { opacity: 0.6; }
+</style>
