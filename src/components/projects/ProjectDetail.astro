@@ -1,0 +1,41 @@
+---
+// DESIGN.md 6.14. Live .project: content column (markdown body) + teal details panel.
+// Fixes: rows with an empty value are omitted at build time (the live site removed an empty
+// Architect row in JS). The live labels were <h4> straight after the H1 (skipped levels); they are
+// <h3> under a visually hidden <h2>, and .project-info__type already sets the size and weight, so
+// they look identical (h3 and h4 share the base heading rule; the live h4 had no other styles).
+import labels from '../../data/pages/project.json';
+interface Props {
+  location: string | null; client: string | null; typeOfWork: string | null;
+  architect: string | null; status: string | null;
+}
+const { location, client, typeOfWork, architect, status } = Astro.props;
+const values = [location, client, typeOfWork, architect, status];
+const rows = labels.detailLabels.map((label, i) => ({ label, value: values[i] })).filter((r) => r.value && r.value.trim());
+---
+<div class="project">
+  <div class="project-content width-container">
+    <div class="project-column">
+      <div class="project-column-content">
+        <slot />
+      </div>
+    </div>
+    <div class="project-column details-column">
+      <img aria-hidden="true" class="brand-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" loading="lazy" />
+      <h2 class="sr-only">Project details</h2>
+      {rows.map((r) => (
+        <div class="project-info">
+          <h3 class="project-info__type">{r.label}</h3>
+          <span class="project-info__value">{r.value}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+
+<style is:global>
+  /* Contrast fix (DESIGN.md 7.6): the live value text is white at opacity 0.6 on teal (#a4b9bb, 4.33:1,
+     fails AA). Use the light-teal-on-teal token instead (#c5d5d8, passes AA); nearly the same tone. */
+  .project .project-content .project-column.details-column .project-info .project-info__value { opacity: 1; color: var(--teal-light-text); }
+</style>

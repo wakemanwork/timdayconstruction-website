@@ -1,0 +1,79 @@
+[
+ {
+  "where": "project__pure-vet-ashford",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__middle-wall-whitstable",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__valkyrie-road",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__castle-road-whitstable",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__old-dover-road",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__stables",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__vet-shack",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__riverside-social",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__south-foreland-lighthouse",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__king-post-elham",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ },
+ {
+  "where": "project__shipwright",
+  "from": "Architect",
+  "to": "",
+  "count": 1,
+  "note": "empty details row omitted (live theme removed it in JS)"
+ }
+]

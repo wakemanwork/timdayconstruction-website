@@ -1,0 +1,77 @@
+---
+// Project category archive (F7, DESIGN.md section 5 "Category archive"): PageBanner with the category
+// name as H1 → short intro → project blocks for that category → CTA band.
+// The live archives were empty shells, so the intro and meta description are drafts awaiting approval
+// (src/data/pages/projects-drafts.json). /category/uncategorized/ is not built: it 301s to /blog/.
+// The CTA reuses the live CTA of the matching sector page; Listed Buildings has no sector page, so it
+// reuses the project-page CTA heading and button (body left empty, as on Pure Vet's live project page).
+import { getCollection, getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import ProjectBlocks from '../../components/ProjectBlocks.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import CtaButtonContrast from '../../components/projects/CtaButtonContrast.astro';
+import PortfolioIntro from '../../components/projects/PortfolioIntro.astro';
+import categories from '../../data/pages/categories.json';
+import drafts from '../../data/pages/projects-drafts.json';
+import { pageTitle, graph, webPage, breadcrumbs } from '../../lib/seo';
+
+const SECTOR_FOR: Record<string, string | null> = {
+  'change-of-use': 'change-of-use',
+  'clinical-veterinary-fit-outs': 'veterinary-fit-outs',
+  'extensions': 'extensions',
+  'listed-buildings': null,
+  'new-build-residential': 'new-builds',
+  'refurbishments': 'remodelling',
+};
+
+export function getStaticPaths() {
+  return categories.map((c) => ({ params: { slug: c.slug }, props: { cat: c } }));
+}
+
+const { cat } = Astro.props;
+const draft = (drafts.categories as Record<string, { intro: string; description: string }>)[cat.slug];
+const projects = (await getCollection('projects', (p) => p.data.categories.includes(cat.slug)))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime()); // newest first, as WordPress archives order
+if (!projects.length) throw new Error(`No projects in category ${cat.slug}`);
+
+let cta: { variant: 'project' | 'sector'; title: string; body: string; button: string; href: string };
+const sectorSlug = SECTOR_FOR[cat.slug];
+if (sectorSlug) {
+  const sector = await getEntry('sectors', sectorSlug);
+  if (!sector) throw new Error(`Unknown sector ${sectorSlug}`);
+  cta = { variant: 'sector', ...sector.data.cta };
+} else {
+  const ref = (await getEntry('projects', projects[0].id))!.data.cta;
+  cta = { variant: 'project', title: ref.title, body: '', button: ref.button, href: ref.href };
+}
+
+const path = `/category/${cat.slug}/`;
+const title = pageTitle(cat.seo.title, cat.name);
+const description = cat.seo.description ?? draft.description;
+const banner = projects[0].data.bannerImage;
+const modified = new Date(Math.max(...projects.map((p) => p.data.modified.getTime())));
+const jsonld = graph(
+  webPage(path, title, description, { modified, image: banner, type: 'CollectionPage' }),
+  breadcrumbs(path, [
+    { name: 'Home', path: '/' },
+    { name: 'Portfolio', path: '/portfolio/' },
+    { name: cat.name, path },
+  ]),
+  {
+    '@type': 'ItemList',
+    '@id': `https://timdayconstruction.co.uk${path}#projects`,
+    itemListElement: projects.map((p, i) => ({
+      '@type': 'ListItem', position: i + 1, name: p.data.title,
+      url: `https://timdayconstruction.co.uk/project/${p.id}/`,
+    })),
+  },
+);
+---
+<BaseLayout title={title} description={description} ogImage={banner} jsonld={jsonld} bodyClass="archive category">
+  <PageBanner title={cat.name} image={banner} />
+  <PortfolioIntro body={[draft.intro]} />
+  <ProjectBlocks slugs={projects.map((p) => p.id)} headingLevel={2} />
+  <CtaButtonContrast />
+  <CtaBand {...cta} />
+</BaseLayout>

@@ -1,0 +1,10 @@
+---
+// Contrast fix for the CTA band button (F15 / DESIGN.md 2.2): the highlight word inside the teal
+// button ("Get in touch <span>now!</span>") picks up the on-light highlight from the grey band
+// (#5f969c on #1c5156 = 2.68:1, axe color-contrast). Inside the teal button it is on a teal surface,
+// so it takes the on-teal highlight; on hover the theme already turns it teal on the light fill.
+// Requested as a shared change in overrides.css; kept here until then.
+---
+<style is:global>
+  #project-cta .project-cta__btn, #sector-cta .sector-cta__btn { --hl: var(--teal-light-text); }
+</style>

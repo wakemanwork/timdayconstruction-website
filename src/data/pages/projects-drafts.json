@@ -1,0 +1,38 @@
+{
+ "_note": "Drafted copy awaiting Simon's approval (F7 category intros, F10 meta descriptions for pages with no live Yoast description). Written to VOICE.md; facts only from the site's own copy.",
+ "portfolio": {
+  "description": "See Tim Day Construction’s portfolio of new builds, extensions, listed buildings, remodelling and change of use projects across Kent. Read the stories."
+ },
+ "projects": {
+  "castle-road-whitstable": "An 8-bed, 6-bathroom new build on the Whitstable coast, with a glazed curtain wall, rooftop views and a 10-year NHBC warranty. By Tim Day Construction.",
+  "middle-wall-whitstable": "A side and rear extension in Whitstable with a handcrafted kitchen, polished concrete floor and a vaulted bedroom. Built by Tim Day Construction.",
+  "pure-vet-ashford": "Tim Day Construction designed and delivered Pure Vet’s new practice in Ashford, from layout and Building Regulations approval to HVAC and finishes.",
+  "valkyrie-road": "A brick and block detached home in Whitstable, built on a Housedeck piled raft foundation: classic methods, modern engineering. By Tim Day Construction."
+ },
+ "categories": {
+  "change-of-use": {
+   "intro": "Tim Day Construction has turned former industrial and commercial units into veterinary practices and a food and social hub, in Canterbury and Ashford. We handle every part of a change of use, from securing approvals to adapting the structure for its new purpose.",
+   "description": "Change of use projects by Tim Day Construction, including Vet Shack and Riverside Social in Canterbury and Pure Vet in Ashford. See how we did it."
+  },
+  "clinical-veterinary-fit-outs": {
+   "intro": "Tim Day Construction fits out veterinary practices that work for both the veterinary team and their animal patients, including Vet Shack in Canterbury and Pure Vet in Ashford. We manage the consultants and the compliance, from fire strategy and accessibility to Building Regulations approval.",
+   "description": "Veterinary fit-outs by Tim Day Construction, including Vet Shack in Canterbury and Pure Vet in Ashford. Compliant, practical clinics. See the projects."
+  },
+  "extensions": {
+   "intro": "Tim Day Construction builds extensions that blend with the existing house, from a new kitchen and bedroom in Whitstable to a full remodel and extension at Pett Cottage in Canterbury. We co-ordinate local authority approval, building regulations and the programme so you can enjoy your new space sooner.",
+   "description": "House extensions by Tim Day Construction in Whitstable and Canterbury, from new kitchens to extra bedrooms, built to blend in. Browse the projects."
+  },
+  "listed-buildings": {
+   "intro": "Tim Day Construction has cared for historic buildings in Kent for the National Trust, including the Grade II listed King Post in Elham and South Foreland Lighthouse near Dover. We plan every repair and upgrade so it respects the original design and materials, down to matching lime plaster.",
+   "description": "Listed building work by Tim Day Construction for the National Trust, including King Post in Elham and South Foreland Lighthouse. See the projects."
+  },
+  "new-build-residential": {
+   "intro": "Tim Day Construction builds one-off new homes in Whitstable and Canterbury, from a timber-frame house by the sea to brick-built family homes and an 8-bed home with rooftop views. We support you from the moment you secure your plot, including helping you choose the right architect.",
+   "description": "New build homes by Tim Day Construction across Whitstable and Canterbury, from a timber-frame house by the sea to brick-built family homes. See them."
+  },
+  "refurbishments": {
+   "intro": "Tim Day Construction refurbishes and remodels older homes in Kent, including Pett Cottage in Canterbury and the Stables. We keep the character of each property while making it modern, energy-efficient and functional.",
+   "description": "Refurbishment and remodelling projects by Tim Day Construction in Kent, including Pett Cottage in Canterbury and the Stables. See the work we did."
+  }
+ }
+}
