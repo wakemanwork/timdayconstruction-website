@@ -1,0 +1,33 @@
+---
+// About. Content: src/data/pages/about.json (scripts/extract_about.py, from capture/html/about.html).
+// Order follows the live DOM: banner → founder → where we work → about sections → contact (form) → image carousel.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import ImageCarousel from '../../components/ImageCarousel.astro';
+import MeetTheFounder from '../../components/about/MeetTheFounder.astro';
+import WhereWeWork from '../../components/about/WhereWeWork.astro';
+import AboutSection from '../../components/about/AboutSection.astro';
+import AboutContact from '../../components/about/AboutContact.astro';
+import about from '../../data/pages/about.json';
+import { graph, webPage, breadcrumbs, pageTitle } from '../../lib/seo';
+
+const path = '/about/';
+const title = pageTitle(about.seo.title, 'About');
+// Live Yoast description with the F19 corrections applied (see report: 101 characters, below the 140 target)
+const description = about.seo.description;
+const image = about.banner.image;
+const published = new Date('2024-12-04T09:32:09Z');
+const modified = new Date('2026-01-07T19:10:52Z');
+const jsonld = graph(
+  webPage(path, title, description, { type: 'AboutPage', published, modified, image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: 'About', path }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld}>
+  <PageBanner title={about.banner.title} image={about.banner.image} />
+  <MeetTheFounder {...about.founder} />
+  <WhereWeWork {...about.where} />
+  {about.sections.map((s) => <AboutSection {...s} />)}
+  <AboutContact {...about.contact} />
+  <ImageCarousel variant="about" images={about.carousel} label="Photos of our work" />
+</BaseLayout>

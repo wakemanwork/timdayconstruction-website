@@ -1,0 +1,168 @@
+---
+// DESIGN.md 6.21. Replaces the live Contact Form 7 form (id 14) on /contact/ and /about/.
+// Markup mirrors CF7's (<p><label>…<br><span class="wpcf7-form-control-wrap">…) so the ported
+// .about-contact / .contact-page form CSS applies unchanged; the page supplies the teal wrapper.
+// Fields, labels, required flags and maxlengths come from the capture (src/data/pages/*.json):
+// live CF7 requires Name, Email and Subject; Message is "(optional)".
+// Behaviour (F4, F21): honeypot + Cloudflare Turnstile, POST to /api/contact (fetch, or a normal
+// form POST without JS), status in an aria-live region, GA4 generate_lead on success only if
+// window.gtag exists (it is only defined after analytics consent, see ConsentBanner.astro).
+interface Field { label: string; cf7Name: string; type: string; required: boolean; maxlength: number | null; autocomplete: string | null }
+interface Props { id: string; form: { fields: Field[]; submit: string } }
+const { id, form } = Astro.props;
+const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined;
+// Messages: Contact Form 7's default wording, as visitors saw it on the live site.
+const messages = {
+  sent: 'Thank you for your message. It has been sent.',
+  failed: 'There was an error trying to send your message. Please try again later.',
+  invalid: 'One or more fields have an error. Please check and try again.',
+  required: 'Please fill out this field.',
+  email: 'Please enter an email address.',
+  verify: 'Please complete the security check and try again.',
+};
+---
+<form
+  id={id}
+  class="wpcf7-form tdc-contact-form"
+  action="/api/contact"
+  method="post"
+  aria-label="Contact form"
+  data-messages={JSON.stringify(messages)}
+>
+  <input type="hidden" name="page" value={Astro.url.pathname} />
+  {form.fields.map((f) => {
+    const fid = `${id}-${f.cf7Name}`;
+    const common = {
+      id: fid, name: f.cf7Name, maxlength: f.maxlength ?? undefined, required: f.required,
+      'aria-required': f.required ? 'true' : undefined, autocomplete: f.autocomplete ?? undefined,
+      class: 'wpcf7-form-control',
+    };
+    return (
+      <p>
+        <label for={fid}>
+          {f.label}<br />
+          <span class="wpcf7-form-control-wrap">
+            {f.type === 'textarea'
+              ? <textarea {...common} rows="10" cols="40"></textarea>
+              : <input {...common} type={f.type} size="40" />}
+          </span>
+        </label>
+        <span class="tdc-field-error" id={`${fid}-error`}></span>
+      </p>
+    );
+  })}
+  <p class="tdc-hp" aria-hidden="true">
+    <label for={`${id}-website`}>Leave this field empty</label>
+    <input id={`${id}-website`} name="your-website" type="text" tabindex="-1" autocomplete="off" />
+  </p>
+  {siteKey && <div class="tdc-turnstile" data-sitekey={siteKey}></div>}
+  <p><input class="wpcf7-form-control wpcf7-submit" type="submit" value={form.submit} /></p>
+  <div class="wpcf7-response-output" role="status" aria-live="polite" aria-atomic="true"></div>
+</form>
+
+<script>
+  type Msgs = Record<string, string>;
+  declare global { interface Window { gtag?: (...a: unknown[]) => void; turnstile?: any; tdcTurnstileReady?: () => void } }
+
+  // Turnstile: loaded only when a form with a site key nears the viewport, then rendered explicitly.
+  let tsLoading: Promise<void> | null = null;
+  function loadTurnstile(): Promise<void> {
+    if (window.turnstile) return Promise.resolve();
+    if (!tsLoading) tsLoading = new Promise((resolve) => {
+      window.tdcTurnstileReady = () => resolve();
+      const s = document.createElement('script');
+      s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=tdcTurnstileReady';
+      s.async = true; s.defer = true;
+      document.head.appendChild(s);
+    });
+    return tsLoading;
+  }
+
+  document.querySelectorAll<HTMLFormElement>('form.tdc-contact-form').forEach((form) => {
+    const msgs: Msgs = JSON.parse(form.dataset.messages || '{}');
+    const status = form.querySelector<HTMLElement>('.wpcf7-response-output')!;
+    const submit = form.querySelector<HTMLInputElement>('input[type=submit]')!;
+    const ts = form.querySelector<HTMLElement>('.tdc-turnstile');
+    let widgetId: string | undefined;
+    form.noValidate = true; // JS takes over validation so errors can be linked with aria-describedby
+
+    if (ts) {
+      const render = () => loadTurnstile().then(() => {
+        if (widgetId === undefined) widgetId = window.turnstile.render(ts, { sitekey: ts.dataset.sitekey, theme: 'dark', size: 'flexible' });
+      });
+      const io = new IntersectionObserver((entries) => {
+        if (entries.some((e) => e.isIntersecting)) { io.disconnect(); render(); }
+      }, { rootMargin: '400px' });
+      io.observe(form);
+      form.addEventListener('focusin', render, { once: true });
+    }
+
+    // Status after a normal (no-JS) POST redirect: /contact/?sent=1 or ?error=<code>
+    const q = new URLSearchParams(location.search);
+    if (form.id === 'contact-form' && (q.has('sent') || q.has('error'))) {
+      status.textContent = q.has('sent') ? msgs.sent : (msgs[q.get('error') || ''] || msgs.failed);
+    }
+
+    const fields = Array.from(form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('.wpcf7-form-control-wrap > input, .wpcf7-form-control-wrap > textarea'));
+    function setError(el: HTMLInputElement | HTMLTextAreaElement, text: string) {
+      const err = document.getElementById(`${el.id}-error`)!;
+      err.textContent = text;
+      if (text) { el.setAttribute('aria-invalid', 'true'); el.setAttribute('aria-describedby', err.id); }
+      else { el.removeAttribute('aria-invalid'); el.removeAttribute('aria-describedby'); }
+    }
+    function validate(): boolean {
+      let firstBad: HTMLElement | null = null;
+      for (const el of fields) {
+        el.value = el.value.trim() ? el.value : '';
+        let text = '';
+        if (el.required && !el.value) text = msgs.required;
+        else if (el.type === 'email' && el.value && !(el as HTMLInputElement).validity.valid) text = msgs.email;
+        setError(el, text);
+        if (text && !firstBad) firstBad = el;
+      }
+      firstBad?.focus();
+      return !firstBad;
+    }
+    fields.forEach((el) => el.addEventListener('input', () => { if (el.getAttribute('aria-invalid')) setError(el, ''); }));
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!validate()) { status.textContent = msgs.invalid; return; }
+      submit.disabled = true;
+      status.textContent = '';
+      try {
+        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.ok) {
+          status.textContent = msgs.sent;
+          form.reset();
+          if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead');
+        } else {
+          status.textContent = msgs[data.error] || msgs.failed;
+        }
+      } catch {
+        status.textContent = msgs.failed;
+      } finally {
+        submit.disabled = false;
+        if (widgetId !== undefined) window.turnstile?.reset(widgetId);
+      }
+    });
+  });
+</script>
+
+<style is:global>
+  /* The theme names "Montserrat"; the self-hosted face is registered as --font-sans (DESIGN.md 2.3) */
+  .tdc-contact-form input, .tdc-contact-form textarea { font-family: var(--font-sans) !important; }
+  /* Honeypot (DESIGN.md 6.21): off-screen for people, still filled in by bots */
+  .tdc-contact-form .tdc-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  /* Field errors, linked with aria-describedby (DESIGN.md 7.9); white on the teal panel */
+  .tdc-contact-form .tdc-field-error { display: block; color: var(--white); font-weight: 400; margin: -1.5rem 0 1.5rem; }
+  .tdc-contact-form .tdc-field-error:empty { display: none; }
+  .tdc-contact-form [aria-invalid='true'] { border-color: var(--white) !important; }
+  .tdc-contact-form .tdc-turnstile { margin-bottom: 2rem; }
+  /* CF7 hid the empty response box; keep the live region in place but collapse it when empty */
+  .tdc-contact-form .wpcf7-response-output:empty { padding: 0; }
+  /* Focus ring (DESIGN.md 7.4): the theme sets outline:none on these fields; white ring on the teal panel */
+  .tdc-contact-form input:focus-visible, .tdc-contact-form textarea:focus-visible { outline: 3px solid var(--white) !important; outline-offset: 3px; }
+  .tdc-contact-form input[type='submit']:disabled { opacity: 0.6; cursor: progress; }
+</style>

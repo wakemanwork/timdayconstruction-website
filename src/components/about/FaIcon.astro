@@ -1,0 +1,16 @@
+---
+// Inline SVGs for the three Font Awesome 6.6 glyphs used on About and Contact that the shared
+// Icon.astro doesn't cover (DESIGN.md 3: icon fonts become inline SVG, same look).
+// Wrapped in <i> so the ported theme selectors (.work-location__name i, .contact-method__icon i) still apply.
+import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+interface Props { name: 'phone' | 'envelope' | 'location-dot' }
+const icons = { phone: faPhone, envelope: faEnvelope, 'location-dot': faLocationDot };
+const [w, h, , , d] = icons[Astro.props.name].icon;
+const path = Array.isArray(d) ? d.join(' ') : d;
+---
+<i class="fa-svg" aria-hidden="true"><svg class="icon" viewBox={`0 0 ${w} ${h}`} focusable="false"><path d={path} /></svg></i>
+
+<style is:global>
+  /* What Font Awesome's own CSS gave the <i> (.fa-solid: inline-block, line-height 1) */
+  .fa-svg { display: inline-block; line-height: 1; font-style: normal; }
+</style>

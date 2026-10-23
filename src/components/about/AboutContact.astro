@@ -1,0 +1,37 @@
+---
+// Live .about-contact on /about/: contact methods (white) beside the form (teal). DESIGN.md 6.21.
+import Icon from '../Icon.astro';
+import ContactForm from './ContactForm.astro';
+interface Method { icon: string; label: string; href: string }
+interface Props { title: string; methods: Method[]; formTitle: string; form: any }
+const { title, methods, formTitle, form } = Astro.props;
+---
+<div class="about-contact">
+  <div class="about-contact__content">
+    <div class="about-contact__column white-bg">
+      <img src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+      <div class="about-contact__column-content">
+        <h3 class="about-contact__title" set:html={title} />
+        <div class="about-contact-methods">
+          {methods.map((m) => (
+            <div class="contact-method">
+              <span class="material-symbols-outlined teal-txt" aria-hidden="true"><Icon name={m.icon as any} /></span>
+              <a href={m.href}>{m.label}</a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    <div class="about-contact__column green-bg">
+      <div class="about-contact__column-content">
+        <h3 class="section-title--large white-txt">{formTitle}</h3>
+        <ContactForm id="about-contact-form" form={form} />
+      </div>
+    </div>
+  </div>
+</div>
+
+<style is:global>
+  /* The monogram's width/height attributes (for layout stability) mustn't stretch it; live had none */
+  .about-contact .about-contact__column > img { height: auto; }
+</style>

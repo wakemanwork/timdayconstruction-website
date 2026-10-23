@@ -1,0 +1,32 @@
+---
+// Testimonial pages (F8, DESIGN.md 5 "Testimonial"): the quote in the Founder-quote visual style.
+// Structure copied from home/FounderQuote.astro (#quote, so theme/11-quote.css applies unchanged):
+// teal-pale text panel with faded quote marks beside the client's photo, plus a link to the project.
+import Img from '../Img.astro';
+import Icon from '../Icon.astro';
+import { alt } from '../../lib/alt';
+interface Props { text: string; cite: string; image: string | null; button?: { label: string; href: string } | null }
+const { text, cite, image, button } = Astro.props;
+---
+<section id="quote">
+  <div class="row width-container">
+    <div class="column text-side">
+      <span class="quote-icon opening" aria-hidden="true"><Icon name="quote-left" /></span>
+      <span class="quote-icon closing" aria-hidden="true"><Icon name="quote-right" /></span>
+      <figure>
+        <blockquote>{text}</blockquote>
+        <figcaption class="sr-only">{cite}</figcaption>
+      </figure>
+      {button && <a class="btn btn--dark" href={button.href}>{button.label}</a>}
+    </div>
+    <div class="column image-side">
+      {image && <Img src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 40vw" />}
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  /* The home #quote follows other sections; here it follows the page banner, so give it the
+     same top spacing the theme gives the bottom (4rem, 11-quote.css). */
+  .testimonial-page #quote { padding-top: 4rem; }
+</style>
