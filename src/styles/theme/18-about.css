@@ -1,0 +1,82 @@
+/* Ported from live style.css lines 1976-2057. Do not edit values here; see docs/DESIGN.md. */
+.about {
+  padding: 8rem 0;
+  position: sticky;
+  top: 5rem;
+  left: 0;
+}
+@media screen and (max-width: 1800px) {
+  .about {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .about {
+    padding: 6rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .about {
+    position: relative;
+    top: 0;
+    padding: 5rem 0 3rem 0;
+  }
+}
+.about .about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 2;
+}
+.about .about-content ul {
+	margin: 0 0 1rem 1rem;
+}
+.about .about-content ul li {
+	font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem; 
+}
+@media screen and (max-width: 1360px) {
+  .about .about-content {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+}
+.about .about-content .about__section-title {
+  font-size: 2.6rem;
+  font-weight: 500;
+  width: 80%;
+}
+@media screen and (max-width: 1800px) {
+  .about .about-content .about__section-title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .about .about-content .about__section-title {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .about .about-content .about__section-title {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.about .about-content .about__body p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1800px) {
+  .about .about-content .about__body p {
+    font-size: 1rem;
+  }
+}
+.about .about-content .about__body strong {
+  font-weight: 800;
+}
+.about .about-content .about__body a {
+  color: var(--teal-mid);
+  text-decoration: underline;
+}

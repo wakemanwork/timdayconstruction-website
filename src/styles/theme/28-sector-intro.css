@@ -1,0 +1,65 @@
+/* Ported from live style.css lines 2901-2965. Do not edit values here; see docs/DESIGN.md. */
+.sector-intro {
+  padding: 8rem 0;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 1800px) {
+  .sector-intro {
+    padding: 6rem 0 4rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .sector-intro {
+    padding: 4rem 0 2rem 0;
+  }
+}
+.sector-intro img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  pointer-events: none;
+  opacity: 0.2;
+}
+@media screen and (max-width: 1360px) {
+  .sector-intro img {
+    opacity: 0.05;
+  }
+}
+.sector-intro .sector-intro-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--teal);
+}
+@media screen and (max-width: 1360px) {
+  .sector-intro .sector-intro-content {
+    grid-template-columns: 1fr;
+  }
+}
+.sector-intro .sector-intro-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 1800px) {
+  .sector-intro .sector-intro-content h2 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .sector-intro .sector-intro-content h2 {
+    font-size: 1.4rem;
+  }
+}
+.sector-intro .sector-intro-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.8rem;
+}
+@media screen and (max-width: 1800px) {
+  .sector-intro .sector-intro-content p {
+    font-size: 1rem;
+  }
+}

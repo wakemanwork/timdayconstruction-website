@@ -1,0 +1,107 @@
+/* Ported from live style.css lines 1480-1586. Do not edit values here; see docs/DESIGN.md. */
+#testimonials {
+  padding: 8rem 0 4rem 0;
+}
+@media screen and (max-width: 560px) {
+  #testimonials {
+    padding: 6rem 0 4rem 0;
+  }
+}
+#testimonials .testimonials-title {
+  color: var(--teal);
+}
+@media screen and (max-width: 1360px) {
+  #testimonials .testimonials-title h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #testimonials .testimonials-title h2 {
+    font-size: 1.8rem;
+  }
+}
+#testimonials .testimonials-title p {
+  font-size: 1.2rem;
+  margin: 1rem 0 4rem 0;
+}
+@media screen and (max-width: 560px) {
+  #testimonials .testimonials-title p {
+    font-size: 1.1rem;
+  }
+}
+#testimonials .testimonial-carousel {
+  margin-top: 6rem;
+}
+@media screen and (max-width: 560px) {
+  #testimonials .testimonial-carousel {
+    margin-top: 4rem;
+  }
+}
+#testimonials .testimonial-carousel .testimonial-card {
+  position: relative;
+  height: 500px;
+}
+@media screen and (max-width: 1800px) {
+  #testimonials .testimonial-carousel .testimonial-card {
+    height: 450px;
+  }
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial__featured-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial__logo {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  z-index: 12;
+  width: 130px;
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 1.4rem 1.2rem;
+  color: white;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, var(--teal) 100%);
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 1800px) {
+  #testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial {
+    font-size: 1rem;
+  }
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial__name {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 1800px) {
+  #testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial__name {
+    font-size: 1.2rem;
+  }
+}
+#testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial__company {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1800px) {
+  #testimonials .testimonial-carousel .testimonial-card .testimonial-card__overlay .testimonial__company {
+    font-size: 1rem;
+  }
+}

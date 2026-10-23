@@ -1,0 +1,15 @@
+---
+// DESIGN.md 2.6 / 6.23. Home only, first visit only (first_visit cookie, 1 year), skipped under reduced motion.
+---
+<div class="entrance-animation" aria-hidden="true">
+  <img class="entrance-animation__brand-logo" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" width="300" height="300" />
+</div>
+<script is:inline>
+  (function () {
+    if (document.cookie.indexOf('first_visit=true') !== -1) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var el = document.querySelector('.entrance-animation');
+    if (el) el.style.display = 'flex';
+    document.cookie = 'first_visit=true; expires=' + new Date(Date.now() + 365 * 864e5).toUTCString() + '; path=/; SameSite=Lax';
+  })();
+</script>

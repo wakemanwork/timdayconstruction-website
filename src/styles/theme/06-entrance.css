@@ -1,0 +1,45 @@
+/* Ported from live style.css lines 702-745. Do not edit values here; see docs/DESIGN.md. */
+.entrance-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--teal);
+  z-index: 995;
+  animation: entrance 0.8s ease;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  display: none;
+}
+.entrance-animation .entrance-animation__brand-logo {
+  width: 300px;
+  animation: entranceIcon 1s ease;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+@media screen and (max-width: 560px) {
+  .entrance-animation .entrance-animation__brand-logo {
+    width: 170px;
+  }
+}
+
+@keyframes entrance {
+  from {
+    width: 100vw;
+  }
+  to {
+    width: 0;
+  }
+}
+@keyframes entranceIcon {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,127 @@
+/* Ported from live style.css lines 1651-1777. Do not edit values here; see docs/DESIGN.md. */
+#meet-the-founder {
+  position: relative;
+  padding: 4rem 0;
+}
+@media screen and (max-width: 560px) {
+  #meet-the-founder {
+    padding: 5rem 0 4rem 0;
+  }
+}
+#meet-the-founder .bg-faded-icon {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: scale(2) translate(-50%, -50%);
+  opacity: 0.03;
+}
+#meet-the-founder .row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-gap: 8rem;
+}
+@media screen and (max-width: 1360px) {
+  #meet-the-founder .row {
+    grid-template-columns: 1fr;
+    grid-gap: 6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #meet-the-founder .row {
+    grid-gap: 4rem;
+  }
+}
+#meet-the-founder .row .column {
+  position: relative;
+}
+@media screen and (max-width: 1360px) {
+  #meet-the-founder .row .column.image-side {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #meet-the-founder .row .column.image-side {
+    height: 500px;
+  }
+}
+#meet-the-founder .row .column.image-side img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#meet-the-founder .row .column.text-side {
+  padding: 8rem 0;
+}
+@media screen and (max-width: 1800px) {
+  #meet-the-founder .row .column.text-side {
+    padding: 4rem 0;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #meet-the-founder .row .column.text-side {
+    padding: 0;
+  }
+}
+#meet-the-founder .row .column.text-side .section-title {
+  font-size: 2.6rem;
+  font-weight: 500;
+  width: 80%;
+  color: var(--teal);
+}
+@media screen and (max-width: 1800px) {
+  #meet-the-founder .row .column.text-side .section-title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #meet-the-founder .row .column.text-side .section-title {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 560px) {
+  #meet-the-founder .row .column.text-side .section-title {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+}
+#meet-the-founder .row .column.text-side .content {
+  margin-top: 2rem;
+}
+#meet-the-founder .row .column.text-side .content h3 {
+  color: var(--teal-mid);
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+@media screen and (max-width: 560px) {
+  #meet-the-founder .row .column.text-side .content h3 {
+    font-size: 1.4rem;
+  }
+}
+#meet-the-founder .row .column.text-side .content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--teal);
+}
+@media screen and (max-width: 1800px) {
+  #meet-the-founder .row .column.text-side .content p {
+    font-size: 1rem;
+  }
+}
+#meet-the-founder .row .column.text-side .content p:last-of-type {
+  margin-bottom: 0;
+}
+#meet-the-founder .row .column.text-side .content strong {
+  font-weight: 800;
+}
+#meet-the-founder .row .column.text-side .content a {
+  color: var(--teal-mid);
+  text-decoration: underline;
+}

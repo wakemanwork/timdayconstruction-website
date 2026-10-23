@@ -1,0 +1,108 @@
+/* Ported from live style.css lines 1084-1191. Do not edit values here; see docs/DESIGN.md. */
+#sectors {
+  padding: 7rem 0;
+}
+@media screen and (max-width: 560px) {
+  #sectors {
+    padding: 5rem 0 3rem 0;
+  }
+}
+#sectors .sector-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  list-style: none;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 1800px) {
+  #sectors .sector-cards {
+    grid-gap: 1rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sectors .sector-cards {
+    grid-template-columns: 1fr;
+  }
+}
+#sectors .sector-cards .sector-card {
+  transition: all 0.2s ease;
+  position: relative;
+}
+#sectors .sector-cards .sector-card:hover > a > h3 {
+  transition: all 0.2s ease;
+  background: var(--teal-light);
+  color: var(--teal);
+}
+#sectors .sector-cards .sector-card:hover > a > .arrow-icon {
+  transition: all 0.2s ease;
+  background: var(--teal-light);
+  color: var(--teal);
+}
+#sectors .sector-cards .sector-card:hover > a > .arrow-icon > span {
+  transition: all 0.2s ease;
+  transform: rotate(180deg);
+  color: var(--teal);
+}
+#sectors .sector-cards .sector-card:hover > a > img {
+  transition: all 0.2s ease;
+  filter: grayscale(100%);
+}
+#sectors .sector-cards .sector-card .arrow-icon {
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--teal);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+#sectors .sector-cards .sector-card .arrow-icon span {
+  transition: all 0.2s ease;
+  color: white;
+  font-size: 2rem;
+  transform: rotate(135deg);
+}
+#sectors .sector-cards .sector-card img {
+  display: block;
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 1800px) {
+  #sectors .sector-cards .sector-card img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sectors .sector-cards .sector-card img {
+    height: 300px;
+  }
+}
+#sectors .sector-cards .sector-card h3 {
+  transition: all 0.2s ease;
+  color: white;
+  background: var(--teal);
+  padding: 1.4rem 1rem;
+  font-size: 1.2rem;
+  min-height: 92px;
+}
+@media screen and (max-width: 1800px) {
+  #sectors .sector-cards .sector-card h3 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sectors .sector-cards .sector-card h3 {
+    min-height: inherit;
+  }
+}
+@media screen and (max-width: 560px) {
+  #sectors .sector-cards .sector-card h3 {
+    font-size: 1.2rem;
+  }
+}

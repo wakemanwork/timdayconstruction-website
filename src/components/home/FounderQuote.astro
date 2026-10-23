@@ -1,0 +1,24 @@
+---
+// DESIGN.md 6.7 quote variant. Live #quote.
+import Img from '../Img.astro';
+import Icon from '../Icon.astro';
+import { alt } from '../../lib/alt';
+interface Props { text: string; image: string; button: { label: string; href: string } }
+const { text, image, button } = Astro.props;
+---
+<section id="quote">
+  <div class="row width-container">
+    <div class="column text-side">
+      <span class="quote-icon opening" aria-hidden="true"><Icon name="quote-left" /></span>
+      <span class="quote-icon closing" aria-hidden="true"><Icon name="quote-right" /></span>
+      <figure>
+        <blockquote>{text}</blockquote>
+        <figcaption class="sr-only">Tim Day, founder</figcaption>
+      </figure>
+      <a class="btn btn--dark" href={button.href}>{button.label}</a>
+    </div>
+    <div class="column image-side">
+      <Img src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 40vw" />
+    </div>
+  </div>
+</section>

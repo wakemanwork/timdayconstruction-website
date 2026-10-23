@@ -1,0 +1,42 @@
+---
+// Responsive image for originals kept at /wp-content/uploads/... (DESIGN.md section 4).
+// On Vercel, srcset points at Vercel Image Optimization (AVIF/WebP); locally it serves the original.
+import sizesManifest from '../data/image-sizes.json';
+
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  sizes?: string;
+  loading?: 'lazy' | 'eager';
+  priority?: boolean;
+  width?: number;
+  height?: number;
+  [key: string]: any;
+}
+const { src, alt, class: cls, sizes = '100vw', loading, priority = false, width, height, ...rest } = Astro.props;
+const dims = (sizesManifest as Record<string, [number, number]>)[src];
+const w = width ?? dims?.[0];
+const h = height ?? dims?.[1];
+const WIDTHS = [480, 768, 1080, 1440, 1920, 2560];
+const onVercel = !!process.env.VERCEL;
+const raster = /\.(jpe?g|png|webp)$/i.test(src);
+const usable = WIDTHS.filter((x) => !w || x <= w);
+if (w && !usable.includes(w) && w < 2560) usable.push(...WIDTHS.filter((x) => x > w).slice(0, 1));
+const opt = (x: number) => `/_vercel/image?url=${encodeURIComponent(src)}&w=${x}&q=75`;
+const srcset = onVercel && raster ? usable.map((x) => `${opt(x)} ${x}w`).join(', ') : undefined;
+const finalSrc = onVercel && raster ? opt(usable.at(-1) ?? 1920) : src;
+---
+<img
+  src={finalSrc}
+  srcset={srcset}
+  sizes={srcset ? sizes : undefined}
+  alt={alt}
+  width={w}
+  height={h}
+  class={cls}
+  loading={priority ? 'eager' : (loading ?? 'lazy')}
+  decoding={priority ? 'sync' : 'async'}
+  fetchpriority={priority ? 'high' : undefined}
+  {...rest}
+/>

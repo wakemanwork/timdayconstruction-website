@@ -1,0 +1,61 @@
+/* Ported from live style.css lines 2501-2561. Do not edit values here; see docs/DESIGN.md. */
+.portfolio-page-intro {
+  padding: 8rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1800px) {
+  .portfolio-page-intro {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .portfolio-page-intro {
+    grid-template-columns: 1fr;
+    padding: 4rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .portfolio-page-intro {
+    padding: 4rem 0 2rem 0;
+  }
+}
+.portfolio-page-intro img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  opacity: 0.04;
+}
+@media screen and (max-width: 560px) {
+  .portfolio-page-intro img {
+    opacity: 0.07;
+  }
+}
+.portfolio-page-intro .portfolio-page-intro__content {
+  color: var(--teal);
+  position: relative;
+  z-index: 10;
+}
+.portfolio-page-intro .portfolio-page-intro__content h2 {
+  font-size: 2rem;
+}
+@media screen and (max-width: 1360px) {
+  .portfolio-page-intro .portfolio-page-intro__content h2 {
+    font-size: 1.6rem;
+  }
+}
+.portfolio-page-intro .portfolio-page-intro__content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 2rem 0;
+}
+@media screen and (max-width: 560px) {
+  .portfolio-page-intro .portfolio-page-intro__content p {
+    font-size: 1rem;
+  }
+}

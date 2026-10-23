@@ -1,0 +1,102 @@
+/* Ported from live style.css lines 3081-3182. Do not edit values here; see docs/DESIGN.md. */
+#sector-cta {
+  padding: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+	z-index: 50;
+}
+@media screen and (max-width: 1360px) {
+  #sector-cta {
+    padding: 6rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #sector-cta {
+    padding: 5rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+#sector-cta .bg-graphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.03;
+}
+@media screen and (max-width: 560px) {
+  #sector-cta .bg-graphic {
+    top: 2rem;
+    left: -20rem;
+    width: 250vw;
+    opacity: 0.04;
+  }
+}
+#sector-cta .sector-cta__title {
+  font-size: 2.8rem;
+}
+@media screen and (max-width: 1360px) {
+  #sector-cta .sector-cta__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #sector-cta .sector-cta__title {
+    font-size: 2rem;
+  }
+}
+#sector-cta .sector-cta__body {
+  margin: 2rem 0;
+  width: 80%;
+  text-wrap: balance;
+  margin: 2rem auto 3.6rem auto;
+}
+#sector-cta .sector-cta__body p {
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+@media screen and (max-width: 1800px) {
+  #sector-cta .sector-cta__body {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sector-cta .sector-cta__body {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+#sector-cta .sector-cta__btn {
+  transition: all 0.2s ease;
+  background: var(--teal);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  text-transform: uppercase;
+  border: solid 2px var(--teal);
+  color: white;
+}
+@media screen and (max-width: 560px) {
+  #sector-cta .sector-cta__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+#sector-cta .sector-cta__btn:hover {
+  transition: all 0.2s ease;
+  background: none;
+  color: var(--teal);
+}
+#sector-cta .sector-cta__btn:hover > span {
+  color: var(--teal);
+}

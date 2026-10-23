@@ -1,0 +1,88 @@
+/* Ported from live style.css lines 3183-3270. Do not edit values here; see docs/DESIGN.md. */
+#sector-faq {
+  padding: 8rem 0;
+	position: relative;
+	z-index: 50;
+}
+@media screen and (max-width: 560px) {
+  #sector-faq {
+    padding: 6rem 0 5rem 0;
+  }
+}
+#sector-faq .faq-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+#sector-faq .faq-title-container .section-label {
+  font-size: 1.4rem;
+}
+#sector-faq .sector-faq-list {
+  width: 60%;
+  margin: 4rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media screen and (max-width: 2200px) {
+  #sector-faq .sector-faq-list {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sector-faq .sector-faq-list {
+    width: 90%;
+  }
+}
+#sector-faq .sector-faq-list .sector-faq[open] .sector-faq__header i {
+  transform: rotate(180deg);
+}
+#sector-faq .sector-faq-list .sector-faq .sector-faq__header {
+  list-style: none;
+  background: var(--teal-mid);
+  padding: 3rem 2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 4rem;
+}
+@media screen and (max-width: 1800px) {
+  #sector-faq .sector-faq-list .sector-faq .sector-faq__header {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #sector-faq .sector-faq-list .sector-faq .sector-faq__header {
+    padding: 2.4rem 1.4rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #sector-faq .sector-faq-list .sector-faq .sector-faq__header {
+    grid-gap: 0;
+    padding: 2rem 1.2rem;
+  }
+}
+#sector-faq .sector-faq-list .sector-faq .sector-faq__header h3 {
+  line-height: 1.4;
+}
+@media screen and (max-width: 560px) {
+  #sector-faq .sector-faq-list .sector-faq .sector-faq__header i {
+    display: none;
+  }
+}
+#sector-faq .sector-faq-list .sector-faq .sector-faq__panel {
+  background: white;
+  color: var(--teal);
+  padding: 3rem 2rem;
+}
+@media screen and (max-width: 560px) {
+  #sector-faq .sector-faq-list .sector-faq .sector-faq__panel {
+    grid-gap: 0;
+    padding: 2rem 1.2rem;
+  }
+}

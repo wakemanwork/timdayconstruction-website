@@ -1,0 +1,84 @@
+---
+// DESIGN.md 6.5. Live markup (#hero.new). Changes: H1 first in the DOM (shown last via CSS
+// order) for heading order; logos named; F9 overlap fix in the <style> below.
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+import sizes from '../../data/image-sizes.json';
+const dim = (src: string) => (sizes as Record<string, [number, number]>)[src] ?? [];
+interface Half { heading: string; subheading: string; body: string; button: { label: string; href: string } }
+interface Props {
+  images: string[]; left: Half; right: Half; title: string;
+  logos: { href: string; src: string }[];
+}
+const { images, left, right, title, logos } = Astro.props;
+const logoAlt = (src: string) =>
+  src.includes('fmb') ? 'Federation of Master Builders member' :
+  src.includes('nhbc') ? 'NHBC registered builder' :
+  src.includes('smas') ? 'SMAS Worksafe accredited: view compliance pack' :
+  src.includes('seal_en') ? 'Certified Passive House Tradesperson' : '';
+---
+<section id="hero" class="new">
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <Img class="hero__bg-img-1" src={images[0]} alt={alt(images[0])} sizes="(max-width: 560px) 100vw, 50vw" priority />
+  <Img class="hero__bg-img-2" src={images[1]} alt={alt(images[1])} sizes="(max-width: 560px) 100vw, 50vw" priority />
+  <img src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" class="hero__faded-icon" width="600" height="600" />
+  <div class="hero__title-container">
+    <h1 class="hero__title" set:html={title} />
+    <div class="hero__content">
+      {[{ cls: 'content_left', d: left }, { cls: 'content_right', d: right }].map(({ cls, d }) => (
+        <div class={cls}>
+          <h2>{d.heading}</h2>
+          <h3>{d.subheading}</h3>
+          <p>{d.body}</p>
+          <p><a class="btn btn--light" href={d.button.href}>{d.button.label}</a></p>
+        </div>
+      ))}
+    </div>
+  </div>
+  <div class="hero__logos">
+    {logos.map((l) => (
+      <a href={l.href} target="_blank" rel="noopener"><img class="hero__accreditation-logo" src={l.src} width={dim(l.src)[0]} height={dim(l.src)[1]} alt={`${logoAlt(l.src)} (opens in a new tab)`} /></a>
+    ))}
+  </div>
+</section>
+
+<style is:global>
+  /* H1 sits first in the DOM for heading order but keeps its live position (below the halves) */
+  #hero .hero__title-container { display: flex; flex-direction: column; }
+  #hero .hero__title-container .hero__title { order: 2; }
+  #hero .hero__logos .hero__accreditation-logo { height: auto; } /* width/height attrs added for CLS */
+
+  /* The live home page is served an older build of the theme CSS than style.css for #hero.new
+     (capture/theme-source, bundle 13f6a833). Match what visitors actually see: */
+  @media screen and (max-width: 1440px) {
+    #hero.new .hero__title-container .hero__title { width: 65%; font-size: 2.6vw; }
+    #hero.new .hero__logos .hero__accreditation-logo:nth-child(1) { width: 140px; }
+  }
+  @media screen and (max-width: 1360px) {
+    #hero.new .hero__logos .hero__accreditation-logo:nth-child(1) { width: 100px; }
+  }
+  @media screen and (max-width: 560px) {
+    #hero.new .hero__content div p { margin: 0 0 25px; font-size: inherit; }
+    #hero.new .hero__content .content_right { padding-top: 2rem; }
+    #hero.new .hero__content h2 { font-size: 1.6rem; }
+    #hero.new .hero__content h3 { font-size: 1.3rem; }
+    #hero.new .hero__logos { display: flex; }
+  }
+
+  /* F9: the H1 must never run under the accreditation logos. They sit absolutely in the
+     bottom-right, so cap the H1's width to the space left of them on desktop layouts. */
+  @media screen and (min-width: 1361px) {
+    #hero.new .hero__title-container .hero__title { max-width: calc(100% - var(--hero-logos-w, 720px) - 6rem); }
+  }
+</style>
+
+<script>
+  // F9 helper: expose the logo row's real width so the H1 cap is exact at every viewport
+  const logos = document.querySelector<HTMLElement>('#hero .hero__logos');
+  const hero = document.getElementById('hero');
+  if (logos && hero) {
+    const set = () => hero.style.setProperty('--hero-logos-w', `${logos.offsetWidth}px`);
+    new ResizeObserver(set).observe(logos);
+    set();
+  }
+</script>

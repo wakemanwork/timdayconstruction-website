@@ -1,0 +1,17 @@
+/* Ported from live style.css lines 685-701. Do not edit values here; see docs/DESIGN.md. */
+.width-container {
+  width: 85%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1360px) {
+  .width-container {
+    width: 90%;
+  }
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8rem;
+}

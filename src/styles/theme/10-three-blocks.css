@@ -1,0 +1,119 @@
+/* Ported from live style.css lines 1192-1310. Do not edit values here; see docs/DESIGN.md. */
+#three-blocks {
+  padding-bottom: 6rem;
+}
+@media screen and (max-width: 560px) {
+  #three-blocks {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+}
+#three-blocks .three-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4rem;
+  grid-gap: 2rem;
+}
+@media screen and (max-width: 1360px) {
+  #three-blocks .three-blocks {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}
+#three-blocks .three-blocks .three-blocks__block {
+  transition: all 0.2s ease;
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+@media screen and (max-width: 1800px) {
+  #three-blocks .three-blocks .three-blocks__block {
+    height: 400px;
+    padding: 1.4rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #three-blocks .three-blocks .three-blocks__block {
+    height: 150px;
+  }
+}
+#three-blocks .three-blocks .three-blocks__block:hover > .arrow-icon {
+  transition: all 0.2s ease;
+  background: var(--teal-light);
+}
+#three-blocks .three-blocks .three-blocks__block:hover > .arrow-icon > span {
+  transition: all 0.2s ease;
+  transform: rotate(0);
+}
+#three-blocks .three-blocks .three-blocks__block:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--teal);
+  opacity: 0.8;
+}
+#three-blocks .three-blocks .three-blocks__block .three-blocks__block-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#three-blocks .three-blocks .three-blocks__block .three-blocks__block-icon {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 10;
+  width: 70px;
+}
+@media screen and (max-width: 1800px) {
+  #three-blocks .three-blocks .three-blocks__block .three-blocks__block-icon {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #three-blocks .three-blocks .three-blocks__block .three-blocks__block-icon {
+    width: 30px;
+  }
+}
+#three-blocks .three-blocks .three-blocks__block h3 {
+  position: relative;
+  z-index: 10;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 1800px) {
+  #three-blocks .three-blocks .three-blocks__block h3 {
+    font-size: 1.6rem;
+  }
+}
+#three-blocks .three-blocks .three-blocks__block .arrow-icon {
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  z-index: 10;
+}
+#three-blocks .three-blocks .three-blocks__block .arrow-icon span {
+  transition: all 0.2s ease;
+  color: var(--teal);
+  font-size: 2rem;
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,131 @@
+/* Ported from live style.css lines 3525-3655. Do not edit values here; see docs/DESIGN.md. */
+.timeline-container {
+  position: relative;
+}
+.timeline-container .timeline-line {
+  width: 3px;
+  height: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: rgb(207, 207, 207);
+  position: absolute;
+  overflow: hidden;
+}
+.timeline-container .timeline-line .timeline-line-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--teal-mid);
+}
+@media screen and (max-width: 1360px) {
+  .timeline-container .timeline-line {
+    display: none;
+  }
+}
+.timeline-container .timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20rem;
+  position: relative;
+  padding-bottom: 6rem;
+  margin-top: 6rem;
+}
+@media screen and (max-width: 1360px) {
+  .timeline-container .timeline {
+    grid-template-columns: 1fr;
+    grid-gap: 6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .timeline-container .timeline {
+    padding-left: 1rem;
+    grid-gap: 4rem;
+    margin-top: 4rem;
+  }
+}
+.timeline-container .timeline .milestone {
+  position: relative;
+  display: block;
+  background: #f7f7f7;
+  padding: 4rem 3rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media screen and (max-width: 560px) {
+  .timeline-container .timeline .milestone {
+    padding: 4rem 2rem;
+  }
+}
+.timeline-container .timeline .milestone h3 {
+  color: var(--teal) !important;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  text-wrap: balance;
+}
+.timeline-container .timeline .milestone p {
+  font-size: 0.9rem;
+  color: var(--teal);
+  line-height: 1.8;
+}
+.timeline-container .timeline .milestone:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 10px;
+  border-top: dotted 4px var(--teal);
+  top: 10rem;
+  right: -10rem;
+}
+@media screen and (max-width: 1360px) {
+  .timeline-container .timeline .milestone:after {
+    left: -10rem;
+  }
+}
+.timeline-container .timeline .milestone:nth-child(even) {
+  position: relative;
+  top: 20rem;
+}
+@media screen and (max-width: 1360px) {
+  .timeline-container .timeline .milestone:nth-child(even) {
+    top: 0;
+  }
+}
+.timeline-container .timeline .milestone:nth-child(even):after {
+  left: -10rem;
+}
+@media screen and (max-width: 1360px) {
+  .timeline-container .timeline .milestone:nth-child(even):after {
+    left: -10rem;
+  }
+}
+
+.timeline-bottom-text {
+  margin: 6rem auto;
+}
+@media screen and (max-width: 560px) {
+  .timeline-bottom-text {
+    margin: 0 auto 4rem auto;
+  }
+}
+.timeline-bottom-text .content {
+  width: 70%;
+  text-wrap: balance;
+  color: var(--teal-mid);
+  line-height: 1.8;
+}
+@media screen and (max-width: 560px) {
+  .timeline-bottom-text .content {
+    width: 100%;
+  }
+}
+.timeline-bottom-text .content p {
+  font-size: 1.1rem;
+}
+.timeline-bottom-text .content strong {
+  font-weight: 700;
+}

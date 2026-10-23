@@ -1,0 +1,23 @@
+/* Ported from live style.css lines 1457-1479. Do not edit values here; see docs/DESIGN.md. */
+.homepage-large-image {
+  margin: -15rem auto 0 auto;
+  display: block;
+}
+@media screen and (max-width: 560px) {
+  .homepage-large-image {
+    margin-top: -16rem;
+  }
+}
+.homepage-large-image img {
+  display: block;
+  width: 100%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 600px;
+}
+@media screen and (max-width: 560px) {
+  .homepage-large-image img {
+    height: 400px;
+  }
+}

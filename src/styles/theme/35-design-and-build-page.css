@@ -1,0 +1,37 @@
+/* Ported from live style.css lines 3488-3524. Do not edit values here; see docs/DESIGN.md. */
+#design-and-build .intro {
+  padding: 6rem 0 10rem 0;
+}
+@media screen and (max-width: 560px) {
+  #design-and-build .intro {
+    padding-bottom: 8rem;
+  }
+}
+#design-and-build .intro .content {
+  color: var(--teal);
+  width: 60%;
+  text-wrap: balance;
+}
+@media screen and (max-width: 1360px) {
+  #design-and-build .intro .content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 560px) {
+  #design-and-build .intro .content {
+    width: 100%;
+  }
+}
+#design-and-build .intro .content p {
+  font-size: 1.1rem;
+}
+#design-and-build .intro ul {
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#design-and-build .intro ul li {
+  font-weight: bolder;
+}

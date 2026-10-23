@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "images": [
+      "/wp-content/uploads/2026/10/DSCF9417-scaled.jpg",
+      "/wp-content/uploads/2026/10/IMG_1944-scaled.jpg"
+    ],
+    "left": {
+      "heading": "Clinical & Veterinary",
+      "subheading": "Specialist fit-outs built around your practice",
+      "body": "From veterinary practices to specialist clinical environments, we manage every stage of the fit-out to create compliant, practical spaces designed around the people who use them.",
+      "button": {
+        "label": "Explore Clinical & Veterinary",
+        "href": "/clinical-veterinary-fit-outs/"
+      }
+    },
+    "right": {
+      "heading": "Residential",
+      "subheading": "Building and transforming exceptional homes across Kent",
+      "body": "From bespoke new builds to major extensions and refurbishments, we manage residential projects from concept through to completion.",
+      "button": {
+        "label": "Explore Residential",
+        "href": "/new-homes-and-residential/"
+      }
+    },
+    "title": "‘Concept to completion’ construction <span class=\"light-teal-txt\">&amp;</span> project management",
+    "logos": [
+      {
+        "href": "https://www.fmb.org.uk",
+        "src": "/wp-content/uploads/2025/01/fmb-light.png"
+      },
+      {
+        "href": "https://www.nhbc.co.uk",
+        "src": "/wp-content/uploads/2025/01/nhbc-light.png"
+      },
+      {
+        "href": "/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+        "src": "/wp-content/uploads/2026/10/logo-smas-workplace-3.png"
+      },
+      {
+        "href": "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+        "src": "/wp-content/uploads/2025/08/seal_en.png"
+      }
+    ]
+  },
+  "intro": {
+    "lead": "Our reputation as a <span class=\"light-teal-txt\">trusted &amp; committed</span> building contractor is reinforced with every project we deliver.",
+    "body": "We're builders who provide assurance of a successful outcome for your construction project.",
+    "button": {
+      "label": "Find out more",
+      "href": "/about/"
+    },
+    "text": [
+      "As experienced builders, our focus is on providing expert advice, identifying the best options and efficiencies, and working with our clients to deliver their vision with professionalism and dedication to an outstanding end result.",
+      "As a Canterbury based business, we are renowned locally as builders who can be trusted. One who works with pride in our delivery, on every project, no matter its size or complexity.",
+      "As builders, we take pride in more than just what we build; we ensure that everything we create is completed to the highest quality standards and we work with clients to solve their problems, and allow them to enjoy the process, rather than endure it! We’re builders who build trust, along with exceptional spaces."
+    ]
+  },
+  "designAndBuild": {
+    "image": "/wp-content/uploads/2024/12/separator.jpg",
+    "heading": "Design & Build",
+    "paragraphs": [
+      "At Tim Day Construction, our Design & Build service provides a complete, end-to-end solution for residential and commercial projects. By bringing both the design and construction elements together under one contract, we offer a streamlined process.",
+      "Saving time – Reducing costs – Ensuring your vision is delivered with precision and care."
+    ],
+    "button": {
+      "label": "Find out more",
+      "href": "/design-and-build/"
+    }
+  },
+  "sectors": {
+    "title": "Projects we work on",
+    "cards": [
+      {
+        "label": "Veterinary Fit-Outs",
+        "href": "/sector/veterinary-fit-outs/",
+        "image": "/wp-content/uploads/2026/10/715313751-img_0563-scaled.jpg"
+      },
+      {
+        "label": "New Build Homes",
+        "href": "/sector/new-builds/",
+        "image": "/wp-content/uploads/2024/12/IMG_7874.jpg"
+      },
+      {
+        "label": "Remodelling",
+        "href": "/sector/remodelling/",
+        "image": "/wp-content/uploads/2024/12/IMG_9040-scaled.jpg"
+      },
+      {
+        "label": "Change of Use",
+        "href": "/sector/change-of-use/",
+        "image": "/wp-content/uploads/2024/12/IMG_0443-scaled.jpg"
+      },
+      {
+        "label": "Major Extensions & Refurbishments",
+        "href": "/sector/extensions/",
+        "image": "/wp-content/uploads/2024/12/IMG_3117.jpg"
+      }
+    ]
+  },
+  "threeBlocks": {
+    "title": "A team <span class=\"light-teal-txt\">who care</span> about every project",
+    "blocks": [
+      {
+        "label": "Experiences",
+        "href": "/about/",
+        "image": "/wp-content/uploads/2025/01/Picture-2.jpg",
+        "icon": "/wp-content/uploads/2024/12/experience.png"
+      },
+      {
+        "label": "Delivery",
+        "href": "/about/",
+        "image": "/wp-content/uploads/2024/12/front-aerial.jpg",
+        "icon": "/wp-content/uploads/2024/12/delivery.png"
+      },
+      {
+        "label": "Services",
+        "href": "/about/",
+        "image": "/wp-content/uploads/2024/12/IMG_8232-scaled.jpg",
+        "icon": "/wp-content/uploads/2024/12/services.png"
+      }
+    ]
+  },
+  "quote": {
+    "text": "I’m not just saying this for effect, but I truly am passionate about the client experience. I want my clients to ENJOY the build not ENDURE the build. I want them to be singing my praises at the end of the job, raising a glass of bubbly with me and the team at the end of the job and recommending me to anyone that will listen.",
+    "image": "/wp-content/uploads/2025/08/Screenshot-2025-08-28-at-12.58.59.png",
+    "button": {
+      "label": "Find out more",
+      "href": "/about/"
+    }
+  },
+  "howWeWork": {
+    "title": "How we work with you to <span class=\"light-teal-txt\">create a process</span> that is enjoyable",
+    "blocks": [
+      {
+        "heading": "Early engagement",
+        "body": "Bringing our experience to the concept stage we can identify and propose cost saving solutions, in collaboration with your designers. We’re builders who add value from day one."
+      },
+      {
+        "heading": "Watch your vision come to life",
+        "body": "Each day, there’s something new to see. Clients are greeted with visible transformations and a team of builders who are passionate about the project as you are."
+      },
+      {
+        "heading": "Transparent communication",
+        "body": "As our builders are constantly making progress on-site, we don’t hide anything. We share everything with you promptly, as and when it happens."
+      }
+    ]
+  },
+  "largeImage": "/wp-content/uploads/2024/12/IMG_3116.jpg",
+  "testimonials": {
+    "title": "Your <span class=\"light-teal-txt\">satisfaction</span> with the end result is what drives us",
+    "intro": "Don’t just take our word for it, read what others have to say."
+  },
+  "seo": {
+    "title": "Tim Day Construction - Building Contractor | Canterbury, Kent",
+    "description": "Our reputation as a trusted and committed building contractor is reinforced with every project we deliver.",
+    "ogImage": null
+  }
+}

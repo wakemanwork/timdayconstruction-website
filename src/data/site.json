@@ -1,0 +1,66 @@
+{
+  "nav": [
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "Portfolio",
+      "href": "/portfolio/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog/"
+    },
+    {
+      "label": "Get in touch",
+      "href": "/contact/"
+    }
+  ],
+  "phone": "01227 281 749",
+  "email": "info@timdayconstruction.co.uk",
+  "footerTitle": "Get in touch to discuss your project",
+  "socials": [
+    {
+      "href": "https://www.facebook.com/timdayconstruction",
+      "label": "Facebook"
+    },
+    {
+      "href": "https://www.linkedin.com/company/tim-day-construction-ltd/",
+      "label": "LinkedIn"
+    }
+  ],
+  "policy": [
+    {
+      "label": "Cookies",
+      "href": "/cookies/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy/"
+    }
+  ],
+  "accreditations": [
+    {
+      "href": "https://www.fmb.org.uk",
+      "src": "/wp-content/uploads/2025/01/fmb-light.png"
+    },
+    {
+      "href": "https://www.nhbc.co.uk",
+      "src": "/wp-content/uploads/2025/01/nhbc-light.png"
+    },
+    {
+      "href": "/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+      "src": "/wp-content/uploads/2026/10/logo-smas-workplace-3.png"
+    },
+    {
+      "href": "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+      "src": "/wp-content/uploads/2025/08/seal_en.png"
+    }
+  ],
+  "charity": {
+    "href": "https://zarach.org/",
+    "image": "/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png"
+  },
+  "legal": "Company registered in England and Wales with Company No. 06456326 VAT No. 928 9012 08 © 2026 Tim Day Construction Ltd."
+}

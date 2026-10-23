@@ -1,0 +1,164 @@
+/* Ported from live style.css lines 186-349. Do not edit values here; see docs/DESIGN.md. */
+header {
+  transition: all 0.2s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+  background: white;
+}
+header.navbar--shadow {
+  transition: all 0.2s ease;
+  box-shadow: 0 10px 15px rgba(128, 128, 128, 0.11);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 560px) {
+  header nav {
+    width: 90%;
+  }
+}
+header nav img {
+  height: auto;
+  width: 250px;
+}
+@media screen and (max-width: 1800px) {
+  header nav img {
+    width: 210px;
+    padding: 1rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  header nav img {
+    width: 200px;
+  }
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+@media screen and (max-width: 560px) {
+  header nav ul {
+    display: none;
+  }
+}
+header nav ul li {
+  text-transform: uppercase;
+  position: relative;
+  padding: 1.8rem 0;
+}
+@media screen and (max-width: 1800px) {
+  header nav ul li {
+    padding: 1.5rem 0;
+  }
+}
+header nav ul li a {
+  transition: all 0.2s ease;
+  color: var(--teal);
+  padding: 2rem;
+  border-bottom: solid 1.5px white;
+}
+@media screen and (max-width: 1800px) {
+  header nav ul li a {
+    font-size: 0.9rem;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  header nav ul li a {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    border: none;
+  }
+}
+header nav ul li a:hover {
+  transition: all 0.2s ease;
+  background: var(--grey-hover);
+  border-color: var(--teal);
+}
+header nav .open-device-menu {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+header nav .open-device-menu span {
+  position: relative;
+  top: 0.1rem;
+  font-size: 2.4rem;
+  color: #222;
+}
+@media screen and (max-width: 560px) {
+  header nav .open-device-menu {
+    display: block;
+  }
+}
+
+.device-menu {
+  transition: all 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  pointer-events: none;
+  transform: translateX(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.device-menu span {
+  color: red;
+}
+.device-menu.device-menu--entrance {
+  transition: all 0.5s ease;
+  transform: translateX(0);
+  pointer-events: all;
+}
+.device-menu .close-device-menu {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.device-menu .close-device-menu span {
+  font-size: 3.5rem;
+  color: var(--teal);
+}
+.device-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.device-menu ul li {
+  overflow: hidden;
+}
+.device-menu ul li a {
+  transition: all 0.5s ease;
+  color: var(--teal);
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  transform: translateY(150%);
+}
+.device-menu ul li a.device-menu-links--entrance {
+  transition: all 0.5s ease;
+  transform: translateY(0);
+}

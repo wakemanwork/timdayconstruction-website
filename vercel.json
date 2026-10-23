@@ -1,0 +1,1886 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/placeholder-blog-post-6/",
+      "destination": "/what-is-a-passive-house/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:name/feed/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:name/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/uncategorized/feed/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/uncategorized/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:cat/feed/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/comments/feed/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/rss2/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/atom/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:slug/feed/",
+      "destination": "/feed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/page/:n/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page/:n/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:y(\\d{4})/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:y(\\d{4})/:m(\\d{2})/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:y(\\d{4})/:m(\\d{2})/:d(\\d{2})/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/search/:q*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "destination": "/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "s"
+        }
+      ]
+    },
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap_index.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-sitemap.xml",
+      "destination": "/sitemap_index.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/author-sitemap.xml",
+      "destination": "/sitemap_index.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/privacy-policy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "destination": "/what-should-you-consider-before-starting-a-clinical-fit-out/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "891"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "842"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/how-to-plan-a-successful-veterinary-practice-refurbishment/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "837"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/why-does-ventilation-and-air-quality-matter-in-veterinary-practices/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "815"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/fire-safety-requirements-in-veterinary-practices/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "807"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/maximising-efficiency-space-planning-tips-for-veterinary-practices/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "803"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/key-safety-considerations-in-veterinary-practice-fit-outs/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "800"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/common-challenges-on-kent-building-sites/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "795"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "792"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/the-core-principles-of-a-passive-house/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "755"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "718"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "700"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/what-is-a-passive-house/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "687"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/pure-vet-ashford/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "821"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/middle-wall-whitstable/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "611"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/valkyrie-road/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "604"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/castle-road-whitstable/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "547"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/old-dover-road/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "282"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/stables/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "249"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/vet-shack/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "244"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/riverside-social/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "243"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/south-foreland-lighthouse/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "241"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/king-post-elham/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "240"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/shipwright/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "239"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/whitstable-road/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "238"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/preston-parade/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "237"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/project/pett-cottage/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "234"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/sector/veterinary-fit-outs/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "911"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/sector/new-builds/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "64"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/sector/remodelling/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "68"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/sector/change-of-use/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "67"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/sector/extensions/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "65"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/testimonial/mr-bryan-joyce/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "444"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/testimonial/vetshack/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "122"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/testimonial/mr-l-reddy/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "121"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/testimonial/national-trust/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "120"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/testimonial/andy-boorman/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "119"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/clinical-veterinary-fit-outs/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "878"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/new-homes-and-residential/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "848"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/locations/whitstable/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "766"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/locations/canterbury/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "764"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/locations/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "762"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/design-and-build/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "721"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "671"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/privacy-policy/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "253"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "251"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/contact/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/portfolio/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/about/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "destination": "/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "source": "/pure-vet-ashford/",
+      "destination": "/project/pure-vet-ashford/",
+      "statusCode": 301
+    },
+    {
+      "source": "/middle-wall-whitstable/",
+      "destination": "/project/middle-wall-whitstable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/valkyrie-road/",
+      "destination": "/project/valkyrie-road/",
+      "statusCode": 301
+    },
+    {
+      "source": "/castle-road-whitstable/",
+      "destination": "/project/castle-road-whitstable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/old-dover-road/",
+      "destination": "/project/old-dover-road/",
+      "statusCode": 301
+    },
+    {
+      "source": "/stables/",
+      "destination": "/project/stables/",
+      "statusCode": 301
+    },
+    {
+      "source": "/vet-shack/",
+      "destination": "/project/vet-shack/",
+      "statusCode": 301
+    },
+    {
+      "source": "/riverside-social/",
+      "destination": "/project/riverside-social/",
+      "statusCode": 301
+    },
+    {
+      "source": "/south-foreland-lighthouse/",
+      "destination": "/project/south-foreland-lighthouse/",
+      "statusCode": 301
+    },
+    {
+      "source": "/king-post-elham/",
+      "destination": "/project/king-post-elham/",
+      "statusCode": 301
+    },
+    {
+      "source": "/shipwright/",
+      "destination": "/project/shipwright/",
+      "statusCode": 301
+    },
+    {
+      "source": "/whitstable-road/",
+      "destination": "/project/whitstable-road/",
+      "statusCode": 301
+    },
+    {
+      "source": "/preston-parade/",
+      "destination": "/project/preston-parade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/pett-cottage/",
+      "destination": "/project/pett-cottage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/veterinary-fit-outs/",
+      "destination": "/sector/veterinary-fit-outs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/new-builds/",
+      "destination": "/sector/new-builds/",
+      "statusCode": 301
+    },
+    {
+      "source": "/remodelling/",
+      "destination": "/sector/remodelling/",
+      "statusCode": 301
+    },
+    {
+      "source": "/change-of-use/",
+      "destination": "/sector/change-of-use/",
+      "statusCode": 301
+    },
+    {
+      "source": "/extensions/",
+      "destination": "/sector/extensions/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mr-bryan-joyce/",
+      "destination": "/testimonial/mr-bryan-joyce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/vetshack/",
+      "destination": "/testimonial/vetshack/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mr-l-reddy/",
+      "destination": "/testimonial/mr-l-reddy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/national-trust/",
+      "destination": "/testimonial/national-trust/",
+      "statusCode": 301
+    },
+    {
+      "source": "/andy-boorman/",
+      "destination": "/testimonial/andy-boorman/",
+      "statusCode": 301
+    },
+    {
+      "source": "/whitstable/",
+      "destination": "/locations/whitstable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/canterbury/",
+      "destination": "/locations/canterbury/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/logo-smas-workplace-3/",
+      "destination": "/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/myworksafecompliancepack-1/",
+      "destination": "/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+      "statusCode": 301
+    },
+    {
+      "source": "/sector/veterinary-fit-outs/715313751-img_0563/",
+      "destination": "/wp-content/uploads/2026/10/715313751-img_0563-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9540/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9540-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9537/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9537-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9532/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9532-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9516/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9516-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9494/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9494-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9491/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9491-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9483/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9483-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9475/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9475-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9577/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9577-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9451/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9451-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pure-vet-ashford/dscf9416/",
+      "destination": "/wp-content/uploads/2026/07/DSCF9416-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/why-does-ventilation-and-air-quality-matter-in-veterinary-practices/dscf8763/",
+      "destination": "/wp-content/uploads/2026/06/DSCF8763-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/fire-safety-requirements-in-veterinary-practices/default-3/",
+      "destination": "/wp-content/uploads/2026/05/DJI_20260512091008_0544_D-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/maximising-efficiency-space-planning-tips-for-veterinary-practices/img_0547-2/",
+      "destination": "/wp-content/uploads/2026/04/IMG_0547-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/key-safety-considerations-in-veterinary-practice-fit-outs/dscf5244/",
+      "destination": "/wp-content/uploads/2026/03/DSCF5244-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/common-challenges-on-kent-building-sites/default/",
+      "destination": "/wp-content/uploads/2026/02/DJI_20250320144429_0051_D-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/tdc-vet-0325-13/",
+      "destination": "/wp-content/uploads/2026/02/TDC-VET-0325-13.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/the-core-principles-of-a-passive-house/tdc-prn-1025-01/",
+      "destination": "/wp-content/uploads/2025/12/TDC-PRN-1025-01-e1764861682827.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/placeholder-blog-post-6/tdc-pas-0825/",
+      "destination": "/wp-content/uploads/2025/09/TDC-PAS-0825.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/screenshot-2025-08-28-at-10-48-32/",
+      "destination": "/wp-content/uploads/2025/08/Screenshot-2025-08-28-at-10.48.32.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/screenshot-2025-08-28-at-12-58-59/",
+      "destination": "/wp-content/uploads/2025/08/Screenshot-2025-08-28-at-12.58.59.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/seal_en/",
+      "destination": "/wp-content/uploads/2025/08/seal_en.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-4/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-4.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-19/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-19.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-23/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-23.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-33/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-33.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-43/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-43.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-56/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-56.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-63/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-63.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-64/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-64.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-67/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-67.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-75/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-75.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-84/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-84.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-105/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-105.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/middle-wall-whitstable/70middlewallwhitstable-103/",
+      "destination": "/wp-content/uploads/2025/06/70MiddleWallWhitstable-103.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/valkyrie-road/img_1928-2/",
+      "destination": "/wp-content/uploads/2025/05/IMG_1928-2-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/valkyrie-road/img_1940/",
+      "destination": "/wp-content/uploads/2025/05/IMG_1940-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/valkyrie-road/img_1931/",
+      "destination": "/wp-content/uploads/2025/05/IMG_1931-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/valkyrie-road/img_1928/",
+      "destination": "/wp-content/uploads/2025/05/IMG_1928-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/valkyrie-road/img_1936/",
+      "destination": "/wp-content/uploads/2025/05/IMG_1936-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/img_1944-2/",
+      "destination": "/wp-content/uploads/2025/04/IMG_1944-2-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/img_1954/",
+      "destination": "/wp-content/uploads/2025/04/IMG_1954-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/img_1947/",
+      "destination": "/wp-content/uploads/2025/04/IMG_1947-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/img_1944/",
+      "destination": "/wp-content/uploads/2025/04/IMG_1944-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1605/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1605-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1598/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1598-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1556/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1556-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1627/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1627-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1526/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1526-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1579/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1579-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1621/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1621-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1532/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1532-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_1512/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1512-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/king-post-elham/716681720-img_1557/",
+      "destination": "/wp-content/uploads/2024/12/716681720-img_1557-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/king-post-elham/716221481-img_1559/",
+      "destination": "/wp-content/uploads/2024/12/716221481-img_1559.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/king-post-elham/716221478-img_1561/",
+      "destination": "/wp-content/uploads/2024/12/716221478-img_1561.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/king-post-elham/716221491-img_1558/",
+      "destination": "/wp-content/uploads/2024/12/716221491-img_1558.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/king-post-elham/716681701-img_1560/",
+      "destination": "/wp-content/uploads/2024/12/716681701-img_1560-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/13-castle-rd-3/",
+      "destination": "/wp-content/uploads/2025/02/13-Castle-Rd-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/13-castle-rd/",
+      "destination": "/wp-content/uploads/2025/02/13-Castle-Rd.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/castle-road-whitstable/13-castle-rd-2/",
+      "destination": "/wp-content/uploads/2025/02/13-Castle-Rd-2-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/blean-map-light/",
+      "destination": "/wp-content/uploads/2025/02/blean-map-light.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0567/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0567-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0563/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0563-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0557/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0557-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0556/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0556-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0547/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0547-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0543/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0543-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0541/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0541-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0538/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0538-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0529/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0529-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0515/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0515-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0510/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0510-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0501/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0501-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0471/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0471-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0470/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0470-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0460/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0460-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0457/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0457-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0448/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0448-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_0443/",
+      "destination": "/wp-content/uploads/2024/12/IMG_0443-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/default-2/",
+      "destination": "/wp-content/uploads/2024/12/DJI_20250121142948_0321_D-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/nhbc-light/",
+      "destination": "/wp-content/uploads/2025/01/nhbc-light.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/fmb-light/",
+      "destination": "/wp-content/uploads/2025/01/fmb-light.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/testimonial/vetshack/img_0451/",
+      "destination": "/wp-content/uploads/2025/01/IMG_0451-scaled.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/img_8311/",
+      "destination": "/wp-content/uploads/2025/01/IMG_8311-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/picture-2/",
+      "destination": "/wp-content/uploads/2025/01/Picture-2.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics-2/",
+      "destination": "/wp-content/uploads/2024/12/Edited-Pics-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics-21-preston-parade-new-build-2/",
+      "destination": "/wp-content/uploads/2024/12/Edited-Pics-21-preston-parade-new-build-1-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics-3-2/",
+      "destination": "/wp-content/uploads/2024/12/Edited-pics-3-1-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics-21-preston-parade-new-build/",
+      "destination": "/wp-content/uploads/2024/12/Edited-Pics-21-Preston-Parade-New-Build-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics-3/",
+      "destination": "/wp-content/uploads/2024/12/Edited-Pics-3-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/edited-pics/",
+      "destination": "/wp-content/uploads/2024/12/Edited-Pics--scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/canterbury-riverside-drawings-19-jun-23/",
+      "destination": "/wp-content/uploads/2024/12/Canterbury-Riverside-Drawings-19-Jun-23.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9165/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9165-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9164/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9164-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9163/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9163-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9081-2/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9081-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9040/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9040-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9039/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9039-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8315/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8315-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8302/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8302-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8294/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8294-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8286/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8286-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8281/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8281-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8264/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8264-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8262/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8262-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8232/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8232-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/vet-shack/img_8227/",
+      "destination": "/wp-content/uploads/2024/12/IMG_8227-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/the-old-stables-ha-ha/",
+      "destination": "/wp-content/uploads/2024/12/The-Old-Stables-ha-ha.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/the-old-stables-outbuildings/",
+      "destination": "/wp-content/uploads/2024/12/The-Old-Stables-Outbuildings.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3124/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3124.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3121/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3121.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3120/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3120.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3117/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3117.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3116/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3116.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/stables/img_3115/",
+      "destination": "/wp-content/uploads/2024/12/IMG_3115.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/plan/",
+      "destination": "/wp-content/uploads/2024/12/plan.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/pett-cottage-pre-start/",
+      "destination": "/wp-content/uploads/2024/12/Pett-Cottage-Pre-Start.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_9247/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9247.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/img_9244/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9244.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/enscape_2023-09-01-13-13-31/",
+      "destination": "/wp-content/uploads/2024/12/Enscape_2023-09-01-13-13-31-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/enscape_2023-09-01-13-12-54/",
+      "destination": "/wp-content/uploads/2024/12/Enscape_2023-09-01-13-12-54-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/enscape_2023-09-01-13-11-56/",
+      "destination": "/wp-content/uploads/2024/12/Enscape_2023-09-01-13-11-56-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/373_issue_240905_c4-constructionissuepack-05-09-24-2/",
+      "destination": "/wp-content/uploads/2024/12/373_ISSUE_240905_C4-ConstructionIssuePack-05.09.24-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/372_issue_240905_c4-constructionissuepack-05-09-24/",
+      "destination": "/wp-content/uploads/2024/12/372_ISSUE_240905_C4-ConstructionIssuePack-05.09.24.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/pett-cottage/373_issue_240905_c4-constructionissuepack-05-09-24/",
+      "destination": "/wp-content/uploads/2024/12/373_ISSUE_240905_C4-ConstructionIssuePack-05.09.24.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7880/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7880.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7877/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7877.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7874/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7874.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7601/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7601.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7755/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7755-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/img_7598/",
+      "destination": "/wp-content/uploads/2024/12/IMG_7598.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/img_2494/",
+      "destination": "/wp-content/uploads/2024/12/IMG_2494-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/img_2493/",
+      "destination": "/wp-content/uploads/2024/12/IMG_2493-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/img_2492/",
+      "destination": "/wp-content/uploads/2024/12/IMG_2492-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/img_2490/",
+      "destination": "/wp-content/uploads/2024/12/IMG_2490-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/img_2489/",
+      "destination": "/wp-content/uploads/2024/12/IMG_2489-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/21-preston-parade-new-build/",
+      "destination": "/wp-content/uploads/2024/12/21-Preston-Parade-New-Build-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/old-dover-road/old-dover-road-2/",
+      "destination": "/wp-content/uploads/2024/12/Old-Dover-Road-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9083-2/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9083-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9081/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9081.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/riverside-social/img_9083/",
+      "destination": "/wp-content/uploads/2024/12/IMG_9083.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/master-bedroom/",
+      "destination": "/wp-content/uploads/2024/12/master-bedroom.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/living-and-kitchen-1024x683-276x207/",
+      "destination": "/wp-content/uploads/2024/12/living-and-kitchen-1024x683-276x207-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/living-and-kitchen/",
+      "destination": "/wp-content/uploads/2024/12/living-and-kitchen.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/living-and-balcony/",
+      "destination": "/wp-content/uploads/2024/12/living-and-balcony.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/kitchen-dining/",
+      "destination": "/wp-content/uploads/2024/12/kitchen-dining.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/bedroom-and-ensuite/",
+      "destination": "/wp-content/uploads/2024/12/bedroom-and-ensuite.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/bedroom/",
+      "destination": "/wp-content/uploads/2024/12/bedroom.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/balcony/",
+      "destination": "/wp-content/uploads/2024/12/balcony.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/shipwrights-beach-front/",
+      "destination": "/wp-content/uploads/2024/12/Shipwrights-beach-front.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/front-aerial/",
+      "destination": "/wp-content/uploads/2024/12/front-aerial.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/13_shipwright_200618-031-1024x683-276x208/",
+      "destination": "/wp-content/uploads/2024/12/13_Shipwright_200618-031-1024x683-276x208-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/shipwright/front-from-beach-1/",
+      "destination": "/wp-content/uploads/2024/12/front-from-beach-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/preston-parade/new-build-4/",
+      "destination": "/wp-content/uploads/2024/12/New-build-4.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/img_1671/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1671.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/img_1663/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1663.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/img_1661/",
+      "destination": "/wp-content/uploads/2024/12/IMG_1661.jpeg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/https-timdayconstruction-co-ukwp-contentuploads202311img_5152/",
+      "destination": "/wp-content/uploads/2024/12/https-timdayconstruction.co_.ukwp-contentuploads202311IMG_5152.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9711_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9711_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9703_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9703_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9679_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9679_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9664_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9664_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9636_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9636_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/south-foreland-lighthouse/7v1a9625_1/",
+      "destination": "/wp-content/uploads/2024/12/7V1A9625_1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/screenshot_2024-12-17_at_15-40-45-removebg-preview/",
+      "destination": "/wp-content/uploads/2024/12/Screenshot_2024-12-17_at_15.40.45-removebg-preview.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/outsite-co-r-lk3sqlibw-unsplash/",
+      "destination": "/wp-content/uploads/2024/12/outsite-co-R-LK3sqLiBw-unsplash-scaled.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/logoipsum-288/",
+      "destination": "/wp-content/uploads/2024/12/logoipsum-288.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/services-2/",
+      "destination": "/wp-content/uploads/2024/12/services.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/experience-2/",
+      "destination": "/wp-content/uploads/2024/12/experience.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/delivery-2/",
+      "destination": "/wp-content/uploads/2024/12/delivery.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/separator/",
+      "destination": "/wp-content/uploads/2024/12/separator.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/services/",
+      "destination": "/wp-content/uploads/2024/12/services.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/testimonial/vetshack/experience/",
+      "destination": "/wp-content/uploads/2024/12/experience.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/delivery/",
+      "destination": "/wp-content/uploads/2024/12/delivery.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/sector/new-builds/new-build-2/",
+      "destination": "/wp-content/uploads/2024/12/new-build.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/sector/extensions/extensions-2/",
+      "destination": "/wp-content/uploads/2024/12/extensions.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/sector/change-of-use/change-of-use-2/",
+      "destination": "/wp-content/uploads/2024/12/change-of-use.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/master-builders/",
+      "destination": "/wp-content/uploads/2024/12/master-builders.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/tim-day-construction/tim-dayhero-1/",
+      "destination": "/wp-content/uploads/2024/12/tim-dayhero-1.jpg",
+      "statusCode": 301
+    },
+    {
+      "source": "/project/whitstable-road/tim-day-logo-darker/",
+      "destination": "/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/favicon/cropped-favicon-png/",
+      "destination": "/wp-content/uploads/2024/12/cropped-favicon.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/favicon/",
+      "destination": "/wp-content/uploads/2024/12/favicon.png",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path((?!api/|api$|_vercel/|_astro/)(?:[^/.]+/)*[^/.]+)",
+      "destination": "/:path/",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/wp-content/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/llms(-full)?\\.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "sizes": [
+      480,
+      768,
+      1080,
+      1440,
+      1920,
+      2560
+    ],
+    "formats": [
+      "image/avif",
+      "image/webp"
+    ],
+    "minimumCacheTTL": 2678400,
+    "qualities": [
+      75
+    ],
+    "localPatterns": [
+      {
+        "pathname": "^/wp-content/uploads/.*$",
+        "search": ""
+      }
+    ]
+  }
+}

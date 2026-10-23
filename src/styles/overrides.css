@@ -1,0 +1,40 @@
+/* Agreed deviations from the live theme. Each line cites its decision.
+   Everything else comes unchanged from ./theme (the port of the live CSS). */
+
+body { font-family: var(--font-sans); }
+
+/* Focus ring (DESIGN.md 7.4, agreed 23 Oct) */
+:focus-visible { outline: 3px solid var(--teal-mid); outline-offset: 3px; }
+:where(#hero, #intro, #how-we-work, .green-bg, footer, .page-title-banner, #sector-faq, .blog-title-banner, .project-block, .three-blocks__block, .testimonial-card) :focus-visible,
+:where(#hero, #intro, #how-we-work, .green-bg, footer, .page-title-banner, #sector-faq, .blog-title-banner):focus-visible { outline-color: var(--white); }
+
+/* Skip link (DESIGN.md 7.2) */
+.sr-only:focus { background-color: var(--teal); color: var(--white); }
+
+/* Highlight span resolves by surface (F15, DESIGN.md 2.2) */
+.light-teal-txt { color: var(--hl); }
+:where(#hero, #intro, #how-we-work, .green-bg, footer, .page-title-banner, #sector-faq, .blog-title-banner) { --hl: var(--teal-light-text); }
+
+/* Hover-only reveals also on keyboard focus (DESIGN.md 7.5) */
+.project-blocks .project-block a:focus-visible .project-block-overlay { opacity: 1; }
+#sectors .sector-cards .sector-card a:focus-visible > h3,
+#sectors .sector-cards .sector-card a:focus-visible > .arrow-icon { background: var(--teal-light); color: var(--teal); }
+#sectors .sector-cards .sector-card a:focus-visible > img { filter: grayscale(100%); }
+
+/* Links inside body copy are distinguishable without colour (axe link-in-text-block) */
+.blog .content p a, .project-column-content p a, .about__body p a { text-decoration: underline; text-underline-offset: 2px; }
+
+/* Inline SVG icons sized like the icon fonts they replace */
+.icon { display: inline-block; width: 1em; height: 1em; fill: currentColor; vertical-align: -0.125em; flex-shrink: 0; }
+
+/* Reduced motion: no entrance, no AOS, no parallax (DESIGN.md 2.6) */
+@media (prefers-reduced-motion: reduce) {
+  .entrance-animation { display: none !important; }
+  [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .page-title-banner:before { animation: none; width: 0; }
+  * { scroll-behavior: auto !important; }
+}
+
+/* Base styles the icon fonts' own CSS used to provide (Material Symbols, Font Awesome) */
+.material-symbols-outlined { font-size: 24px; line-height: 1; display: inline-block; white-space: nowrap; font-weight: normal; font-style: normal; letter-spacing: normal; text-transform: none; }
+.quote-icon, .footer-socials a, .social-icons a { line-height: 1; display: inline-block; }

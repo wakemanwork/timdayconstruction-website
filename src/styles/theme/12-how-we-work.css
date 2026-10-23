@@ -1,0 +1,63 @@
+/* Ported from live style.css lines 1394-1456. Do not edit values here; see docs/DESIGN.md. */
+#how-we-work {
+  padding: 8rem 0 20rem 0;
+  background: var(--teal);
+}
+@media screen and (max-width: 560px) {
+  #how-we-work {
+    padding: 6rem 0 20rem 0;
+  }
+}
+#how-we-work h2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+@media screen and (max-width: 1360px) {
+  #how-we-work h2 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #how-we-work h2 {
+    font-size: 1.8rem;
+  }
+}
+#how-we-work .how-we-work__blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 560px) {
+  #how-we-work .how-we-work__blocks {
+    grid-template-columns: 1fr;
+  }
+}
+#how-we-work .how-we-work__blocks .how-we-work__block {
+  background: white;
+  padding: 2.5rem 2rem;
+}
+@media screen and (max-width: 1800px) {
+  #how-we-work .how-we-work__blocks .how-we-work__block {
+    padding: 2.5rem 1.8rem 2.5rem 1.8rem;
+  }
+}
+#how-we-work .how-we-work__blocks .how-we-work__block h3 {
+  font-size: 1.4rem;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1800px) {
+  #how-we-work .how-we-work__blocks .how-we-work__block h3 {
+    font-size: 1.2rem;
+  }
+}
+#how-we-work .how-we-work__blocks .how-we-work__block p {
+  color: var(--teal);
+}
+@media screen and (max-width: 1800px) {
+  #how-we-work .how-we-work__blocks .how-we-work__block p {
+    font-size: 0.85rem;
+  }
+}

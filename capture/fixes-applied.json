@@ -1,0 +1,453 @@
+[
+ {
+  "where": "project__pett-cottage",
+  "from": "wood fiber",
+  "to": "wood fibre",
+  "count": 1
+ },
+ {
+  "where": "sector__new-builds",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ },
+ {
+  "where": "sector__new-builds",
+  "from": "extensions to and change of use",
+  "to": "extensions to change of use",
+  "count": 1
+ },
+ {
+  "where": "sector__new-builds",
+  "from": "We provide offer a concept to completion",
+  "to": "We offer a concept to completion",
+  "count": 1
+ },
+ {
+  "where": "sector__remodelling",
+  "from": "extensions to and change of use",
+  "to": "extensions to change of use",
+  "count": 1
+ },
+ {
+  "where": "sector__remodelling",
+  "from": "We provide offer a concept to completion",
+  "to": "We offer a concept to completion",
+  "count": 1
+ },
+ {
+  "where": "sector__change-of-use",
+  "from": "extensions to and change of use",
+  "to": "extensions to change of use",
+  "count": 1
+ },
+ {
+  "where": "sector__change-of-use",
+  "from": "We provide offer a concept to completion",
+  "to": "We offer a concept to completion",
+  "count": 1
+ },
+ {
+  "where": "sector__extensions",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ },
+ {
+  "where": "sector__extensions",
+  "from": "extensions to and change of use",
+  "to": "extensions to change of use",
+  "count": 1
+ },
+ {
+  "where": "sector__extensions",
+  "from": "We provide offer a concept to completion",
+  "to": "We offer a concept to completion",
+  "count": 1
+ },
+ {
+  "where": "sector__extensions",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "Why Should you Choose",
+  "to": "Why Should You Choose",
+  "count": 1
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Veterinary Practices Are Different to Other Commercial Spaces"
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Understanding Specialist Equipment"
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Designing Around Workflow"
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Reducing Risk Through Experience"
+ },
+ {
+  "where": "why-should-you-choose-a-specialist-veterinary-fit-out-contractor",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "A Partner Who Understands Your Practice"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Why Fire Safety Matters in Veterinary Practices"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Fire Doors and Compartmentation"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Fire Detection and Alarm Systems"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Fire-Resistant Materials and Finishes"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Evacuation Planning for Animals and Staff"
+ },
+ {
+  "where": "fire-safety-requirements-in-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "The Importance of Early Planning in Veterinary Fit Outs"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Streamline Workflow with Smart Layouts"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Strategically Place Consultation Rooms"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Optimise Staff Movement"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Plan for Flexibility and Growth"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Prioritise Client Comfort Without Sacrificing Efficiency"
+ },
+ {
+  "where": "maximising-efficiency-space-planning-tips-for-veterinary-practices",
+  "from": "veterinary fitouts",
+  "to": "veterinary fit-outs",
+  "count": 1
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Radiation Shielding in X-Ray Rooms"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Infection Control and Hygienic Surfaces"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Ventilation and Odour Control"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Safe Animal Handling Layouts"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Flooring and Slip Resistance"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Waste Disposal and Biohazard Storage"
+ },
+ {
+  "where": "key-safety-considerations-in-veterinary-practice-fit-outs",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Designing for Safety and Efficiency"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Planning Delays and Local Constraints"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Weather Conditions and Site Access"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Supply Chain and Material Availability"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Communication and Coordination"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Avoiding Problems Through Preparation"
+ },
+ {
+  "where": "common-challenges-on-kent-building-sites",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "How Can Tim Day Construction Help?"
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "Veterinary Fitout",
+  "to": "Veterinary Fit-Out",
+  "count": 1
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Hygiene and Infection Control"
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Animal Comfort and Stress Reduction"
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Top Veterinary Clinic Fitout Design Trends for 2026"
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Why It All Matters"
+ },
+ {
+  "where": "what-makes-a-veterinary-fitout-different-from-other-commercial-builds",
+  "from": "recoveryto",
+  "to": "recovery to",
+  "count": 1
+ },
+ {
+  "where": "the-core-principles-of-a-passive-house",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Super-Insulation"
+ },
+ {
+  "where": "the-core-principles-of-a-passive-house",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Airtight Construction"
+ },
+ {
+  "where": "the-core-principles-of-a-passive-house",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "High-Performance Windows"
+ },
+ {
+  "where": "the-core-principles-of-a-passive-house",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Ventilation with Heat Recovery"
+ },
+ {
+  "where": "the-core-principles-of-a-passive-house",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Thermal Bridge-Free Design"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Simplicity and Clear Communication"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Accountability and Confidence"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Cost and Time Efficiency"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Compliance and Quality Assurance"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Seamless Design to Delivery Transition"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Personalised Service and Partnership"
+ },
+ {
+  "where": "what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "One Partner. One Smooth Process."
+ },
+ {
+  "where": "how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Design and Planning"
+ },
+ {
+  "where": "how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Construction and Fit-Out"
+ },
+ {
+  "where": "how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Specialist Installations"
+ },
+ {
+  "where": "how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion",
+  "from": "bold paragraph",
+  "to": "h2",
+  "count": 1,
+  "text": "Finishing Touches"
+ },
+ {
+  "where": "testimonial:Mr L. Reddy",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ },
+ {
+  "where": "home intro",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ }
+]

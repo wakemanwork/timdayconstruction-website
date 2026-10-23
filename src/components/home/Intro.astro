@@ -1,0 +1,24 @@
+---
+// DESIGN.md 6.6. Live #intro. The live lead is an <h3> straight after the H1; it becomes an <h2>
+// (heading order) with the live h3 styling copied below so it looks identical.
+interface Props { lead: string; body: string; button: { label: string; href: string }; text: string[] }
+const { lead, body, button, text } = Astro.props;
+---
+<section id="intro">
+  <img src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+  <div class="width-container">
+    <div class="intro-column">
+      <h2 class="intro__lead" set:html={lead} />
+      <p>{body}</p>
+      <a class="btn btn--light" href={button.href}>{button.label}</a>
+    </div>
+    <div class="intro-column">
+      <p set:html={text.join('<br><br>')} />
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  #intro .width-container h2.intro__lead { font-size: 2.2rem; margin-bottom: 2rem; line-height: 1.6; width: 35ch; font-weight: 600; }
+  @media screen and (max-width: 1800px) { #intro .width-container h2.intro__lead { font-size: 1.8rem; width: auto; } }
+</style>

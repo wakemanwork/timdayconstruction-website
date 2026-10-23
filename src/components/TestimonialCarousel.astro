@@ -1,0 +1,41 @@
+---
+// DESIGN.md 6.11. Live #testimonials. Fixes: no empty logo <img>; names are h3 (were h4 under h2).
+import { getCollection } from 'astro:content';
+import Img from './Img.astro';
+import { alt } from '../lib/alt';
+interface Props { title: string; intro: string }
+const { title, intro } = Astro.props;
+const items = (await getCollection('testimonials')).sort((a, b) => a.data.order - b.data.order);
+---
+<section id="testimonials" aria-roledescription="carousel" aria-label="Client testimonials">
+  <div class="width-container">
+    <div class="testimonials-title">
+      <h2 class="section-title--large" set:html={title} />
+      <p>{intro}</p>
+    </div>
+    <div class="swiper testimonial-carousel">
+      <div class="swiper-wrapper">
+        {items.map(({ data: t }) => (
+          <div class="swiper-slide testimonial-card">
+            {t.image && <Img class="testimonial__featured-image" src={t.image} alt={alt(t.image)} sizes="(max-width: 768px) 90vw, 28vw" />}
+            <div class="testimonial-card__overlay">
+              <p class="testimonial">“{t.quote}”</p>
+              <h3 class="testimonial__name">{t.name}</h3>
+              {t.company && <span class="testimonial__company">{t.company}</span>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { initCarousel } from '../lib/carousels';
+  initCarousel('.testimonial-carousel');
+</script>
+
+<style is:global>
+  /* h4 → h3 keeps the live h4 weight */
+  #testimonials .testimonial__name { font-weight: 700; }
+</style>

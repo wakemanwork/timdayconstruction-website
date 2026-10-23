@@ -1,0 +1,22 @@
+/* Ported from live style.css lines 2479-2500. Do not edit values here; see docs/DESIGN.md. */
+.location-map {
+  padding-bottom: 3rem;
+}
+@media screen and (max-width: 560px) {
+  .location-map {
+    padding-bottom: 2rem;
+  }
+}
+.location-map img {
+  height: 600px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+@media screen and (max-width: 560px) {
+  .location-map img {
+    height: 400px;
+  }
+}

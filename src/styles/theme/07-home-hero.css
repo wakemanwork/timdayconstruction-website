@@ -1,0 +1,262 @@
+/* Ported from live style.css lines 746-1007. Do not edit values here; see docs/DESIGN.md. */
+#hero {
+  position: relative;
+  height: 92vh;
+  width: 97%;
+  margin: 3rem auto 3rem auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#hero.new {
+  margin: 3rem auto 3rem auto;
+  align-items: end;
+}
+@media screen and (max-width: 1800px) {
+  #hero {
+    height: 91vh;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #hero {
+    height: auto;
+    width: 100%;
+    padding: 16rem 0;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #hero {
+    height: 93vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+  }
+}
+#hero .hero__title-container {
+  position: relative;
+  z-index: 11;
+  width: 85%;
+  margin: 0 auto;
+}
+#hero.new .hero__title-container {
+  width: 100%;
+}
+@media screen and (max-width: 1360px) {
+  #hero .hero__title-container {
+    width: 90%;
+  }
+}
+#hero .hero__title-container .hero__title {
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  z-index: 10;
+  width: 19ch;
+  width: 22ch;
+  font-size: 3.4vw;
+}
+#hero.new .hero__title-container .hero__title {
+  width: 65%;
+  font-size: 2.6vw;
+  line-height: 3vw;
+  margin: 3rem;
+}
+@media screen and (max-width: 1440px) {
+  #hero.new .hero__title-container .hero__title {
+  	width: 45%;
+  	font-size: 2vw;
+	}
+	#hero.new .hero__logos .hero__accreditation-logo:nth-child(1) {
+  width: 100px;
+}
+}
+#hero .hero__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: white;
+	grid-gap: 4rem;
+	position: relative;
+	z-index: 5;
+}
+#hero .hero__content h2 {
+	font-size: 2.2rem;
+}
+#hero .hero__content h3 {
+	font-size: 1.8rem;
+	margin: 0 0 10px 0;
+	color: var(--teal-light-text);
+}
+#hero .hero__content div {
+	padding: 0 3rem;
+	max-width: 70%;
+}
+#hero .hero__content div p {
+	margin: 0 0 25px 0;
+}
+#hero .hero__content div p a {
+	display: inline-block;
+}
+@media screen and (max-width: 1440px) {
+	#hero.new {
+		padding: 0;
+	}
+  #hero .hero__content div {
+	max-width: 100%;
+	  padding-top: 10rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #hero .hero__title-container .hero__title {
+    font-size: 5.5vw;
+  }
+}
+@media screen and (max-width: 560px) {
+  #hero .hero__title-container .hero__title {
+    font-size: 2.2rem;
+    width: 100%;
+    margin-top: 8rem;
+  }
+	#hero.new .hero__content div p {
+  margin: 0 0 15px 0;
+  font-size: 0.9rem;
+}
+}
+#hero .hero__bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transform: translateY(-400px) scale(1.2);
+  pointer-events: none;
+}
+#hero.new .hero__bg-img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+}
+#hero.new .hero__bg-img-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  pointer-events: none;
+}
+#hero .hero__overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: rgb(34, 34, 34);
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, var(--teal) 100%);
+}
+#hero.new .hero__overlay {
+  background: rgb(34, 34, 34);
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, var(--teal) 80%);
+}
+#hero .hero__faded-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.03;
+  pointer-events: none;
+}
+@media screen and (max-width: 560px) {
+  #hero .hero__faded-icon {
+    opacity: 0;
+  }
+	#hero.new .hero__overlay {
+  background: rgb(34, 34, 34);
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, var(--teal-overlay) 0%);
+}
+	#hero.new .hero__bg-img-2 {
+		top: 50%;
+	}
+	#hero.new {
+  align-items: self-start;
+		margin: 70px auto 0 auto;
+}
+	#hero.new .hero__bg-img-1, #hero.new .hero__bg-img-2 {
+		width: 100%; 
+		height: 50%;
+	}
+	#hero.new .hero__content {
+  		grid-template-columns: 1fr;
+	}
+	#hero.new .hero__content div {
+   	 padding: 0 1.5rem;
+		width: 100%;
+  }
+	#hero.new .hero__content .content_left {
+		padding-top: 2rem;
+	}
+	#hero.new .hero__content .content_right {
+		padding-top: 0rem;
+	}
+	#hero.new .hero__content h2 {
+	  font-size: 1.5rem;
+	}
+	#hero.new .hero__content h3 {
+	  font-size: 1.2rem;
+		margin: 0;
+	}
+	#hero.new .hero__title-container .hero__title {
+		visibility: hidden;
+	}
+	  #hero.new .hero__logos {
+		bottom: 1rem;
+		left: 2rem;
+		  display: none;
+	}
+}
+#hero .hero__logos {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  z-index: 12;
+}
+@media screen and (max-width: 560px) {
+  #hero .hero__logos {
+    bottom: 2rem;
+    left: 1rem;
+    gap: 1.4rem;
+  }
+}
+#hero .hero__logos .hero__accreditation-logo {
+  width: 170px;
+}
+#hero .hero__logos .hero__accreditation-logo:nth-child(1) {
+  width: 140px;
+}
+@media screen and (max-width: 1360px) {
+  #hero .hero__logos .hero__accreditation-logo:nth-child(1) {
+    width: 100px;
+  }
+}

@@ -1,0 +1,27 @@
+---
+// Inline SVG replacements for the Material Symbols (weight 200) and Font Awesome 6.6 glyphs
+// the live site loads as icon fonts (DESIGN.md section 3). Decorative by default.
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { faQuoteLeft, faQuoteRight, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
+type Name = 'menu' | 'close' | 'arrow_back' | 'arrow_forward' | 'call' | 'mail' | 'quote-left' | 'quote-right' | 'chevron-down' | 'facebook' | 'linkedin';
+interface Props { name: Name; class?: string; label?: string; }
+const { name, class: cls, label } = Astro.props;
+
+const fa: Record<string, any> = {
+  'quote-left': faQuoteLeft, 'quote-right': faQuoteRight, 'chevron-down': faChevronDown,
+  facebook: faFacebook, linkedin: faLinkedinIn,
+};
+let viewBox: string, path: string;
+if (fa[name]) {
+  const [w, h, , , d] = fa[name].icon;
+  viewBox = `0 0 ${w} ${h}`; path = Array.isArray(d) ? d.join(' ') : d;
+} else {
+  const svg = readFileSync(join(process.cwd(), 'node_modules/@material-symbols/svg-200/outlined', `${name}.svg`), 'utf8');
+  viewBox = svg.match(/viewBox="([^"]+)"/)![1];
+  path = svg.match(/ d="([^"]+)"/)![1];
+}
+---
+<svg class:list={['icon', cls]} viewBox={viewBox} aria-hidden={label ? undefined : 'true'} role={label ? 'img' : undefined} aria-label={label} focusable="false"><path d={path} /></svg>

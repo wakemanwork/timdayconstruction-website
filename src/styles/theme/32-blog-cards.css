@@ -1,0 +1,62 @@
+/* Ported from live style.css lines 3271-3332. Do not edit values here; see docs/DESIGN.md. */
+#blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+@media screen and (max-width: 1360px) {
+  #blog-cards {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #blog-cards {
+    grid-template-columns: 1fr;
+  }
+}
+#blog-cards .blog-card {
+  display: block;
+  position: relative;
+}
+#blog-cards .blog-card .blog-card__img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+@media screen and (max-width: 1800px) {
+  #blog-cards .blog-card .blog-card__img {
+    height: 230px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #blog-cards .blog-card .blog-card__img {
+    height: 230px;
+  }
+}
+#blog-cards .blog-card .blog-card-content {
+  padding: 1.6rem 0;
+}
+@media screen and (max-width: 560px) {
+  #blog-cards .blog-card .blog-card-content {
+    padding-bottom: 1rem;
+  }
+}
+#blog-cards .blog-card .blog-card-content .blog-card-content__title a {
+  transition: all 0.3s ease;
+}
+#blog-cards .blog-card .blog-card-content .blog-card-content__title a:hover {
+  opacity: 0.6;
+}
+#blog-cards .blog-card .blog-card-content .blog-card-content__date {
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.2rem;
+}

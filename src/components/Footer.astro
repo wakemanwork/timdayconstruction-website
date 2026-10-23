@@ -1,0 +1,61 @@
+---
+// DESIGN.md 6.2. Markup mirrors the live footer.
+import site from '../data/site.json';
+import Icon from './Icon.astro';
+const names: Record<string, string> = {
+  'fmb': 'Federation of Master Builders member', 'nhbc': 'NHBC registered builder',
+  'smas': 'SMAS Worksafe accredited: view compliance pack', 'seal_en': 'Certified Passive House Tradesperson',
+};
+const altFor = (src: string) => Object.entries(names).find(([k]) => src.includes(k))?.[1] ?? '';
+const heights: Record<string, number> = { fmb: 70, nhbc: 50, smas: 150, seal_en: 50 };
+const hFor = (src: string) => Object.entries(heights).find(([k]) => src.includes(k))?.[1];
+---
+<footer>
+  <div class="footer-container">
+    <img class="tim-day-icon" aria-hidden="true" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" width="300" height="300" loading="lazy" />
+    <div class="footer-column">
+      <h2 class="footer-title">{site.footerTitle}</h2>
+      <div class="footer-contact">
+        <a href="tel:+441227281749"><span class="material-symbols-outlined"><Icon name="call" /></span>{site.phone}</a>
+      </div>
+      <div class="footer-contact">
+        <a href={`mailto:${site.email}`}><span class="material-symbols-outlined"><Icon name="mail" /></span>{site.email}</a>
+      </div>
+      <div class="footer-socials">
+        {site.socials.map((s) => (
+          <a target="_blank" rel="noopener" href={s.href} aria-label={`Tim Day Construction on ${s.label} (opens in a new tab)`}>
+            <Icon name={s.label === 'Facebook' ? 'facebook' : 'linkedin'} />
+          </a>
+        ))}
+      </div>
+      <div class="footer-policy-pages">
+        <ul class="menu">
+          {site.policy.map((p) => (<li class="menu-item"><a href={p.href}>{p.label}</a></li>))}
+          <li class="menu-item"><button type="button" class="cookie-settings-link" data-open-consent>Cookie settings</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-accreditations">
+      {site.accreditations.map((a) => (
+        <a href={a.href} target="_blank" rel="noopener">
+          <img height={hFor(a.src)} src={a.src} alt={`${altFor(a.src)} (opens in a new tab)`} loading="lazy" />
+        </a>
+      ))}
+      <div class="footer__charity-logo">
+        <span>Supporting</span>
+        <img height="60" class="charity-logo" src={site.charity.image} alt="Zarach, the children's bed charity" loading="lazy" />
+        <a aria-label="Find out more here about Zarach (opens in a new tab)" href={site.charity.href} target="_blank" rel="noopener">Find out more here</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <div class="copyright">{site.legal.replace(/© \d{4}/, `© ${new Date().getFullYear()}`)}</div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* "Cookie settings" sits with the policy links and must look like them */
+  .cookie-settings-link { font: inherit; color: inherit; cursor: pointer; padding: 0; text-decoration: inherit; }
+  footer .footer-policy-pages ul { flex-wrap: wrap; row-gap: 0.8rem; }
+  footer .footer-policy-pages li > * { white-space: nowrap; }
+</style>

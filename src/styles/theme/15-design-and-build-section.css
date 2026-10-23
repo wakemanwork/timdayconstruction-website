@@ -1,0 +1,64 @@
+/* Ported from live style.css lines 1587-1650. Do not edit values here; see docs/DESIGN.md. */
+#design-and-build-section {
+  padding: 8rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6rem;
+}
+@media screen and (max-width: 1800px) {
+  #design-and-build-section {
+    grid-template-columns: 1.4fr 1fr;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #design-and-build-section {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #design-and-build-section {
+    grid-template-columns: 1fr;
+    padding-top: 4rem;
+  }
+}
+#design-and-build-section .column {
+  position: relative;
+}
+@media screen and (max-width: 560px) {
+  #design-and-build-section .column.image-side {
+    height: 400px;
+  }
+}
+#design-and-build-section .column.image-side img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#design-and-build-section .column.text-side {
+  color: var(--teal);
+  padding: 4rem 0;
+}
+@media screen and (max-width: 1360px) {
+  #design-and-build-section .column.text-side {
+    padding: 0;
+  }
+}
+#design-and-build-section .column.text-side .content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+#design-and-build-section .column.text-side .content p {
+  margin-bottom: 1.4rem;
+}
+#design-and-build-section .column.text-side .content .btn {
+  display: inline-block;
+  margin-top: 1rem;
+}

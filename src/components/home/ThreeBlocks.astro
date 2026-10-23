@@ -1,0 +1,22 @@
+---
+// DESIGN.md 6.9. Live #three-blocks. Photos and icons are decorative inside a named link.
+import Img from '../Img.astro';
+import Icon from '../Icon.astro';
+interface Props { title: string; blocks: { label: string; href: string; image: string; icon: string }[] }
+const { title, blocks } = Astro.props;
+---
+<section id="three-blocks">
+  <div class="width-container">
+    <h2 class="section-title--large" set:html={title} />
+    <div class="three-blocks">
+      {blocks.map((b) => (
+        <a href={b.href} class="three-blocks__block">
+          <div class="arrow-icon" aria-hidden="true"><span class="material-symbols-outlined"><Icon name="arrow_forward" /></span></div>
+          <h3>{b.label}</h3>
+          <Img class="three-blocks__block-img" src={b.image} alt="" sizes="(max-width: 1360px) 90vw, 28vw" />
+          <img class="three-blocks__block-icon" src={b.icon} alt="" loading="lazy" />
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

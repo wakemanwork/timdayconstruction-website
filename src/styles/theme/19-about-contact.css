@@ -1,0 +1,138 @@
+/* Ported from live style.css lines 2058-2195. Do not edit values here; see docs/DESIGN.md. */
+.about-contact {
+  position: relative;
+  z-index: 20;
+}
+.about-contact .about-contact__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 1360px) {
+  .about-contact .about-contact__content {
+    grid-template-columns: 1fr;
+  }
+}
+.about-contact .about-contact__content .about-contact__column {
+  padding: 6rem 0 4rem 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 560px) {
+  .about-contact .about-contact__content .about-contact__column {
+    padding: 5rem 0 4rem 0;
+  }
+}
+.about-contact .about-contact__content .about-contact__column img {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: scale(2) translate(-50%, -50%);
+  opacity: 0.03;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+@media screen and (max-width: 1360px) {
+  .about-contact .about-contact__content .about-contact__column .about-contact__column-content {
+    width: 90%;
+  }
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content .about-contact__title {
+  font-size: 2.8rem;
+  width: 16ch;
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 560px) {
+  .about-contact .about-contact__content .about-contact__column .about-contact__column-content .about-contact__title {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content h3 {
+  font-size: 1.8rem;
+  color: var(--teal);
+  margin-bottom: 2rem;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content .contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1rem 0;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content .contact-method span {
+  font-size: 2rem;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content .contact-method a {
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--teal);
+}
+@media screen and (max-width: 560px) {
+  .about-contact .about-contact__content .about-contact__column .about-contact__column-content .contact-method a {
+    font-size: 1rem;
+  }
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content .contact-method a:hover {
+  transition: all 0.3s ease;
+  opacity: 0.5;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form {
+  position: relative;
+  z-index: 20;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form input,
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form textarea {
+  transition: all 0.2s ease;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background: var(--teal-mid);
+  outline: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  border: none;
+  border: solid 2px var(--teal-mid) !important;
+  resize: none;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form input:focus,
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form textarea:focus {
+  transition: all 0.2s ease;
+  border-color: var(--teal-light) !important;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form input:focus-visible,
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form textarea:focus-visible {
+  transition: all 0.2s ease;
+  border-color: var(--teal-light) !important;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form textarea {
+  height: 150px;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form label {
+  display: block;
+  color: white;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form input[type=submit] {
+  transition: all 0.2s ease;
+  margin-bottom: 0 !important;
+  background: white;
+  color: var(--teal);
+  cursor: pointer;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form input[type=submit]:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+.about-contact .about-contact__content .about-contact__column .about-contact__column-content form .wpcf7-response-output {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+/* Ported from live style.css lines 3725-3781. Do not edit values here; see docs/DESIGN.md. */
+#error-404__container {
+  height: 90vh;
+  background: var(--teal-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#error-404__container .background-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  opacity: 0.03;
+  pointer-events: none;
+}
+#error-404__container .error-404__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+#error-404__container .error-404__content .error-404__title {
+  font-size: 14rem;
+  color: var(--teal-light);
+}
+@media screen and (max-width: 1800px) {
+  #error-404__container .error-404__content .error-404__title {
+    font-size: 10rem;
+  }
+}
+#error-404__container .error-404__content .error-404__subtitle {
+  margin: 0 auto;
+  opacity: 0.7;
+}
+@media screen and (max-width: 1360px) {
+  #error-404__container .error-404__content .error-404__subtitle {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 560px) {
+  #error-404__container .error-404__content .error-404__subtitle {
+    width: 90%;
+  }
+}

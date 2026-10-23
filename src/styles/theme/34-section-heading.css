@@ -1,0 +1,11 @@
+/* Ported from live style.css lines 3477-3487. Do not edit values here; see docs/DESIGN.md. */
+.section-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--teal);
+}
+@media screen and (max-width: 560px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+}

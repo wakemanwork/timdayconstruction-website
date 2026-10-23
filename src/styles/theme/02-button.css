@@ -1,0 +1,38 @@
+/* Ported from live style.css lines 350-387. Do not edit values here; see docs/DESIGN.md. */
+.btn {
+  transition: all 0.2s ease;
+  padding: 1rem 2rem;
+  border: solid 2px var(--teal);
+}
+@media screen and (max-width: 1800px) {
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+.btn.btn--dark {
+  background: var(--teal);
+  color: white;
+}
+.btn.btn--dark:hover {
+  transition: all 0.2s ease;
+  background: var(--teal-light);
+  color: var(--teal);
+}
+.btn.btn--transparent {
+  border-color: white;
+  color: white;
+}
+.btn.btn--transparent:hover {
+  transition: all 0.2s ease;
+  background: white;
+  color: var(--teal);
+}
+.btn.btn--light {
+  border-color: white;
+  color: var(--teal);
+  background: white;
+}
+.btn.btn--light:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}

@@ -1,0 +1,13 @@
+/* Ported from live style.css lines 3952-3964. Do not edit values here; see docs/DESIGN.md. */
+#service-projects {
+	position: relative;
+	background-color: #fff;
+	z-index: 50;
+}
+#service-projects h3 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: var(--teal);
+	padding: 3rem 0 0 0;
+	text-align: center;
+}

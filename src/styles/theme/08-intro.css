@@ -1,0 +1,76 @@
+/* Ported from live style.css lines 1008-1083. Do not edit values here; see docs/DESIGN.md. */
+#intro {
+  background: var(--teal);
+  padding: 10rem 0;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1360px) {
+  #intro {
+    padding: 8rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #intro {
+    padding: 4rem 0;
+  }
+}
+#intro img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.05;
+  width: 100%;
+}
+@media screen and (max-width: 560px) {
+  #intro img {
+    top: 50%;
+    left: 50%;
+    width: 250%;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+#intro .width-container {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  color: white;
+  grid-gap: 4rem;
+  position: relative;
+  z-index: 5;
+}
+@media screen and (max-width: 1800px) {
+  #intro .width-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 560px) {
+  #intro .width-container {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+#intro .width-container h3 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  width: 35ch;
+}
+@media screen and (max-width: 1800px) {
+  #intro .width-container h3 {
+    font-size: 1.8rem;
+    width: auto;
+  }
+}
+#intro .width-container p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 1800px) {
+  #intro .width-container p {
+    font-size: 1rem;
+  }
+}
+#intro .width-container .btn {
+  display: inline-block;
+  margin-top: 3rem;
+}

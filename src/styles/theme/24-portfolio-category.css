@@ -1,0 +1,76 @@
+/* Ported from live style.css lines 2562-2637. Do not edit values here; see docs/DESIGN.md. */
+.portfolio-category {
+  padding: 8rem 0 6rem 0;
+}
+@media screen and (max-width: 1800px) {
+  .portfolio-category {
+    padding: 6rem 0 4rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .portfolio-category {
+    padding: 5rem 0 2rem 0;
+  }
+}
+.portfolio-category .portfolio-category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 560px) {
+  .portfolio-category .portfolio-category-container {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+.portfolio-category .portfolio-category-container .portfolio-category__title {
+  margin-bottom: 3.5rem;
+}
+@media screen and (max-width: 560px) {
+  .portfolio-category .portfolio-category-container .portfolio-category__title {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .portfolio-category .portfolio-category-container .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+.portfolio-category .portfolio-category-container .portfolio-category__body {
+  color: var(--teal);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+@media screen and (max-width: 1800px) {
+  .portfolio-category .portfolio-category-container .portfolio-category__body {
+    font-size: 1rem;
+  }
+}
+.portfolio-category .portfolio-category-container .portfolio-category__body p {
+  margin-bottom: 2rem;
+}
+
+.portfolio-category__image {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
+@media screen and (max-width: 560px) {
+  .portfolio-category__image {
+    height: 600px;
+  }
+}
+.portfolio-category__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transform: translateY(-200px) scale(1.3);
+}

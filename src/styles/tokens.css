@@ -1,0 +1,41 @@
+/* Design tokens. Source of truth: docs/DESIGN.md section 2. */
+:root {
+  --teal: #1c5156;
+  --teal-mid: #2a6d73;
+  --teal-dark: #153b3f;
+  --teal-deep: #1d464b;
+  --teal-light: #c6d8db;
+  --teal-light-text: #c5d5d8;
+  --teal-highlight-on-light: #5f969c; /* F15: highlight words on white/grey, large text only */
+  --teal-pale: #d9e9ec;
+  --teal-overlay: rgba(28, 81, 86, 0.75);
+  --white: #ffffff;
+  --grey-bg: #f3f3f3;
+  --grey-hover: #e6e6e6;
+  --ink: #222222;
+
+  --font-sans: 'Montserrat Variable', 'Montserrat Fallback', sans-serif;
+
+  --space-1: 1rem;
+  --space-2: 2rem;
+  --space-3: 3rem;
+  --space-4: 4rem;
+  --space-5: 5rem;
+  --space-6: 6rem;
+  --space-8: 8rem;
+
+  --ease: 0.2s ease;
+
+  /* Highlight colour resolves from its surface (DESIGN.md 2.2) */
+  --hl: var(--teal-highlight-on-light);
+}
+
+/* Metric-matched fallback so the swap to Montserrat doesn't shift layout */
+@font-face {
+  font-family: 'Montserrat Fallback';
+  src: local('Arial');
+  size-adjust: 113%;
+  ascent-override: 85%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}

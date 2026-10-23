@@ -1,0 +1,77 @@
+---
+// DESIGN.md 6.1. Markup mirrors the live theme's header so the ported CSS applies unchanged.
+import site from '../data/site.json';
+import Icon from './Icon.astro';
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => path === href || (href !== '/' && path.startsWith(href));
+---
+<a class="sr-only" href="#main">Skip to content</a>
+<header>
+  <nav aria-label="Main">
+    <a href="/" class="custom-logo-link" rel="home" aria-current={path === '/' ? 'page' : undefined}>
+      <img width="286" height="42" src="/wp-content/uploads/2024/12/tim-day-logo-darker.png" class="custom-logo" alt="Tim Day Construction home" fetchpriority="high" />
+    </a>
+    <div class="menu-navbar-links-container">
+      <ul id="menu-navbar-links" class="menu">
+        {site.nav.map((n) => (
+          <li class="menu-item"><a href={n.href} aria-current={isCurrent(n.href) ? 'page' : undefined}>{n.label}</a></li>
+        ))}
+      </ul>
+    </div>
+    <button class="open-device-menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="device-menu">
+      <span class="material-symbols-outlined"><Icon name="menu" /></span>
+    </button>
+  </nav>
+  <div class="device-menu" id="device-menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+    <button class="close-device-menu" type="button" aria-label="Close menu">
+      <span class="material-symbols-outlined"><Icon name="close" /></span>
+    </button>
+    <div class="menu-navbar-links-container">
+      <ul class="menu">
+        {site.nav.map((n) => (<li class="menu-item"><a href={n.href}>{n.label}</a></li>))}
+      </ul>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Sticky shadow after 100px; slide-in mobile menu with staggered links (live theme script.js)
+  const header = document.querySelector('header')!;
+  const onScroll = () => header.classList.toggle('navbar--shadow', window.scrollY >= 100);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  const openBtn = document.querySelector<HTMLButtonElement>('.open-device-menu')!;
+  const closeBtn = document.querySelector<HTMLButtonElement>('.close-device-menu')!;
+  const menu = document.getElementById('device-menu')!;
+  const links = Array.from(menu.querySelectorAll<HTMLAnchorElement>('ul li a'));
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function open() {
+    menu.hidden = false;
+    requestAnimationFrame(() => menu.classList.add('device-menu--entrance'));
+    openBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => links.forEach((l, i) => setTimeout(() => l.classList.add('device-menu-links--entrance'), reduce ? 0 : i * 150)), reduce ? 0 : 600);
+    closeBtn.focus();
+  }
+  function close() {
+    links.forEach((l, i) => setTimeout(() => l.classList.remove('device-menu-links--entrance'), reduce ? 0 : i * 150));
+    setTimeout(() => { menu.classList.remove('device-menu--entrance'); }, reduce ? 0 : 500);
+    setTimeout(() => { menu.hidden = true; }, reduce ? 0 : 1000);
+    openBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    openBtn.focus();
+  }
+  openBtn.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  menu.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+    if (e.key === 'Tab') { // keep focus inside the open menu
+      const f = [closeBtn, ...links];
+      const i = f.indexOf(document.activeElement as any);
+      if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+      else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
+    }
+  });
+</script>

@@ -1,0 +1,65 @@
+/* Ported from live style.css lines 2196-2260. Do not edit values here; see docs/DESIGN.md. */
+.about-image-carousel {
+  position: relative;
+  z-index: 100;
+  background: white;
+  position: relative;
+}
+.about-image-carousel .about-image-carousel__navigation {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+.about-image-carousel .about-image-carousel__navigation button {
+  transition: all 0.2s ease;
+  height: 60px;
+  width: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+  border-right: solid 1px rgb(224, 224, 224);
+  cursor: pointer;
+}
+.about-image-carousel .about-image-carousel__navigation button:hover {
+  transition: all 0.2s ease;
+  background: var(--teal-light);
+}
+.about-image-carousel .about-image-carousel__navigation button span {
+  color: var(--teal);
+  font-size: 2rem;
+}
+.about-image-carousel .swiper-slide {
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+@media screen and (max-width: 1800px) {
+  .about-image-carousel .swiper-slide {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .about-image-carousel .swiper-slide {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .about-image-carousel .swiper-slide {
+    height: 400px;
+  }
+}
+.about-image-carousel .swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}

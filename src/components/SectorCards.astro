@@ -1,0 +1,24 @@
+---
+// DESIGN.md 6.8. Live #sectors. Arrow tile decorative; card link named by its title.
+import Img from './Img.astro';
+import Icon from './Icon.astro';
+import { alt } from '../lib/alt';
+interface Props { title: string; cards: { label: string; href: string; image: string }[] }
+const { title, cards } = Astro.props;
+---
+<section id="sectors">
+  <div class="width-container">
+    <h2 class="section-title--large">{title}</h2>
+    <ul class="sector-cards">
+      {cards.map((c) => (
+        <li class="sector-card">
+          <a href={c.href}>
+            <div class="arrow-icon" aria-hidden="true"><span class="material-symbols-outlined"><Icon name="arrow_back" /></span></div>
+            <Img src={c.image} alt={alt(c.image)} sizes="(max-width: 1360px) 90vw, 17vw" />
+            <h3>{c.label}</h3>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

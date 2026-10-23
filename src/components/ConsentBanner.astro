@@ -1,0 +1,84 @@
+---
+// DESIGN.md 6.22 · Phase 0 decision 4 · F6. GA4 and VisitorQueue load only after "Accept".
+// Choice stored in the tdc_consent cookie for 6 months. Footer "Cookie settings" reopens it.
+---
+<div class="consent" id="consent" role="region" aria-label="Cookie consent" hidden>
+  <div class="consent__inner width-container">
+    <p class="consent__text">
+      We use analytics cookies to understand how people use our site and improve it. They’re only set if you accept.
+      <a href="/cookies/">Read our cookie policy</a>.
+    </p>
+    <div class="consent__actions">
+      <button type="button" class="btn btn--dark" data-consent="accept">Accept</button>
+      <button type="button" class="btn btn--dark" data-consent="reject">Reject</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const GA_ID = 'GT-577ZJN8M';
+  const VQ_ID = '9a2db577-d913-4d62-bb4c-84acf431a025';
+  const banner = document.getElementById('consent')!;
+  const read = () => document.cookie.match(/(?:^|; )tdc_consent=(accepted|rejected)/)?.[1];
+  const write = (v: string) => {
+    document.cookie = `tdc_consent=${v}; max-age=${60 * 60 * 24 * 182}; path=/; SameSite=Lax; Secure`;
+  };
+
+  function loadAnalytics() {
+    if ((window as any).__tdcAnalytics) return;
+    (window as any).__tdcAnalytics = true;
+    const w = window as any;
+    w.dataLayer = w.dataLayer || [];
+    w.gtag = function () { w.dataLayer.push(arguments); };
+    w.gtag('js', new Date());
+    w.gtag('config', GA_ID);
+    const ga = document.createElement('script');
+    ga.async = true; ga.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+    document.head.appendChild(ga);
+    // VisitorQueue, exactly as the live site's plugin loads it (tracking + personalisation + styles)
+    w.vqTrackId = () => VQ_ID;
+    const css = document.createElement('link');
+    css.rel = 'stylesheet'; css.id = 'vq_flick_styles'; css.href = `https://p.visitorqueue.com/styles/${VQ_ID}.css`;
+    document.head.appendChild(css);
+    for (const [id, src] of [
+      ['vq_tracking', `https://t.visitorqueue.com/p/tracking.min.js?id=${VQ_ID}`],
+      ['vq_personalisation', `https://personalisation.visitorqueue.com/p/personalisation.min.js?id=${VQ_ID}`],
+    ]) {
+      const s = document.createElement('script');
+      s.id = id; s.async = true; s.src = src; s.dataset.id = VQ_ID;
+      document.head.appendChild(s);
+    }
+  }
+
+  function show() { banner.hidden = false; }
+  function hide() { banner.hidden = true; }
+
+  const state = read();
+  if (state === 'accepted') loadAnalytics();
+  else if (!state) show();
+
+  banner.addEventListener('click', (e) => {
+    const t = (e.target as HTMLElement).closest('[data-consent]') as HTMLElement | null;
+    if (!t) return;
+    const v = t.dataset.consent === 'accept' ? 'accepted' : 'rejected';
+    write(v); hide();
+    if (v === 'accepted') loadAnalytics();
+  });
+  document.addEventListener('click', (e) => {
+    if ((e.target as HTMLElement).closest('[data-open-consent]')) { show(); banner.querySelector('button')?.focus(); }
+  });
+</script>
+
+<style>
+  .consent { position: fixed; left: 0; right: 0; bottom: 0; z-index: 950; background: var(--white); border-top: 4px solid var(--teal); box-shadow: 0 -10px 15px rgba(128, 128, 128, 0.11); color: var(--teal); }
+  .consent[hidden] { display: none; }
+  .consent__inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 1.5rem 0; }
+  .consent__text { font-weight: 300; max-width: 70ch; }
+  .consent__text a { color: var(--teal); text-decoration: underline; }
+  .consent__actions { display: flex; gap: 1rem; flex-shrink: 0; }
+  .consent .btn { cursor: pointer; font: inherit; }
+  @media screen and (max-width: 560px) {
+    .consent__inner { flex-direction: column; align-items: stretch; gap: 1rem; padding: 1.2rem 0; }
+    .consent__actions .btn { flex: 1; }
+  }
+</style>

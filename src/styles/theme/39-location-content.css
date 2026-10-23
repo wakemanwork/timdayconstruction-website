@@ -1,0 +1,111 @@
+/* Ported from live style.css lines 3782-3892. Do not edit values here; see docs/DESIGN.md. */
+.location-content-container {
+  position: relative;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 560px) {
+  .location-content-container {
+    padding: 5rem 0 2rem 0;
+  }
+}
+.location-content-container .location-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  position: relative;
+  z-index: 4;
+}
+@media screen and (max-width: 1360px) {
+  .location-content-container .location-content {
+    grid-gap: 4rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .location-content-container .location-content {
+    grid-template-columns: 1fr;
+  }
+}
+.location-content-container .location-content:nth-of-type(even) > .column.text-side {
+  order: 2;
+}
+@media screen and (max-width: 560px) {
+  .location-content-container .location-content:nth-of-type(even) > .column.text-side {
+    order: 1;
+  }
+}
+.location-content-container .location-content:nth-of-type(even) > .column.image-side {
+  order: 1;
+}
+@media screen and (max-width: 560px) {
+  .location-content-container .location-content:nth-of-type(even) > .column.image-side {
+    order: 2;
+  }
+}
+.location-content-container .location-content .column {
+  position: relative;
+}
+.location-content-container .location-content .column.image-side {
+  position: relative;
+}
+@media screen and (max-width: 560px) {
+  .location-content-container .location-content .column.image-side {
+    height: 350px;
+  }
+}
+.location-content-container .location-content .column.image-side img {
+  position: absolute;
+  box-shadow: -20px -20px 0 var(--teal-light);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.location-content-container .location-content .column.text-side {
+  padding: 6rem 0;
+}
+@media screen and (max-width: 1360px) {
+  .location-content-container .location-content .column.text-side {
+    padding: 4rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .location-content-container .location-content .column.text-side {
+    padding: 0;
+  }
+}
+.location-content-container .location-content .column.text-side h2 {
+  text-wrap: balance;
+  position: relative;
+  display: block;
+  margin-bottom: 2rem;
+}
+.location-content-container .location-content .column.text-side .content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--teal);
+}
+.location-content-container .location-content .column.text-side .content p:last-of-type {
+  margin-bottom: 0;
+}
+.location-content-container .location-content .column.text-side .content p a {
+  opacity: 1;
+  text-decoration: underline;
+  color: var(--teal-dark);
+}
+.location-content-container .bg-icon {
+  position: absolute;
+  top: 5rem;
+  left: -15rem;
+  width: 200vw;
+  pointer-events: none;
+  opacity: 0.15;
+}

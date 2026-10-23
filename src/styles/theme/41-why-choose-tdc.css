@@ -1,0 +1,37 @@
+/* Ported from live style.css lines 3916-3951. Do not edit values here; see docs/DESIGN.md. */
+.why-choose-tdc {
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+@media screen and (max-width: 1360px) {
+  .why-choose-tdc {
+    width: 100vw;
+    padding: 6rem 3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .why-choose-tdc {
+    grid-template-columns: 1fr;
+    padding: 5rem 2rem;
+    grid-gap: 4rem;
+  }
+}
+.why-choose-tdc h2 {
+  text-wrap: balance;
+}
+.why-choose-tdc .content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--teal);
+}
+.why-choose-tdc .content p:last-of-type {
+  margin-bottom: 0;
+}
+.why-choose-tdc .content p a {
+  opacity: 1;
+  text-decoration: underline;
+  color: var(--teal-dark);
+}

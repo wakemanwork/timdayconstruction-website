@@ -1,0 +1,218 @@
+/* Ported from live style.css lines 2261-2478. Do not edit values here; see docs/DESIGN.md. */
+.contact-page {
+  padding: 8rem 0 4rem 0;
+}
+@media screen and (max-width: 1800px) {
+  .contact-page {
+    padding: 6rem 0 3rem 0;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .contact-page {
+    padding: 5rem 0 3rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .contact-page {
+    padding-top: 4rem;
+  }
+}
+.contact-page .contact-page-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+}
+@media screen and (max-width: 1360px) {
+  .contact-page .contact-page-content {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+}
+.contact-page .contact-page-content .contact-page-titles h2 {
+  margin-bottom: 2rem;
+}
+.contact-page .contact-page-content .contact-page-titles p {
+  color: var(--teal);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 1360px) {
+  .contact-page .contact-page-content .contact-page-titles p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .contact-page .contact-page-content .contact-page-titles p {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+.contact-page .contact-page-content .contact-method__container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media screen and (max-width: 1360px) {
+  .contact-page .contact-page-content .contact-method__container {
+    margin: 3rem 0;
+  }
+}
+.contact-page .contact-page-content .contact-method__container .contact-method__icon {
+  height: 55px;
+  width: 55px;
+  background: var(--teal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.contact-page .contact-page-content .contact-method__container .contact-method__icon i {
+  color: white;
+  font-size: 1.2rem;
+}
+.contact-page .contact-page-content .contact-method__container .contact-method {
+  color: var(--teal);
+}
+.contact-page .contact-page-content .contact-method__container .contact-method h4 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.contact-page .contact-page-content .contact-method__container .contact-method a {
+  color: var(--teal);
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 560px) {
+  .contact-page .contact-page-content .contact-method__container .contact-method a {
+    font-size: 0.9rem;
+  }
+}
+.contact-page .contact-page-content .contact-page-socials {
+  border-top: solid 1px var(--teal-mid);
+  margin-top: 21.5rem;
+  padding-top: 4rem;
+}
+@media screen and (max-width: 1800px) {
+  .contact-page .contact-page-content .contact-page-socials {
+    margin: 21.5rem 0 1rem 0;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .contact-page .contact-page-content .contact-page-socials {
+    margin-top: 4rem;
+  }
+}
+.contact-page .contact-page-content .contact-page-socials .social-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+.contact-page .contact-page-content .contact-page-socials .social-icons a {
+  background: var(--teal);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.contact-page .contact-page-content .contact-page-socials .social-icons a i {
+  color: white;
+  font-size: 1.2rem;
+}
+.contact-page .contact-page-content .contact-form {
+  background: var(--teal);
+  position: relative;
+  overflow: hidden;
+}
+.contact-page .contact-page-content .contact-form img {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.contact-page .contact-page-content .contact-form h2 {
+  color: white;
+  margin: 0 0 3rem 0;
+  font-weight: 500;
+  font-size: 2rem;
+  z-index: 5;
+  position: relative;
+  padding: 5rem 4rem 0rem 4rem;
+}
+@media screen and (max-width: 1800px) {
+  .contact-page .contact-page-content .contact-form h2 {
+    padding: 5rem 3rem 0rem 3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .contact-page .contact-page-content .contact-form h2 {
+    padding: 4rem 1.2rem 1rem 1.2rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}
+.contact-page .contact-page-content .contact-form form {
+  position: relative;
+  z-index: 10;
+  padding: 0rem 4rem 1rem 4rem;
+}
+@media screen and (max-width: 1800px) {
+  .contact-page .contact-page-content .contact-form form {
+    padding: 0 3rem 1rem 3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .contact-page .contact-page-content .contact-form form {
+    padding: 0 1.2rem 1.2rem 1.2rem;
+  }
+}
+.contact-page .contact-page-content .contact-form form input, .contact-page .contact-page-content .contact-form form textarea {
+  transition: all 0.2s ease;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background: var(--teal-mid);
+  outline: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  border: none;
+  border: solid 2px var(--teal-mid) !important;
+  resize: none;
+}
+.contact-page .contact-page-content .contact-form form input:focus, .contact-page .contact-page-content .contact-form form textarea:focus {
+  transition: all 0.2s ease;
+  border-color: var(--teal-light) !important;
+}
+.contact-page .contact-page-content .contact-form form input:focus-visible, .contact-page .contact-page-content .contact-form form textarea:focus-visible {
+  transition: all 0.2s ease;
+  border-color: var(--teal-light) !important;
+}
+.contact-page .contact-page-content .contact-form form label {
+  display: block;
+  color: white;
+}
+.contact-page .contact-page-content .contact-form form input[type=submit] {
+  transition: all 0.2s ease;
+  margin-bottom: 0 !important;
+  background: white;
+  color: var(--teal);
+  cursor: pointer;
+}
+.contact-page .contact-page-content .contact-form form input[type=submit]:hover {
+  transition: all 0.2s ease;
+  opacity: 0.6;
+}
+.contact-page .contact-page-content .contact-form form .wpcf7-response-output {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}

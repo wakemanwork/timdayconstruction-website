@@ -1,0 +1,190 @@
+/* Ported from live style.css lines 388-577. Do not edit values here; see docs/DESIGN.md. */
+footer {
+  padding: 2rem 0;
+  position: relative;
+  z-index: 50;
+  color: white;
+  overflow: hidden;
+  background: white;
+}
+@media screen and (max-width: 560px) {
+  footer {
+    background: var(--teal);
+    padding: 0;
+  }
+}
+footer .footer-container {
+  background: var(--teal);
+  width: 95%;
+  margin: 0 auto;
+  padding: 5rem 4rem 2rem 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 1360px) {
+  footer .footer-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 5rem 2rem 2rem 2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container {
+    width: 90%;
+    padding: 5rem 0 3rem 0;
+  }
+}
+footer .footer-container .footer-accreditations {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+@media screen and (max-width: 1360px) {
+  footer .footer-container .footer-accreditations {
+    position: relative;
+    margin-bottom: 8rem;
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container .footer-accreditations {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 4rem 0;
+    top: 0;
+    right: 0;
+  }
+}
+footer .footer-container .footer-accreditations img {
+  width: 150px;
+  height: auto;
+}
+@media screen and (max-width: 1800px) {
+  footer .footer-container .footer-accreditations img {
+    width: 120px;
+  }
+}
+footer .footer-container .footer-accreditations .footer__charity-logo {
+  z-index: 100;
+  color: var(--teal-light);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+footer .footer-container .footer-accreditations .footer__charity-logo img {
+  margin: 0.8rem 0;
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container .footer-accreditations .footer__charity-logo img {
+    width: 160px;
+    height: auto;
+  }
+}
+footer .footer-container .footer-accreditations .footer__charity-logo a {
+  transition: all 0.2s ease;
+  color: var(--teal-light);
+  background: var(--teal-light);
+  color: var(--teal);
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+footer .footer-container .footer-accreditations .footer__charity-logo a:hover {
+  transition: all 0.2s ease;
+  background: white;
+  transform: scale(1.03);
+}
+footer .footer-container .tim-day-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.05;
+}
+@media screen and (max-width: 1360px) {
+  footer .footer-container .tim-day-icon {
+    display: none;
+  }
+}
+footer .footer-container .footer-title {
+  font-size: 3rem;
+  width: 17ch;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container .footer-title {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+footer .footer-container .footer-contact {
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+}
+footer .footer-container .footer-contact a {
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container .footer-contact a {
+    font-size: 1rem;
+  }
+}
+footer .footer-container .footer-contact span {
+  font-size: 2rem;
+}
+footer .footer-container .footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin: 4rem 0 10rem 0;
+}
+@media screen and (max-width: 1360px) {
+  footer .footer-container .footer-socials {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  footer .footer-container .footer-socials {
+    margin-bottom: 2rem;
+  }
+}
+footer .footer-container .footer-socials a {
+  color: white;
+  font-size: 1.8rem;
+}
+footer .footer-container .footer-policy-pages ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+footer .footer-container .footer-policy-pages ul li a {
+  transition: all 0.2s ease;
+  color: white;
+  font-size: 1.1rem;
+}
+footer .footer-container .footer-policy-pages ul li a:hover {
+  transition: all 0.2s ease;
+  color: var(--teal-light);
+}
+@media screen and (max-width: 1800px) {
+  footer .footer-container .copyright {
+    font-size: 0.7rem;
+  }
+}

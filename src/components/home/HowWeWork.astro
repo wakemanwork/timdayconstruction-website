@@ -1,0 +1,18 @@
+---
+// DESIGN.md 6.10. Live #how-we-work.
+interface Props { title: string; blocks: { heading: string; body: string }[] }
+const { title, blocks } = Astro.props;
+---
+<section id="how-we-work">
+  <div class="width-container">
+    <h2 set:html={title} />
+    <div class="how-we-work__blocks">
+      {blocks.map((b) => (
+        <div class="how-we-work__block">
+          <h3>{b.heading}</h3>
+          <p>{b.body}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

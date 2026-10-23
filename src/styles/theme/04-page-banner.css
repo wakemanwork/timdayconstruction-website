@@ -1,0 +1,108 @@
+/* Ported from live style.css lines 578-684. Do not edit values here; see docs/DESIGN.md. */
+.page-title-banner {
+  padding: 16rem 0 4rem 0;
+  width: 97%;
+  margin: 3rem auto 2rem auto;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1800px) {
+  .page-title-banner {
+    padding: 13rem 0 4rem 0;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .page-title-banner {
+    padding: 10rem 0 3rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .page-title-banner {
+    margin-top: 1rem;
+    padding: 12rem 0 2rem 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+.page-title-banner .page-title-banner__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.page-title-banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: var(--teal);
+  animation: page-title-reveal 0.6s ease;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+}
+.page-title-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--teal);
+  opacity: 0.85;
+  z-index: 2;
+}
+.page-title-banner .page-title-banner__icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: auto;
+  z-index: 5;
+  opacity: 0.1;
+  pointer-events: none;
+}
+@media screen and (max-width: 560px) {
+  .page-title-banner .page-title-banner__icon {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.5);
+  }
+}
+.page-title-banner .page-title-banner__title {
+  color: white;
+  font-size: 3.5rem;
+  position: relative;
+  z-index: 5;
+  width: 88%;
+  margin: 0 auto;
+  max-width: 1800px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1360px) {
+  .page-title-banner .page-title-banner__title {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .page-title-banner .page-title-banner__title {
+    font-size: 2.6rem;
+    width: 90%;
+  }
+}
+
+@keyframes page-title-reveal {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}

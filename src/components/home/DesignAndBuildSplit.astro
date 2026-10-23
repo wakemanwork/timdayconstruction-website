@@ -1,0 +1,19 @@
+---
+// DESIGN.md 6.7 (media split). Live #design-and-build-section.
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+interface Props { image: string; heading: string; paragraphs: string[]; button: { label: string; href: string } }
+const { image, heading, paragraphs, button } = Astro.props;
+---
+<section id="design-and-build-section" class="padding-container width-container">
+  <div class="column image-side">
+    <Img src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 43vw" />
+  </div>
+  <div class="column text-side">
+    <div class="content">
+      <h2>{heading}</h2>
+      {paragraphs.map((p) => <p>{p}</p>)}
+      <p><a class="btn btn--dark" href={button.href}>{button.label}</a></p>
+    </div>
+  </div>
+</section>

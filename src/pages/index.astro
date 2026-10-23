@@ -1,0 +1,39 @@
+---
+// Home: the reference page for Phase 3. Content: src/data/home.json (extracted from the live page).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EntranceAnimation from '../components/EntranceAnimation.astro';
+import HomeHero from '../components/home/HomeHero.astro';
+import Intro from '../components/home/Intro.astro';
+import DesignAndBuildSplit from '../components/home/DesignAndBuildSplit.astro';
+import SectorCards from '../components/SectorCards.astro';
+import ThreeBlocks from '../components/home/ThreeBlocks.astro';
+import FounderQuote from '../components/home/FounderQuote.astro';
+import HowWeWork from '../components/home/HowWeWork.astro';
+import TestimonialCarousel from '../components/TestimonialCarousel.astro';
+import Img from '../components/Img.astro';
+import home from '../data/home.json';
+import { alt } from '../lib/alt';
+import { graph, webPage, breadcrumbs } from '../lib/seo';
+
+// F11: live title is 61 characters
+const title = 'Tim Day Construction | Building Contractor, Canterbury, Kent';
+const description = home.seo.description;
+const jsonld = graph(
+  webPage('/', title, description, { published: new Date('2024-12-03T19:01:32Z'), modified: new Date('2026-10-21T13:22:49Z'), image: home.hero.images[0] }),
+  breadcrumbs('/', [{ name: 'Home', path: '/' }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={home.hero.images[0]} jsonld={jsonld} bodyClass="home">
+  <EntranceAnimation slot="top" />
+  <HomeHero {...home.hero} />
+  <Intro {...home.intro} />
+  <DesignAndBuildSplit {...home.designAndBuild} />
+  <SectorCards {...home.sectors} />
+  <ThreeBlocks {...home.threeBlocks} />
+  <FounderQuote {...home.quote} />
+  <HowWeWork {...home.howWeWork} />
+  <div class="width-container homepage-large-image">
+    <Img src={home.largeImage} alt={alt(home.largeImage)} sizes="85vw" />
+  </div>
+  <TestimonialCarousel {...home.testimonials} />
+</BaseLayout>

@@ -1,0 +1,83 @@
+/* Ported from live style.css lines 1311-1393. Do not edit values here; see docs/DESIGN.md. */
+#quote {
+  padding-bottom: 4rem;
+}
+#quote .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+@media screen and (max-width: 560px) {
+  #quote .row {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}
+#quote .row .column {
+  position: relative;
+}
+#quote .row .column.text-side {
+  padding: 4rem;
+  background: var(--teal-pale);
+  overflow: hidden;
+}
+@media screen and (max-width: 1800px) {
+  #quote .row .column.text-side {
+    padding: 4rem 3rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #quote .row .column.text-side {
+    padding: 4rem 2rem;
+  }
+}
+#quote .row .column.text-side blockquote {
+  font-size: 1.6rem;
+  color: var(--teal);
+  margin-bottom: 12rem;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 1800px) {
+  #quote .row .column.text-side blockquote {
+    font-size: 1.4rem;
+    margin-bottom: 8rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #quote .row .column.text-side blockquote {
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+  }
+}
+#quote .row .column.text-side .quote-icon {
+  position: absolute;
+  color: var(--teal);
+  font-size: 20rem;
+  pointer-events: none;
+  opacity: 0.08;
+}
+#quote .row .column.text-side .quote-icon.opening {
+  top: -5rem;
+  left: 1rem;
+}
+#quote .row .column.text-side .quote-icon.closing {
+  bottom: -5rem;
+  right: 1rem;
+}
+@media screen and (max-width: 560px) {
+  #quote .row .column.image-side {
+    height: 500px;
+  }
+}
+#quote .row .column.image-side img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}

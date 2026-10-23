@@ -1,0 +1,99 @@
+/* Ported from live style.css lines 2802-2900. Do not edit values here; see docs/DESIGN.md. */
+#project-cta {
+  padding: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(28, 81, 86, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1360px) {
+  #project-cta {
+    padding: 6rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #project-cta {
+    padding: 5rem 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+#project-cta .bg-graphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.03;
+}
+@media screen and (max-width: 560px) {
+  #project-cta .bg-graphic {
+    top: 2rem;
+    left: -20rem;
+    width: 250vw;
+    opacity: 0.04;
+  }
+}
+#project-cta .project-cta__title {
+  font-size: 2.8rem;
+}
+@media screen and (max-width: 1360px) {
+  #project-cta .project-cta__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  #project-cta .project-cta__title {
+    font-size: 2rem;
+  }
+}
+#project-cta .project-cta__body {
+  margin: 2rem 0;
+  width: 70%;
+  margin: 2rem auto 3.6rem auto;
+}
+#project-cta .project-cta__body p {
+  line-height: 1.8;
+}
+@media screen and (max-width: 1800px) {
+  #project-cta .project-cta__body {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #project-cta .project-cta__body {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+#project-cta .project-cta__btn {
+  transition: all 0.2s ease;
+  background: var(--teal);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  text-transform: uppercase;
+  border: solid 2px var(--teal);
+  color: white;
+}
+@media screen and (max-width: 560px) {
+  #project-cta .project-cta__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+#project-cta .project-cta__btn:hover {
+  transition: all 0.2s ease;
+  background: none;
+  color: var(--teal);
+}
+#project-cta .project-cta__btn:hover > span {
+  color: var(--teal);
+}

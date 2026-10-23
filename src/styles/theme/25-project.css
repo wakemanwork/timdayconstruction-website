@@ -1,0 +1,109 @@
+/* Ported from live style.css lines 2638-2746. Do not edit values here; see docs/DESIGN.md. */
+.project {
+  padding: 4rem 0;
+}
+@media screen and (max-width: 1360px) {
+  .project {
+    padding: 3rem 0;
+  }
+}
+.project .project-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10rem;
+}
+@media screen and (max-width: 1800px) {
+  .project .project-content {
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 6rem;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .project .project-content {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+.project .project-content .project-column.details-column {
+  background: var(--teal);
+  padding: 4rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1800px) {
+  .project .project-content .project-column.details-column {
+    padding: 4rem 3rem 3rem 3rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .project .project-content .project-column.details-column {
+    padding: 3.5rem 1.8rem 1.8rem 1.8rem;
+  }
+}
+.project .project-content .project-column.details-column .project-info {
+  margin-bottom: 1.6rem;
+  color: white;
+}
+.project .project-content .project-column.details-column .project-info .project-info__type {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+@media screen and (max-width: 560px) {
+  .project .project-content .project-column.details-column .project-info .project-info__type {
+    font-size: 1.4rem;
+  }
+}
+.project .project-content .project-column.details-column .project-info .project-info__value {
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+.project .project-content .project-column.details-column .brand-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  pointer-events: none;
+  width: 350px;
+}
+@media screen and (max-width: 1800px) {
+  .project .project-content .project-column.details-column .brand-icon {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .project .project-content .project-column.details-column .brand-icon {
+    width: 100%;
+    opacity: 0.08;
+  }
+}
+.project .project-content .project-column .project-column-content {
+  color: var(--teal);
+}
+.project .project-content .project-column .project-column-content p {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+.project .project-content .project-column .project-column-content a {
+  font-weight: 500;
+}
+.project .project-content .project-column .project-column-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+@media screen and (max-width: 1360px) {
+  .project .project-content .project-column .project-column-content h2 {
+    font-size: 1.5rem;
+  }
+}
+.project .project-content .project-column .project-column-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}

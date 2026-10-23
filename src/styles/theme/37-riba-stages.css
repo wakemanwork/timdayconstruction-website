@@ -1,0 +1,69 @@
+/* Ported from live style.css lines 3656-3724. Do not edit values here; see docs/DESIGN.md. */
+#riba-stages {
+  padding: 8rem 0;
+  background: var(--teal-light);
+}
+@media screen and (max-width: 560px) {
+  #riba-stages {
+    padding: 6rem 0;
+  }
+}
+#riba-stages .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 560px) {
+  #riba-stages .title-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+}
+#riba-stages .title-container .carousel-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+#riba-stages .title-container .carousel-btn-container button {
+  transition: all 0.3s ease;
+  height: 60px;
+  width: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#riba-stages .title-container .carousel-btn-container button:hover {
+  background: var(--teal);
+  color: var(--teal-light);
+}
+#riba-stages .riba-stages-carousel {
+  margin-top: 4rem;
+}
+#riba-stages .riba-stages-carousel .riba-stage {
+  background: white;
+  padding: 4rem 2rem;
+  color: var(--teal);
+  height: 250px;
+}
+@media screen and (max-width: 560px) {
+  #riba-stages .riba-stages-carousel .riba-stage {
+    height: auto;
+  }
+}
+#riba-stages .riba-stages-carousel .riba-stage .riba-stage__number {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+#riba-stages .riba-stages-carousel .riba-stage .riba-stage__heading {
+  font-size: 1.3rem;
+  margin: 0.6rem 0 1rem 0;
+  font-weight: 500;
+}
+#riba-stages .riba-stages-carousel .riba-stage .riba-stage__body {
+  color: var(--teal-mid);
+  font-size: 0.9rem;
+}

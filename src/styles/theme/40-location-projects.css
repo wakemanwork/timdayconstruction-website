@@ -1,0 +1,23 @@
+/* Ported from live style.css lines 3893-3915. Do not edit values here; see docs/DESIGN.md. */
+.location-projects {
+  padding: 6rem 0 0 0;
+  overflow: hidden;
+}
+.location-projects p {
+  font-size: 1.2rem;
+  color: var(--teal);
+  margin-top: 2rem;
+  display: block;
+  text-wrap: balance;
+}
+@media screen and (max-width: 1360px) {
+  .location-projects p {
+    margin: 2rem 0 4rem 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .location-projects p {
+    text-wrap: unset;
+    font-size: 1rem;
+  }
+}

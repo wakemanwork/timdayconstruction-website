@@ -1,0 +1,55 @@
+/* Ported from live style.css lines 2747-2801. Do not edit values here; see docs/DESIGN.md. */
+.project-image-carousel {
+  position: relative;
+}
+.project-image-carousel .project-image-carousel__navigation {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  gap: 0.1rem;
+}
+.project-image-carousel .project-image-carousel__navigation button {
+  transition: all 0.2s ease;
+  height: 60px;
+  width: 60px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.project-image-carousel .project-image-carousel__navigation button:hover {
+  transition: all 0.2s ease;
+  opacity: 0.8;
+}
+.project-image-carousel .project-image-carousel__navigation button span {
+  color: var(--teal);
+  font-size: 2rem;
+}
+.project-image-carousel .swiper-slide {
+  position: relative;
+  height: 100vh;
+}
+@media screen and (max-width: 1360px) {
+  .project-image-carousel .swiper-slide {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .project-image-carousel .swiper-slide {
+    height: 350px;
+  }
+}
+.project-image-carousel .swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
