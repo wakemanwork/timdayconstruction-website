@@ -15,10 +15,10 @@ async function shot(base, path, w, out) {
   const p = await ctx.newPage();
   await p.goto(base + path, { waitUntil: 'networkidle', timeout: 90000 });
   await p.evaluate(async () => { const s = (ms) => new Promise((r) => setTimeout(r, ms)); for (let y = 0; y < document.body.scrollHeight; y += 400) { window.scrollTo(0, y); await s(100); } window.scrollTo(0, 0); });
-  await p.evaluate(() => { document.querySelectorAll('img').forEach((i) => { i.loading = 'eager'; if (i.dataset.src) i.src = i.dataset.src; }); document.querySelectorAll('[data-aos]').forEach((e) => e.classList.add('aos-animate')); document.querySelectorAll('.swiper').forEach((s) => s.swiper?.autoplay?.stop()); });
+  await p.evaluate(() => { document.querySelectorAll('img').forEach((i) => { i.loading = 'eager'; if (i.dataset.src) i.src = i.dataset.src; }); document.querySelectorAll('[data-aos]').forEach((e) => e.classList.add('aos-animate')); document.querySelectorAll('.swiper, .swiper-initialized').forEach((s) => s.swiper?.autoplay?.stop()); });
   await p.evaluate(async () => { await Promise.all([...document.images].map((i) => i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; }))); });
   // freeze carousels at slide 0 so both sides match
-  await p.evaluate(() => document.querySelectorAll('.swiper').forEach((s) => { s.swiper?.autoplay?.stop(); s.swiper?.slideToLoop?.(0, 0); }));
+  await p.evaluate(() => document.querySelectorAll('.swiper, .swiper-initialized').forEach((s) => { s.swiper?.autoplay?.stop(); s.swiper?.slideToLoop?.(0, 0); }));
   await p.evaluate(async () => { document.querySelectorAll('img').forEach((i) => { i.loading = 'eager'; }); await Promise.all([...document.images].map((i) => i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; }))); await Promise.all([...document.images].map((i) => i.decode().catch(() => 0))); });
   await p.addStyleTag({ content: '*{animation:none!important;transition:none!important} header{position:absolute!important}' });
   await p.waitForTimeout(600);
