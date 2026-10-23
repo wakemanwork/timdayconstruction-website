@@ -1,0 +1,20 @@
+---
+// Service page text section (template-service.php). Live markup is the About page's
+// `.about` block (style.css 1976-2057): title column + body column, alternating teal and white.
+import { mdToHtml } from '../../lib/md';
+interface Props { tone: 'green' | 'white'; title: string; body: string; }
+const { tone, title, body } = Astro.props;
+const txt = tone === 'green' ? 'white-txt' : 'teal-txt';
+const icon = tone === 'green' ? 'tim-day-icon.svg' : 'tim-day-icon-dark.svg';
+---
+<section class={`about ${tone}-bg`}>
+  <img class="background-faded-icon" src={`/wp-content/themes/tim-day-custom-theme/assets/images/${icon}`} alt="" aria-hidden="true" width="1873" height="685" loading="lazy" />
+  <div class="about-content width-container">
+    <div class="about-column">
+      <h2 class={`about__section-title ${txt}`} set:html={title} />
+    </div>
+    <div class="about-column">
+      <div class={`about__body ${txt}`} set:html={mdToHtml(body)} />
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+---
+// Service page projects (template-service.php). Live #service-projects (style.css 3952-3964).
+// The live section title is an <h3> that sits at the same level as the project titles it
+// introduces; it's an <h2> here (it follows H2 sections) with the live `#service-projects h3`
+// styles copied below, and the project titles stay <h3>.
+import ProjectBlocks from '../ProjectBlocks.astro';
+interface Props { title: string; slugs: string[]; }
+const { title, slugs } = Astro.props;
+---
+<section id="service-projects">
+  <h2 class="service-projects__title" set:html={title} />
+  <ProjectBlocks slugs={slugs} headingLevel={3} />
+</section>
+
+<style is:global>
+  /* Copied from theme 42-service-projects.css `#service-projects h3` for the h2 (heading order) */
+  #service-projects h2.service-projects__title { font-size: 2.6rem; font-weight: 500; color: var(--teal); padding: 3rem 0 0 0; text-align: center; }
+  /* The theme's `#service-projects h3` rule still reaches the project card titles, as it does live. */
+</style>

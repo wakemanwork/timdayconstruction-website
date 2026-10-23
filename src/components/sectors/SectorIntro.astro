@@ -1,0 +1,31 @@
+---
+// DESIGN.md 5 (Sector template). Live .sector-intro.grey-bg (single-sector.php): H2 + body in the
+// first column; the second column holds the ACF intro image when one is set (none of the five
+// sectors has one in the capture, so it renders empty, as live).
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+interface Props { heading: string; image?: string | null; }
+const { heading, image } = Astro.props;
+---
+<div class="sector-intro grey-bg">
+  <div class="sector-intro-content width-container">
+    <div class="sector-intro-column">
+      <h2>{heading}</h2>
+      <slot />
+    </div>
+    <div class="sector-intro-column">
+      {image && <Img class="sector-intro__image" src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 42vw" />}
+    </div>
+  </div>
+  <img src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" loading="lazy" />
+</div>
+
+<style is:global>
+  /* The theme's `.sector-intro img` rule positions the faded monogram; an intro photo (if one is
+     ever added) must stay in its column instead. */
+  /* The faded monogram has no width/height attributes (as live): it is absolutely positioned, so
+     it can't shift layout, and with attributes but no CSS height it rendered too tall and sat high. */
+  /* Links in body copy are distinguishable without colour (axe link-in-text-block, as overrides.css) */
+  .sector-intro .sector-intro-content p a { text-decoration: underline; text-underline-offset: 2px; }
+  .sector-intro img.sector-intro__image { position: static; width: 100%; height: auto; opacity: 1; pointer-events: auto; }
+</style>
