@@ -276,7 +276,7 @@ See 2.6. It's home-only and first-visit-only, it's skipped under reduced motion,
 1. One `<h1>` per page. No skipped heading levels inside `<main>`, though visual size may differ from level.
 2. Landmarks: `<header>`, `<nav aria-label="Main">`, `<main id="main">`, `<footer>`, plus a "Skip to content" link (`.sr-only:focus` styling).
 3. Every link and button has an accessible name. Icon-only controls get `aria-label`; whole-card links take the card title.
-4. Focus is always visible. The live site uses a 4px solid red border on `:focus-visible`. **Proposed:** `outline: 3px solid var(--teal-mid); outline-offset: 3px` on light surfaces and white on teal. This is on-brand and doesn't shift layout. (Decision pending: keep red or switch.)
+4. Focus is always visible: `outline: 3px solid var(--teal-mid); outline-offset: 3px` on light surfaces, and white on teal surfaces. This **replaces** the live site's 4px red border (agreed 23 Oct). It doesn't shift layout.
 5. Hover-only reveals also trigger on `:focus-visible`/`:focus-within`.
 6. Colour contrast follows 2.1. The highlight-on-light colour is for large headings only.
 7. Images follow the alt-text rules in section 4.
@@ -302,3 +302,4 @@ Changes to tokens or components are recorded in the changelog below with a date 
 | Date | Change | Reason |
 |---|---|---|
 | 2026-10-23 | Initial capture from live theme. Added `--teal-highlight-on-light` `#5f969c` | F15 contrast decision |
+| 2026-10-23 | Focus indicator: teal/white 3px outline replaces red 4px border | Agreed with Simon; on-brand, no layout shift |
