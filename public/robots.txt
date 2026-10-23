@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://timdayconstruction.co.uk/sitemap_index.xml
