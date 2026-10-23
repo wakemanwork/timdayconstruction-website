@@ -1,0 +1,75 @@
+---
+// Testimonial pages (F8, agreed 23 Oct). The live pages are empty shells; these render the quote,
+// name and photo already used in the home carousel (src/content/testimonials), a link to the project
+// the quote comes from, and a CTA to /contact/. DESIGN.md 5 "Testimonial".
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageBanner from '../../../components/PageBanner.astro';
+import CtaBand from '../../../components/CtaBand.astro';
+import TestimonialQuote from '../../../components/about/TestimonialQuote.astro';
+import { graph, webPage, breadcrumbs, pageTitle, SITE, ORG_ID } from '../../../lib/seo';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  // The project whose write-up contains the same client quote (first eight words, punctuation ignored)
+  const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+  return (await getCollection('testimonials')).map((t) => {
+    const key = norm(t.data.quote ?? '').split(' ').slice(0, 8).join(' ');
+    const project = key ? projects.find((p) => norm(p.body ?? '').includes(key)) : undefined;
+    return { params: { slug: t.id }, props: { t, project } };
+  });
+}
+
+const { t, project } = Astro.props;
+const slug = t.id;
+const path = `/testimonial/${slug}/`;
+const { name, quote, image, company } = t.data;
+const title = pageTitle(t.data.seo.title, name);
+
+// F10: no live meta descriptions. Drafts per VOICE.md 7.8, awaiting Simon's approval.
+const DESCRIPTIONS: Record<string, string> = {
+  'vetshack': 'Read VetShack’s testimonial for Tim Day Construction, who turned their vision for a veterinary practice in Canterbury into reality, on budget and on time.',
+  'andy-boorman': 'Andy Boorman’s testimonial for Tim Day Construction on Shipwright, Whitstable: professionalism, attention to detail and a commitment to meeting deadlines.',
+  'mr-bryan-joyce': 'Bryan Joyce’s testimonial for Tim Day Construction on Old Dover Road, Canterbury, praising a proactive team who sorted out issues left by other trades.',
+  'mr-l-reddy': '“One of the best contractors I’ve ever worked with.” Read Mr L. Reddy’s testimonial for Tim Day Construction on Riverside Social in Canterbury, Kent.',
+  'national-trust': 'The National Trust’s testimonial for Tim Day Construction on South Foreland Lighthouse, Dover: a helpful, collaborative contractor with excellent results.',
+};
+const description = t.data.seo.description ?? DESCRIPTIONS[slug] ?? null;
+
+// Reviewer type: the two organisations are named as such; the others are private individuals.
+const ORGS = new Set(['national-trust', 'vetshack']);
+const review = quote && name ? {
+  '@type': 'Review',
+  '@id': `${SITE}${path}#review`,
+  reviewBody: quote,
+  author: { '@type': ORGS.has(slug) ? 'Organization' : 'Person', name },
+  itemReviewed: { '@id': ORG_ID },
+  datePublished: t.data.date.toISOString().slice(0, 10),
+} : null;
+
+const jsonld = graph(
+  webPage(path, title, description, { published: t.data.date, modified: t.data.modified, image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name }]),
+  ...(review ? [review] : []),
+);
+
+// CTA copy: drafted per VOICE.md 5 (CTA band), awaiting Simon's approval.
+const cta = {
+  title: 'Ready to <span class="light-teal-txt">enjoy your build?</span>',
+  body: 'Tim Day Construction has been building across Canterbury and Kent for over 20 years, from new homes to veterinary fit-outs. Tell us about your project and we’ll guide you from concept to completion.',
+  button: 'Get in touch <span class="light-teal-txt">now!</span>',
+  href: '/contact/',
+};
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld} bodyClass="testimonial-page">
+  <PageBanner title={name} image={project?.data.bannerImage ?? image} />
+  {quote && (
+    <TestimonialQuote
+      text={quote}
+      cite={company ? `${name}, ${company}` : name}
+      image={image}
+      button={project ? { label: 'View the project', href: `/project/${project.id}/` } : null}
+    />
+  )}
+  <CtaBand variant="project" {...cta} />
+</BaseLayout>

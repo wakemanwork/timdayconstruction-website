@@ -1,0 +1,50 @@
+---
+// Live #where-we-work on /about/ (DESIGN.md 5, About template).
+// Locations without a page (empty href on live, made inert with pointer-events:none) render as plain text.
+import Img from '../Img.astro';
+import FaIcon from './FaIcon.astro';
+import { alt } from '../../lib/alt';
+import { mdToHtml } from '../../lib/md';
+interface Loc { name: string; description: string; href: string | null }
+interface Props { title: string; body: string; button: { label: string; href: string }; locations: Loc[]; mapImage: string; mapBody: string }
+const { title, body, button, locations, mapImage, mapBody } = Astro.props;
+---
+<section id="where-we-work">
+  <div class="row width-container two-col-grid">
+    <div class="column text-side">
+      <h2 class="section-title">{title}</h2>
+      <div class="content" set:html={mdToHtml(body)} />
+      <a class="btn btn--dark" href={button.href}>{button.label}</a>
+    </div>
+    <div class="column">
+      <ul class="work-locations width-container">
+        {locations.map((l) => (
+          <li class="work-location">
+            {l.href ? (
+              <a href={l.href}>
+                <h3 class="work-location__name"><FaIcon name="location-dot" /> {l.name}</h3>
+                <p class="work-location__description">{l.description}</p>
+              </a>
+            ) : (
+              <div>
+                <h3 class="work-location__name"><FaIcon name="location-dot" /> {l.name}</h3>
+                <p class="work-location__description">{l.description}</p>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+  <div class="where-we-work-map width-container">
+    <Img src={mapImage} alt={alt(mapImage)} sizes="(max-width: 1360px) 90vw, 50vw" />
+    <div class="content" set:html={mdToHtml(mapBody)} />
+  </div>
+  <img class="bg-faded-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+</section>
+
+<style is:global>
+  /* <Img> adds width/height attributes (no layout shift); the live <img> had none, so keep its natural ratio */
+  #where-we-work .where-we-work-map img,
+  #where-we-work .bg-faded-icon, #meet-the-founder .bg-faded-icon { height: auto; }
+</style>

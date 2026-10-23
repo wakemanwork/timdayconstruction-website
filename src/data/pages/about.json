@@ -1,0 +1,133 @@
+{
+  "banner": {
+    "title": "About",
+    "image": "/wp-content/uploads/2024/12/IMG_7874.jpg"
+  },
+  "founder": {
+    "title": "Meet Our Founder",
+    "lead": "I’m Tim Day, founder of Tim Day Construction.",
+    "body": "I’ve been building houses for nearly 25 years, and for the last 20, I’ve been running TDC, learning, adapting, and fine-tuning what it means to build well. This hands-on experience, combined with a loyal team of skilled builders, allows us to deliver bespoke projects that go far beyond expectations.\n\nFrom beautiful one-off homes to larger-scale commercial builds, we handle projects of all shapes and sizes. We have experience in veterinary practices. Based just outside Canterbury, we work across Kent, including Whitstable, Faversham, Herne Bay, and the surrounding areas.\n\nWe’re proud to be a company that’s big enough to manage £1m+ contracts, but small enough to care about the details. I personally take pride in making life easier for everyone on the project team, whether that’s an architect needing clear communication, or a PA chasing valuation paperwork that’s always quick, accurate, and hassle-free.\n\nWe’re not just here to get the job done, we’re here to make the whole experience enjoyable. No hidden costs, no stressful delays, just quality builds delivered by a team of friendly professionals. The kind of people you’ll want to celebrate with when the project is complete and recommend to anyone who’ll listen!",
+    "image": "/wp-content/uploads/2025/08/Screenshot-2025-08-28-at-10.48.32.png"
+  },
+  "where": {
+    "title": "Where We Work",
+    "body": "At Tim Day Construction, we’re proud to provide high-quality building services across Canterbury and the wider Kent region. Our experienced team of local builders delivers both reliable and exceptional results for homeowners and businesses throughout the South-East of Kent.\n\nWe’re based near Canterbury, and regularly work on projects in:",
+    "button": {
+      "label": "Get Started",
+      "href": "/contact/"
+    },
+    "locations": [
+      {
+        "name": "Canterbury",
+        "description": "Trusted local builders for extensions, renovations, and new builds.",
+        "href": "/locations/canterbury/"
+      },
+      {
+        "name": "Whitstable",
+        "description": "Delivering coastal property improvements and bespoke home projects.",
+        "href": "/locations/whitstable/"
+      },
+      {
+        "name": "Herne Bay",
+        "description": "Delivering coastal property improvements and bespoke home projects.",
+        "href": null
+      },
+      {
+        "name": "Surrounding Kent Villages",
+        "description": "We also provide expert building and project management services in Faversham, Ashford, Thanet, and surrounding Kent villages.",
+        "href": null
+      }
+    ],
+    "mapImage": "/wp-content/uploads/2025/02/blean-map-light.png",
+    "mapBody": "Whether you’re looking for builders in Canterbury, builders in Kent, or a trusted construction company in Whitstable, Herne Bay, or anywhere else in the South-East, our team brings decades of experience, attention to detail, and a commitment to quality on every project.\n\nNo matter the size or style of your project, we offer the same professional service and clear communication that has made us one of the most trusted building companies in Canterbury and Kent."
+  },
+  "sections": [
+    {
+      "surface": "green",
+      "icon": "tim-day-icon.svg",
+      "title": "Our Experience",
+      "body": "Our **loyal and dedicated** team includes those with more than 30 years **of practical, on-site experience**, through to apprentices who have been raised and educated in new technology and processes.\n\nWhether we’re developing plans for a new build, or restoring a listed building, we draw upon our combined expertise, as relevant to your project’s needs.\n\nOur roots are firmly embedded in Kent."
+    },
+    {
+      "surface": "white",
+      "icon": "tim-day-icon-dark.svg",
+      "title": "Our Delivery",
+      "body": "Timescales and costs are dependent on many factors, but one thing that’s non-negotiable for us is quality. We take pride in our work, and we don’t compromise on delivering to the highest standards.\n\nWe plan, build, extend and refurbish properties through our team of skilled, committed, knowledgeable and **approachable** people, who work with you and your vision.\n\nOur values as a business mean you can expect a polite, respectful, and professional service from our team throughout your project.\n\nTrust is key, and we understand that. Our transparent and honest approach ensures you know exactly where we’re at and are kept well informed through every step of your project. We communicate clearly and we stick to agreed-upon timelines."
+    },
+    {
+      "surface": "green",
+      "icon": "tim-day-icon.svg",
+      "title": "Our Services",
+      "body": "We deliver construction services with a focus on identifying project efficiencies, both in costs and timescale. By speaking to us from the concept stage, our collaboration with the designers will ensure plans and regulations are appropriately considered, before requesting local authority planning approvals and therefore reducing cost and potential for lost time.\n\nWe support from the earliest stages of planning and design and go on to manage the supply of materials, the right people resource and specialist services necessary for the project, through to overseeing the entire construction process to ensure project completion within budget and on schedule.\n\nWe work closely with architects, engineers, and provide skilled tradespeople to bring your vision to life. Every project we deliver will always be built safely, on time, and with the highest quality standards."
+    },
+    {
+      "surface": "white",
+      "icon": "tim-day-icon.svg",
+      "title": "Think <span class=\"light-teal-txt\">You’ve Got Something</span> to Bring to the Team?",
+      "body": "At Tim Day Construction, we’re always on the lookout for passionate, skilled and driven people, who share our commitment to quality and collaborative project delivery.\n\nWhether you’re a seasoned professional or just starting out in the industry, if you believe you can add value to what we do, we’d love to hear from you.\n\nSend your CV and a little bit about yourself to [info@timdayconstruction.co.uk](mailto:info@timdayconstruction.co.uk) or [get in touch](/contact/) here. Let’s start a conversation."
+    }
+  ],
+  "contact": {
+    "title": "We work on projects <span class=\"light-teal-txt\">all over Kent.</span>",
+    "methods": [
+      {
+        "icon": "call",
+        "label": "01227 281 749",
+        "href": "tel:01227281749"
+      },
+      {
+        "icon": "mail",
+        "label": "info@timdayconstruction.co.uk",
+        "href": "mailto:info@timdayconstruction.co.uk"
+      }
+    ],
+    "formTitle": "Send us a message",
+    "form": {
+      "fields": [
+        {
+          "label": "Your name",
+          "cf7Name": "your-name",
+          "type": "text",
+          "required": true,
+          "maxlength": 400,
+          "autocomplete": "name"
+        },
+        {
+          "label": "Your email",
+          "cf7Name": "your-email",
+          "type": "email",
+          "required": true,
+          "maxlength": 400,
+          "autocomplete": "email"
+        },
+        {
+          "label": "Subject",
+          "cf7Name": "your-subject",
+          "type": "text",
+          "required": true,
+          "maxlength": 400,
+          "autocomplete": null
+        },
+        {
+          "label": "Your message (optional)",
+          "cf7Name": "your-message",
+          "type": "textarea",
+          "required": false,
+          "maxlength": 2000,
+          "autocomplete": null
+        }
+      ],
+      "submit": "Submit"
+    }
+  },
+  "carousel": [
+    "/wp-content/uploads/2024/12/front-from-beach-1.jpg",
+    "/wp-content/uploads/2024/12/Enscape_2023-09-01-13-12-54-scaled.jpg",
+    "/wp-content/uploads/2024/12/balcony.jpg"
+  ],
+  "seo": {
+    "title": "About - Building Contractor | Canterbury, Kent",
+    "description": "Our loyal and dedicated team includes those with more than 30 years of practical, on-site experience.",
+    "ogImage": null
+  }
+}

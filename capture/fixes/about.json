@@ -1,0 +1,51 @@
+[
+ {
+  "where": "about",
+  "from": "We have experience in Veterinary practices Based just outside Canterbury",
+  "to": "We have experience in veterinary practices. Based just outside Canterbury",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "team include those",
+  "to": "team includes those",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "firmly embed in Kent",
+  "to": "firmly embedded in Kent",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "30 years’ **of",
+  "to": "30 years **of",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "'",
+  "to": "’",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "team include those",
+  "to": "team includes those",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "30 years’ of",
+  "to": "30 years of",
+  "count": 1
+ },
+ {
+  "where": "about",
+  "from": "30 years' of",
+  "to": "30 years of",
+  "count": 0,
+  "note": "same F19 fix, apostrophe folded for textdiff matching"
+ }
+]

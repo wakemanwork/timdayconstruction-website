@@ -1,0 +1,27 @@
+---
+// Contact. Content: src/data/pages/contact.json (scripts/extract_about.py, from capture/html/contact.html).
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import Img from '../../components/Img.astro';
+import ContactPage from '../../components/about/ContactPage.astro';
+import contact from '../../data/pages/contact.json';
+import { alt } from '../../lib/alt';
+import { graph, webPage, breadcrumbs, pageTitle } from '../../lib/seo';
+
+const path = '/contact/';
+const title = pageTitle(contact.seo.title, 'Contact');
+// F10: no live meta description. Draft per VOICE.md 7.8, awaiting Simon's approval.
+const description = 'Contact Tim Day Construction, building contractors near Canterbury, Kent. Call 01227 281 749 or send a message about your new build, extension or fit-out.';
+const image = contact.banner.image;
+const jsonld = graph(
+  webPage(path, title, description, { type: 'ContactPage', published: new Date('2024-12-04T09:32:26Z'), modified: new Date('2025-02-12T23:58:47Z'), image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: 'Contact', path }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld}>
+  <PageBanner title={contact.banner.title} image={contact.banner.image} />
+  <ContactPage {...contact} />
+  <div class="google-maps location-map width-container">
+    <Img src={contact.mapImage} alt={alt(contact.mapImage)} sizes="85vw" />
+  </div>
+</BaseLayout>

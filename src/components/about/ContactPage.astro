@@ -1,0 +1,64 @@
+---
+// Live .contact-page on /contact/: titles, contact methods, socials, form. DESIGN.md 5 (Contact), 6.21.
+// The live contact-method labels are <h4> straight after an <h2>; they're <h3> here (heading order, DESIGN.md 7.1)
+// with the h4 rule's styles copied below.
+import Icon from '../Icon.astro';
+import FaIcon from './FaIcon.astro';
+import ContactForm from './ContactForm.astro';
+interface Props {
+  title: string; intro: string;
+  methods: { icon: 'phone' | 'envelope'; label: string; value: string; href: string }[];
+  socialsTitle: string; socials: { href: string; label: string }[];
+  formTitle: string; form: any;
+}
+const { title, intro, methods, socialsTitle, socials, formTitle, form } = Astro.props;
+---
+<div class="contact-page">
+  <div class="contact-page-content width-container">
+    <div class="contact-column">
+      <div class="contact-page-titles">
+        <h2 class="section-title--large">{title}</h2>
+        <p>{intro}</p>
+      </div>
+      {methods.map((m) => (
+        <div class="contact-method__container">
+          <div class="contact-method__icon"><FaIcon name={m.icon} /></div>
+          <div class="contact-method">
+            <h3>{m.label}</h3>
+            <a href={m.href}>{m.value}</a>
+          </div>
+        </div>
+      ))}
+      <div class="contact-page-socials">
+        <h2 class="section-title--medium">{socialsTitle}</h2>
+        <div class="social-icons">
+          {socials.map((s) => (
+            <a href={s.href} target="_blank" rel="noopener" aria-label={`Tim Day Construction on ${s.label} (opens in a new tab)`}>
+              <i aria-hidden="true"><Icon name={s.label === 'Facebook' ? 'facebook' : 'linkedin'} /></i>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+    <div class="contact-column">
+      <div class="contact-form">
+        <img src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+        <h2>{formTitle}</h2>
+        <ContactForm id="contact-form" form={form} />
+      </div>
+    </div>
+  </div>
+</div>
+
+<style is:global>
+  /* h4 → h3 for heading order: copy of the theme's .contact-method h4 rule (style.css, contact page) */
+  .contact-page .contact-page-content .contact-method__container .contact-method h3 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  /* White focus ring on the teal form panel (DESIGN.md 7.4); .contact-form isn't in the shared surface list */
+  .contact-page .contact-form :focus-visible { outline-color: var(--white); }
+  /* The monogram's width/height attributes mustn't stretch it; live had none (it sits at the panel's bottom) */
+  .contact-page .contact-form > img { height: auto; }
+</style>

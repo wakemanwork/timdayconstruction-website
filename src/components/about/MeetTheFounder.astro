@@ -1,0 +1,23 @@
+---
+// DESIGN.md 6.7 (Meet the founder). Live #meet-the-founder on /about/.
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+import { mdToHtml } from '../../lib/md';
+interface Props { title: string; lead: string; body: string; image: string }
+const { title, lead, body, image } = Astro.props;
+---
+<section id="meet-the-founder">
+  <img class="bg-faded-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+  <div class="row width-container">
+    <div class="column text-side">
+      <h2 class="section-title">{title}</h2>
+      <div class="content">
+        <h3>{lead}</h3>
+        <Fragment set:html={mdToHtml(body)} />
+      </div>
+    </div>
+    <div class="column image-side">
+      <Img src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 40vw" />
+    </div>
+  </div>
+</section>

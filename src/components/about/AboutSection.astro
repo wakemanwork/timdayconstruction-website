@@ -1,0 +1,19 @@
+---
+// Live section.about on /about/ (Our Experience, Our Delivery, Our Services, careers).
+// Teal ("green-bg") and white surfaces alternate; the title is HTML (keeps the highlight span).
+import { mdToHtml } from '../../lib/md';
+interface Props { surface: string; title: string; body: string; icon: string }
+const { surface, title, body, icon } = Astro.props;
+const txt = surface === 'green' ? 'white-txt' : 'teal-txt';
+---
+<section class:list={['about', `${surface}-bg`]}>
+  <img class="background-faded-icon" src={`/wp-content/themes/tim-day-custom-theme/assets/images/${icon}`} alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+  <div class="about-content width-container">
+    <div class="about-column">
+      <h2 class={`about__section-title ${txt}`} set:html={title} />
+    </div>
+    <div class="about-column">
+      <div class={`about__body ${txt}`} set:html={mdToHtml(body)} />
+    </div>
+  </div>
+</section>

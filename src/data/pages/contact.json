@@ -1,0 +1,77 @@
+{
+  "banner": {
+    "title": "Contact",
+    "image": "/wp-content/uploads/2024/12/Shipwrights-beach-front.jpg"
+  },
+  "title": "Get in touch",
+  "intro": "As a Canterbury based business, we are renowned locally as a contractor who can be trusted. One who works with pride in our delivery, on every project, no matter its size or complexity.",
+  "methods": [
+    {
+      "icon": "phone",
+      "label": "Phone Number",
+      "value": "01227 281 749",
+      "href": "tel:01227281749"
+    },
+    {
+      "icon": "envelope",
+      "label": "Email Address",
+      "value": "info@timdayconstruction.co.uk",
+      "href": "mailto:info@timdayconstruction.co.uk"
+    }
+  ],
+  "socialsTitle": "Follow us on",
+  "socials": [
+    {
+      "href": "https://www.facebook.com/timdayconstruction",
+      "label": "Facebook"
+    },
+    {
+      "href": "https://www.linkedin.com/company/tim-day-construction-ltd/",
+      "label": "LinkedIn"
+    }
+  ],
+  "formTitle": "Send us a message",
+  "form": {
+    "fields": [
+      {
+        "label": "Your name",
+        "cf7Name": "your-name",
+        "type": "text",
+        "required": true,
+        "maxlength": 400,
+        "autocomplete": "name"
+      },
+      {
+        "label": "Your email",
+        "cf7Name": "your-email",
+        "type": "email",
+        "required": true,
+        "maxlength": 400,
+        "autocomplete": "email"
+      },
+      {
+        "label": "Subject",
+        "cf7Name": "your-subject",
+        "type": "text",
+        "required": true,
+        "maxlength": 400,
+        "autocomplete": null
+      },
+      {
+        "label": "Your message (optional)",
+        "cf7Name": "your-message",
+        "type": "textarea",
+        "required": false,
+        "maxlength": 2000,
+        "autocomplete": null
+      }
+    ],
+    "submit": "Submit"
+  },
+  "mapImage": "/wp-content/uploads/2025/02/blean-map-light.png",
+  "seo": {
+    "title": "Contact - Building Contractor | Canterbury, Kent",
+    "description": null,
+    "ogImage": null
+  }
+}
