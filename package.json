@@ -19,6 +19,7 @@
     "aos": "2.3.4",
     "astro": "7.4.2",
     "gsap": "3.15.0",
+    "marked": "^15.0.12",
     "swiper": "11.2.10"
   },
   "devDependencies": {

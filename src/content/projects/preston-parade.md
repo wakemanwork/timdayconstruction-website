@@ -17,9 +17,10 @@ gallery:
 - "/wp-content/uploads/2024/12/Edited-pics-3-1-scaled.jpg"
 - "/wp-content/uploads/2024/12/Edited-Pics-scaled.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "As experienced builders in Whitstable, Tim Day Construction was proud to deliver this high-spec timber frame home overlooking Whitstable Bay. Projects like this showcase our expertise in sustainable construction in Kent, combining modern design with energy-efficient building methods. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent"
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Preston Parade, Whitstable - Building Contractor | Canterbury, Kent"
   description: "There are many benefits to using a timber frame for new builds including sustainability, design flexibility, speed of construction, longevity and durability."

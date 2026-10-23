@@ -26,12 +26,13 @@ faq:
 - q: "How do I get started on a home remodelling project in Kent?"
   a: "It’s easy, just get in touch with Tim Day Construction to book a free consultation. Whether you’re remodelling a family home in Kent or upgrading your investment property, we’re here to guide you through the entire process with care and expertise. At Tim Day Construction, we offer a concept to completion service, so the earlier you get in touch the better!"
 cta: 
-  title: "Ready to Start Your Remodelling Project?"
+  title: "Ready to Start Your <span class=\"light-teal-txt\">Remodelling Project?</span>"
   body: |
     Our Remodelling projects across Kent showcase how Tim Day Construction can transform an older property into a modern, efficient, and beautiful home.
     
     If you’re considering a remodelling, refurbishment or extension in Canterbury, Whitstable or surrounding areas in Kent, TDC is ready to bring your vision to life!
   button: "Get in touch"
+  href: "/contact/"
 seo: 
   title: "Remodelling - Building Contractor | Canterbury, Kent"
   description: null

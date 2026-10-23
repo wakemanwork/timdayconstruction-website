@@ -25,9 +25,10 @@ gallery:
 - "/wp-content/uploads/2024/12/IMG_0557-scaled.jpg"
 - "/wp-content/uploads/2024/12/IMG_0515-scaled.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "This unique project highlights the versatility and skill of Tim Day Construction as leading builders in Kent. Located near Canterbury, The Vet Shack showcases our ability to deliver high-quality, custom construction solutions tailored to specialist commercial needs. From concept to completion, we work closely with clients across Canterbury, Whitstable, and the surrounding areas in Kent to bring practical, well-designed spaces to life."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Vet Shack, Canterbury - Building Contractor | Canterbury, Kent"
   description: "The client asked us to take charge of the project, managing all consultants and ensuring adherence to critical regulations and compliance, including accessibility, fire safety, and building control standards."

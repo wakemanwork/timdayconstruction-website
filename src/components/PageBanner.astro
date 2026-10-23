@@ -1,0 +1,11 @@
+---
+// DESIGN.md 6.4. Live .page-title-banner. Holds the page's single <h1>.
+import Img from './Img.astro';
+interface Props { title: string; image?: string | null; }
+const { title, image } = Astro.props;
+---
+<div class="page-title-banner">
+  {image && <Img class="page-title-banner__image" src={image} alt="" sizes="97vw" priority />}
+  <img class="page-title-banner__icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" width="600" height="600" />
+  <h1 class="page-title-banner__title" set:html={title} />
+</div>

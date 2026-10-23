@@ -31,6 +31,7 @@ cta:
   title: "Planning a new practice or clinical fit-out?"
   body: "Talk to our team early and we can help you understand the construction, coordination and practical considerations involved in bringing your plans to life."
   button: "Discuss Your Fit-Out"
+  href: "/contact/"
 seo: 
   title: "Veterinary Fit-Outs - Building Contractor | Canterbury, Kent"
   description: null

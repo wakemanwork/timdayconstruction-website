@@ -15,9 +15,10 @@ cardLocation: "Canterbury, Kent"
 gallery: 
 - "/wp-content/uploads/2024/12/Old-Dover-Road-scaled.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "With our ‘concept to completion’ approach, the owners of this new build project in Canterbury were able to customise every element of the build to suit their unique requirements and aesthetic. Tim Day Construction are trusted builders in Whitstable, Canterbury and surrounding areas in Kent, specialising in bespoke construction projects."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Old Dover Road, Canterbury - Building Contractor | Canterbury, Kent"
   description: "The owner appointed us to utilise their home's land to build another property on it; a 4-bed detached house."

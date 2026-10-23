@@ -29,12 +29,13 @@ faq:
 - q: "How do I get started with a new build in Kent?"
   a: "At Tim Day Construction, we offer a concept to completion service, so the earlier you get in touch the better! As soon as you see your plot simply get in touch! The earlier you get in touch the better, we can save you time and money immediately. We can advise on which architect to use, based on the style of building you are dreaming of. Whether you’ve just purchased the plot or already have planning approval, we’d love to hear about your project. Contact Tim Day Construction today to schedule a consultation and take the first step toward your new build home in Kent."
 cta: 
-  title: "Ready to Start Your New Build Project?"
+  title: "Ready to Start Your <span class=\"light-teal-txt\">New Build Project?</span>"
   body: |
     As experienced builders in Kent, our new build projects reflect our commitment to excellence in residential construction across Whitstable, Canterbury, and the wider Kent area.
     
     Whether you have New Build plans in hand or just a few ideas, we will work with you from concept to completion to bring your vision to life.
   button: "Get in touch"
+  href: "/contact/"
 seo: 
   title: "New Build Homes - Building Contractor | Canterbury, Kent"
   description: null

@@ -24,11 +24,12 @@ gallery:
 - "/wp-content/uploads/2024/12/7V1A9636_1.jpg"
 - "/wp-content/uploads/2024/12/7V1A9625_1.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: |
     As trusted builders in Kent, Tim Day Construction is proud to be involved in specialist heritage construction projects across the region, including Whitstable, Canterbury, and
      beyond. Our work on the South Foreland Lighthouse in Dover, Kent demonstrates our commitment to preserving historic buildings through expert craftsmanship and sensitive restoration. Whether it’s a new build, historical building, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "South Foreland Lighthouse, Dover - Building Contractor | Canterbury, Kent"
   description: "Restoring heritage properties helps preserve the tangible links to our past, ensuring that future generations can appreciate and learn from their rich history."

@@ -1,0 +1,33 @@
+---
+// DESIGN.md 6.15. Live .project-image-carousel / .about-image-carousel (Swiper, live settings in lib/carousels.ts).
+// Empty slides are dropped at build time (the live site removed them in JS).
+import Img from './Img.astro';
+import Icon from './Icon.astro';
+import { alt } from '../lib/alt';
+interface Props { images: string[]; variant: 'project' | 'about'; label: string; }
+const { images, variant, label } = Astro.props;
+const list = images.filter(Boolean);
+const cls = `${variant}-image-carousel`;
+---
+<div class:list={['swiper', cls]} role="region" aria-roledescription="carousel" aria-label={label}>
+  <div class={`${cls}__navigation`}>
+    <button type="button" class="carousel-prev" aria-label="Previous image"><span class="material-symbols-outlined"><Icon name="arrow_back" /></span></button>
+    <button type="button" class="carousel-next" aria-label="Next image"><span class="material-symbols-outlined"><Icon name="arrow_forward" /></span></button>
+  </div>
+  <div class="swiper-wrapper">
+    {list.map((src, i) => (
+      <div class="swiper-slide" role="group" aria-label={`${i + 1} of ${list.length}`}>
+        <Img src={src} alt={alt(src, `${label}: photo ${i + 1} of ${list.length}`)} sizes="100vw" />
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  import { initCarousel } from '../lib/carousels';
+  document.querySelectorAll<HTMLElement>('.project-image-carousel, .about-image-carousel').forEach((el) => {
+    const sel = el.classList.contains('project-image-carousel') ? '.project-image-carousel' : '.about-image-carousel';
+    if ((el as any).swiper) return;
+    initCarousel(sel, { navigation: { prevEl: el.querySelector('.carousel-prev'), nextEl: el.querySelector('.carousel-next') } });
+  });
+</script>

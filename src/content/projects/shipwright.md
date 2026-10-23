@@ -20,9 +20,10 @@ gallery:
 - "/wp-content/uploads/2024/12/balcony.jpg"
 - "/wp-content/uploads/2024/12/bedroom.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "At Tim Day Construction, we specialise in thoughtful and high-quality construction in Whitstable, Canterbury and the wider areas of Kent, delivering bespoke solutions that suit both the setting and the client’s lifestyle. This clever coastal extension is a great example of what our experienced builders in Whitstable can achieve, blending smart design with practical functionality. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Shipwright, Whitstable - Building Contractor | Canterbury, Kent"
   description: "The living spaces on the top floor overlook and sea views, while the main bedroom below is fitted with en-suite facilities, and a decked terrace overlooking the seafront."

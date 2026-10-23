@@ -1,0 +1,20 @@
+---
+// DESIGN.md 6.16. Live #project-cta / #sector-cta (same layout, separate CSS in the theme).
+// title and button are HTML from the capture (they carry .light-teal-txt highlight spans).
+// The live title is an <h3>; it's an <h2> here (it follows the H1 or an H2), with the h3 look kept.
+import { mdToHtml } from '../lib/md';
+interface Props { variant: 'project' | 'sector'; title: string; body: string; button: string; href: string; }
+const { variant, title, body, button, href } = Astro.props;
+---
+<section id={`${variant}-cta`}>
+  <img class="bg-graphic" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+  <div class="width-container">
+    <h2 class={`${variant}-cta__title teal-txt cta-title`} set:html={title} />
+    <div class={`${variant}-cta__body teal-txt`} set:html={mdToHtml(body)} />
+    <a class={`${variant}-cta__btn`} href={href} set:html={button} />
+  </div>
+</section>
+
+<style is:global>
+  .cta-title { font-weight: 600; }
+</style>

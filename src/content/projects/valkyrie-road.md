@@ -22,6 +22,7 @@ cta:
   title: "Looking for trusted builders in Kent?"
   body: "As experienced builders in Kent, Tim Day Construction was proud to deliver this high-quality project in Whitstable. This new build reflects our commitment to excellence in residential construction across Whitstable, Canterbury, and the wider Kent area. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Kent."
   button: "Get in touch now!"
+  href: "/contact/"
 seo: 
   title: "Valkyrie Avenue, Whitstable - Building Contractor | Canterbury, Kent"
   description: null

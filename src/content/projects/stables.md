@@ -21,9 +21,10 @@ gallery:
 - "/wp-content/uploads/2024/12/IMG_3124.jpg"
 - "/wp-content/uploads/2024/12/The-Old-Stables-ha-ha.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "This new build project in Kent is a great example of our hands-on approach, attention to detail, and commitment to quality and excellence. Whether it’s a new build, listed building,or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Stables, Kent - Building Contractor | Canterbury, Kent"
   description: "The aim of this remodelling project was to create a modern, energy-efficient, and functional space for the client."

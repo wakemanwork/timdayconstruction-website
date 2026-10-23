@@ -27,12 +27,13 @@ faq:
 - q: "How do I get started on a change of use project in Kent?"
   a: "It’s easy, just get in touch with Tim Day Construction to book a free consultation. Whether you’re changing the use of a shop or large industrial unit, we’re here to guide you through the entire process with care and expertise. At Tim Day Construction, we offer a concept to completion service, so the earlier you get in touch the better!"
 cta: 
-  title: "Ready to Start Your Change of Use Project?"
+  title: "Ready to Start Your <span class=\"light-teal-txt\">Change of Use Project?</span>"
   body: |
     Our Change of Use projects across Kent showcase how Tim Day Construction can transform and repurpose your space, adapting the structure to its new purpose.
     
     Whether you have plans for a project, or would like to discuss some initial ideas
   button: "Get in touch"
+  href: "/contact/"
 seo: 
   title: "Change of Use - Building Contractor | Canterbury, Kent"
   description: null

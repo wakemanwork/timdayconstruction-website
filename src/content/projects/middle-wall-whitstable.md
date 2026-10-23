@@ -27,6 +27,7 @@ cta:
   title: "Looking for trusted builders in Kent?"
   body: "At Tim Day Construction, we specialise in thoughtful and high-quality construction in Whitstable, Canterbury and the wider areas of Kent, delivering bespoke solutions that suit both the setting and the client’s lifestyle. This clever extension in whitstable is a great example of what our experienced builders in Kent can achieve, blending smart design with practical functionality. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent."
   button: "Get in touch now!"
+  href: "/contact/"
 seo: 
   title: "Middle Wall, Whitstable - Building Contractor | Canterbury, Kent"
   description: null

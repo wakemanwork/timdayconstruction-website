@@ -31,12 +31,13 @@ faq:
 - q: "Are you a Passive House expert?"
   a: "At Tim Day Construction we have passive house recognition. Tim Day is a Certified Passive House Tradesperson, one of only a select few in the industry. Trained in the principles of Passive House, we bring a meticulous, detail-driven approach to every project, ensuring these standards are applied with precision and care."
 cta: 
-  title: "Ready to Start Your Extension Project?"
+  title: "Ready to Start Your <span class=\"light-teal-txt\">Extension Project?</span>"
   body: |
     If your current residence in Kent no longer accommodates your needs, but you have an attachment to your current location or want to avoid the complexities of constructing a new home elsewhere, an extension could be the ideal solution for you.
     
     Whether you have Extension plans in hand or just a few ideas, we will work with you from concept to completion to bring your vision to life.
   button: "Get in touch"
+  href: "/contact/"
 seo: 
   title: "Major Extensions & Refurbishments - Building Contractor | Canterbury, Kent"
   description: null

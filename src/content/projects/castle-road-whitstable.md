@@ -18,9 +18,10 @@ gallery:
 - "/wp-content/uploads/2025/04/IMG_1947-scaled.jpg"
 - "/wp-content/uploads/2025/04/IMG_1944-2-scaled.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "As experienced builders in Kent, Tim Day Construction was proud to deliver this high-quality project in Whitstable. With our ‘concept to completion’ approach, this new build reflects our commitment to excellence in residential construction across Whitstable, Canterbury, and the wider Kent area. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Kent."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Castle Road, Whitstable - Building Contractor | Canterbury, Kent"
   description: null

@@ -25,9 +25,10 @@ gallery:
 - "/wp-content/uploads/2024/12/IMG_1556-scaled.jpg"
 - "/wp-content/uploads/2024/12/IMG_1598-scaled.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "This extension project in Canterbury is a great example of how our team at Tim Day Construction brings together heritage sensitivity and modern innovation. Whether it’s a new build, extension, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Pett Cottage, Canterbury - Building Contractor | Canterbury, Kent"
   description: "The property is undergoing a full remodel, including new structural and insulated slab flooring with underfloor heating across both the first and second floors."

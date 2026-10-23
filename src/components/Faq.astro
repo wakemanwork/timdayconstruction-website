@@ -1,0 +1,34 @@
+---
+// DESIGN.md 6.12. Live #sector-faq (native <details>). Visual only: the page adds FAQPage JSON-LD
+// with faqPage() from lib/seo.ts and mdText() from lib/md.ts so schema and visible answers match (F5).
+import Icon from './Icon.astro';
+import { mdToHtml } from '../lib/md';
+interface Props { label?: string | null; title?: string | null; items: { q: string; a: string }[]; }
+const { label = 'FAQ', title = 'Frequently Asked Questions', items } = Astro.props;
+---
+<section id="sector-faq" class="green-bg">
+  <div class="faq-title-container width-container">
+    <span class="section-label light-teal-txt">{label}</span>
+    <h2 class="section-title--large white-txt">{title}</h2>
+  </div>
+  <div class="sector-faq-list">
+    {items.map((f) => (
+      <details class="sector-faq">
+        <summary class="sector-faq__header">
+          <h3 class="white-txt">{f.q}</h3>
+          <span class="white-txt faq-chevron" aria-hidden="true"><Icon name="chevron-down" /></span>
+        </summary>
+        <div class="sector-faq__panel" set:html={mdToHtml(f.a)} />
+      </details>
+    ))}
+  </div>
+</section>
+
+<style is:global>
+  /* The live chevron was a Font Awesome <i>; same rotate-on-open behaviour */
+  #sector-faq .sector-faq[open] .faq-chevron { transform: rotate(180deg); }
+  #sector-faq .faq-chevron { display: inline-block; line-height: 1; transition: transform 0.2s ease; }
+  #sector-faq .sector-faq__header::-webkit-details-marker { display: none; }
+  #sector-faq .sector-faq__panel p + p { margin-top: 1rem; }
+  @media screen and (max-width: 560px) { #sector-faq .faq-chevron { display: none; } }
+</style>

@@ -18,9 +18,10 @@ gallery:
 - "/wp-content/uploads/2024/12/IMG_9164-scaled.jpg"
 - "/wp-content/uploads/2024/12/Canterbury-Riverside-Drawings-19-Jun-23.jpg"
 cta: 
-  title: "Looking for trusted builders in Kent?"
+  title: "Looking for <span class=\"light-teal-txt\">trusted builders in Kent?</span>"
   body: "Tim Day Construction is proud to support community-led projects like Riverside Social in Canterbury. As trusted builders in Kent, we work with both private and public clients across Whitstable, Canterbury, and beyond to deliver high-quality construction that enhances local life. From commercial refurbishments to new builds, our team bring experience, creativity, and care to every project across the Kent region."
-  button: "Get in touch now!"
+  button: "Get in touch <span class=\"light-teal-txt\">now!</span>"
+  href: "/contact/"
 seo: 
   title: "Riverside Social, Canterbury - Building Contractor | Canterbury, Kent"
   description: "A three-month project which transformed a 4,800-square-foot empty council-owned unit into a dynamic food and social hub."

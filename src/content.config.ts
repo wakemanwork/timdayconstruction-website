@@ -8,7 +8,7 @@ const seo = z.object({
   ogImage: z.string().nullable().optional(),
 });
 
-const cta = z.object({ title: z.string(), body: z.string(), button: z.string() });
+const cta = z.object({ title: z.string(), body: z.string(), button: z.string(), href: z.string() }); // title/button are HTML (highlight spans)
 
 const posts = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/posts' }),

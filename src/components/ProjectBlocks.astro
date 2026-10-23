@@ -1,0 +1,28 @@
+---
+// DESIGN.md 6.13. Live .project-blocks. Pass project slugs in display order.
+// Fix: the live aria-label ("Open project page for X") mismatched the visible text; the link is
+// now named by its visible title and location. Overlay also shows on keyboard focus (overrides.css).
+import { getCollection } from 'astro:content';
+import Img from './Img.astro';
+interface Props { slugs: string[]; headingLevel?: 2 | 3; }
+const { slugs, headingLevel = 3 } = Astro.props;
+const all = await getCollection('projects');
+const bySlug = new Map(all.map((p) => [p.id, p]));
+const items = slugs.map((s) => bySlug.get(s)).filter(Boolean) as typeof all;
+const missing = slugs.filter((s) => !bySlug.has(s));
+if (missing.length) throw new Error(`ProjectBlocks: unknown project slug(s): ${missing.join(', ')}`);
+const H = `h${headingLevel}` as 'h2' | 'h3';
+---
+<div class="project-blocks">
+  {items.map((p) => (
+    <div class="project-block">
+      <a href={`/project/${p.id}/`}>
+        <Img class="project-block__thumbnail" src={p.data.thumbnail ?? p.data.bannerImage} alt="" sizes="(max-width: 560px) 100vw, 48vw" />
+        <div class="project-block-overlay">
+          <H class="project-block-overlay__title">{p.data.title}</H>
+          <span class="project-block-overlay__location">{p.data.cardLocation ?? p.data.location}</span>
+        </div>
+      </a>
+    </div>
+  ))}
+</div>
