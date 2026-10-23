@@ -1,0 +1,8 @@
+---
+// /cookies/: text restored from WordPress (F1) with the cookie list updated for the new site
+// (tdc_consent, first_visit, GA4, VisitorQueue) and a pointer to "Cookie settings". Needs TDC sign-off.
+import LegalPage from '../components/blog/LegalPage.astro';
+import page from '../data/pages/cookies.json';
+import blog from '../data/pages/blog.json';
+---
+<LegalPage path="/cookies/" page={page} bannerImage={blog.bannerImage} />
