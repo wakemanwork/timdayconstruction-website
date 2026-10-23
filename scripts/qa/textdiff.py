@@ -37,9 +37,10 @@ def slug_of(url_path):
     p = url_path.strip('/')
     return (p.replace('/', '__') or 'index')
 
-def diff(path):
+def diff(path, new_path=None):
     cap = CAP / f'{slug_of(path)}.html'
-    built = DIST / path.strip('/') / 'index.html' if path != '/' else DIST / 'index.html'
+    np_ = new_path or path
+    built = DIST / np_.strip('/') / 'index.html' if np_ != '/' else DIST / 'index.html'
     if not cap.exists() or not built.exists():
         return None
     a, b = words(cap.read_text()), words(built.read_text(), built=True)
@@ -60,12 +61,19 @@ def diff(path):
         (expected if punct_only or changed <= fix_words else unexpected).append(item)
     return len(a), len(b), round(sm.ratio() * 100, 2), expected, unexpected
 
-paths = sys.argv[1:]
-if paths == ['--all']:
+# Pages whose content is new by agreement (fix log F1, F7, F8, Pure Vet CTA): their diff is informational.
+NEW_CONTENT = {'/locations/', '/privacy-policy/', '/cookies/', '/project/pure-vet-ashford/'} | \
+    {f'/category/{c}/' for c in ['change-of-use', 'clinical-veterinary-fit-outs', 'extensions', 'listed-buildings', 'new-build-residential', 'refurbishments']} | \
+    {f'/testimonial/{t}/' for t in ['andy-boorman', 'mr-bryan-joyce', 'mr-l-reddy', 'national-trust', 'vetshack']}
+REDIRECTED = {'/placeholder-blog-post-6/': '/what-is-a-passive-house/'}
+
+paths = [p for p in sys.argv[1:] if not p.startswith('-')]
+if '--all' in sys.argv:
     paths = ['/' if f.stem == 'index' else '/' + f.stem.replace('__', '/') + '/' for f in sorted(CAP.glob('*.html'))]
+    paths = [p for p in paths if not p.startswith('/author/') and p != '/category/uncategorized/']  # redirected (F3)
 bad = 0
 for p in paths:
-    r = diff(p)
+    r = diff(p, REDIRECTED.get(p))
     if r is None:
         print(f'{p}: not built yet'); continue
     na, nb, ratio, exp, unexp = r
@@ -73,5 +81,8 @@ for p in paths:
     for x in unexp: print('   UNEXPECTED', x)
     if '-v' in sys.argv or len(paths) == 1:
         for x in exp: print('   expected  ', x)
-    bad += bool(unexp)
+    if p in NEW_CONTENT and unexp:
+        print('   (new content by agreement; review it, not counted as a failure)')
+    else:
+        bad += bool(unexp)
 sys.exit(1 if bad else 0)

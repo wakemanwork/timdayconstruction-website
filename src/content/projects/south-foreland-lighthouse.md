@@ -38,7 +38,10 @@ seo:
 The South Foreland Lighthouse was the first lighthouse ever to shine an electric light and was acquired by the National Trust in 1989. Due to it’s historic character, Tim Day Construction were appointed by The National Trust to carefully manage this project.
 
 Tim Day Construction conducted a complete interior refurbishment of the lighthouse which included the removal of moisture-damaged plaster from the inner walls, as well as removing multiple layers of modern impervious paint. A dehumidifier was then installed to maintain the humidity inside the tower at around 60%. After a year long drying process, the walls were coated with 3 layers of bespoke lime plaster (to match the lighthouse’s original composition) before re-painting with a breathable paint.
-The lighthouse was discreetly re-wired, allowing original cabling to remain due to it’s historical importance.Additional curved glass balustrades were also added around the optics for aesthetic appeal, whilst enhancing safety and visitor access.Since the refurbishment, Tim Day Construction have twice been awarded the contract to paint the whole structure externally over the years.
+
+The lighthouse was discreetly re-wired, allowing original cabling to remain due to it’s historical importance. Additional curved glass balustrades were also added around the optics for aesthetic appeal, whilst enhancing safety and visitor access.
+
+Since the refurbishment, Tim Day Construction have twice been awarded the contract to paint the whole structure externally over the years.
 
 Heritage properties like the South Foreland Lighthouse hold significant historical, architectural, and cultural value. Restoring them helps preserve the tangible links to our past, ensuring that future generations can appreciate and learn from their rich history.
 

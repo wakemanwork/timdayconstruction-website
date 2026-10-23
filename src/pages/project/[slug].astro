@@ -6,7 +6,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageBanner from '../../components/PageBanner.astro';
 import ImageCarousel from '../../components/ImageCarousel.astro';
 import CtaBand from '../../components/CtaBand.astro';
-import CtaButtonContrast from '../../components/projects/CtaButtonContrast.astro';
 import ProjectDetail from '../../components/projects/ProjectDetail.astro';
 import drafts from '../../data/pages/projects-drafts.json';
 import { pageTitle, graph, webPage, breadcrumbs } from '../../lib/seo';
@@ -46,6 +45,5 @@ const jsonld = graph(
     <Content />
   </ProjectDetail>
   <ImageCarousel images={d.gallery} variant="project" label={`${d.title} photos`} />
-  <CtaButtonContrast />
   <CtaBand variant="project" {...cta} />
 </BaseLayout>

@@ -33,7 +33,7 @@ const og = abs(ogImage || DEFAULT_OG);
     {description && <meta name="description" content={description} />}
     <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" type="text/markdown" href={`${Astro.url.pathname === '/' ? '/index' : Astro.url.pathname.replace(/\/$/, '')}.md`} title="Markdown version for AI agents" />
+    {!noindex && <link rel="alternate" type="text/markdown" href={`${Astro.url.pathname === '/' ? '/index' : Astro.url.pathname.replace(/\/$/, '')}.md`} title="Markdown version for AI agents" />}
     <link rel="alternate" type="application/rss+xml" title="Tim Day Construction » Feed" href={`${SITE}/feed/`} />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content={ogType} />

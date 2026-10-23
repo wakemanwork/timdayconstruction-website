@@ -28,7 +28,7 @@ seo:
   description: "Tim Day Construction were trusted to maintain the conservation of this cherished historical building by giving it a general refurbishment."
   ogImage: null
 ---
-King Post in Elham is 400 years old and was formerly a house and shop. The building from the late 15th century is on the National Heritage List for England, which is a unique register of our country’s most significant historic buildings and sites.
+King Post in Elham is 400 years old and was formerly a house and shop. The building from the late 15<sup>th</sup> century is on the National Heritage List for England, which is a unique register of our country’s most significant historic buildings and sites.
 
 The Grade II listed building has been continuously refurbished in its time, in line with every significant architectural fashion from its origin.
 

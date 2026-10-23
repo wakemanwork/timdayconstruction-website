@@ -35,6 +35,6 @@ External blockwork cavity walls were finished with a thin, Baumit coat render fo
 
 With both sustainability and design in mind, aluminium double-glazed windows were installed throughout the home to ensure energy efficiency whilst giving a contemporary look. The tall ceilings create an open, airy feel, enhancing the overall sense of space.
 
-For superior durability, strength and sound reduction, the property was built with bison precast hollow core concrete floors across the first and second levels, whilst the ground floor is fully tiled for aesthetics. All three floors have precast concrete stairs and underfloor heating within sand/cement screed, providing efficient and discreet warmth*.*
+For superior durability, strength and sound reduction, the property was built with bison precast hollow core concrete floors across the first and second levels, whilst the ground floor is fully tiled for aesthetics. All three floors have precast concrete stairs and underfloor heating within sand/cement screed, providing efficient and discreet warmth.
 
 With a 10-Year NHBC Warranty, this property is built to the highest standards, ensuring long-term durability, efficiency, and peace of mind for its occupants.

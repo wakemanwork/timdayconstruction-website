@@ -43,3 +43,6 @@ body { font-family: var(--font-sans); }
 input, textarea, select, button { font-family: var(--font-sans); }
 .contact-form { --hl: var(--teal-light-text); }
 .contact-form :focus-visible { outline-color: var(--white); }
+
+/* Highlight words inside teal CTA buttons use the on-teal highlight (contrast; found in projects build) */
+#project-cta .project-cta__btn, #sector-cta .sector-cta__btn { --hl: var(--teal-light-text); }

@@ -10,7 +10,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageBanner from '../../components/PageBanner.astro';
 import ProjectBlocks from '../../components/ProjectBlocks.astro';
 import CtaBand from '../../components/CtaBand.astro';
-import CtaButtonContrast from '../../components/projects/CtaButtonContrast.astro';
 import PortfolioIntro from '../../components/projects/PortfolioIntro.astro';
 import categories from '../../data/pages/categories.json';
 import drafts from '../../data/pages/projects-drafts.json';
@@ -72,6 +71,5 @@ const jsonld = graph(
   <PageBanner title={cat.name} image={banner} />
   <PortfolioIntro body={[draft.intro]} />
   <ProjectBlocks slugs={projects.map((p) => p.id)} headingLevel={2} />
-  <CtaButtonContrast />
   <CtaBand {...cta} />
 </BaseLayout>
