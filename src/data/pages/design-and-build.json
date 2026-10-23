@@ -1,0 +1,123 @@
+{
+ "seo": {
+  "title": "Design & Build - Building Contractor | Canterbury, Kent",
+  "description": "Design & Build with Tim Day Construction: one contract and one team from first enquiry to handover, with professional indemnity cover. See our process.",
+  "ogImage": null,
+  "published": "2025-12-03T19:09:11+00:00",
+  "modified": "2025-12-04T10:45:03+00:00"
+ },
+ "banner": {
+  "title": "Design &amp; Build",
+  "image": "/wp-content/uploads/2024/12/tim-dayhero-1.jpg"
+ },
+ "intro": {
+  "paragraphs": [
+   "At Tim Day Construction, our Design &amp; Build service provides a complete, end-to-end solution for residential and commercial projects. By bringing both the design and construction elements together under one contract, we offer a streamlined process."
+  ],
+  "list": [
+   "Saving time",
+   "Reducing costs",
+   "Ensuring your vision is delivered with precision and care"
+  ]
+ },
+ "timeline": {
+  "heading": "Design &amp;<br/> Build Process",
+  "milestones": [
+   {
+    "title": "1. Initial Enquiry",
+    "body": "We’ll sit down with you to understand your goals, budget, timescales, and any site constraints. <br/><br/> <small>Note: We carry professional indemnity insurance to protect you and your project. It provides cover in the unlikely event of any design errors or omissions, giving you added peace of mind throughout the process.</small>"
+   },
+   {
+    "title": "2. Feasibility &amp; site survey",
+    "body": "We carry out site inspections, utility checks, and feasibility studies to confirm your project is practical and achievable."
+   },
+   {
+    "title": "3. Concept design &amp; options",
+    "body": "We collaborate with a carefully selected group of trusted architects, choosing to one best suited to your specific project. Alongside our architects and designers, we develop idea, layouts and concepts to bring your vision to life. Together, we refine the design until it’s perfect."
+   },
+   {
+    "title": "4. Planning &amp; Approvals",
+    "body": "We take care of planning applications, building control or listed building requirements, making sure everything is compliant."
+   },
+   {
+    "title": "5. Detailed design &amp; technical development",
+    "body": "Partnering with specialist engineers and suppliers, we create the technical drawings, specifications, and structural details needed to move forward. <br/><br/> <small>Note: We carry professional indemnity insurance to protect you and your project. It provides cover in the unlikely event of any design errors or omissions, giving you added peace of mind throughout the process</small>"
+   },
+   {
+    "title": "6. Finalising costs &amp; value engineering",
+    "body": "We finalise costs with input from our trusted supply chain, finding smart ways to deliver the best value without compromising on quality."
+   },
+   {
+    "title": "7. Contract sign-off &amp; programme",
+    "body": "Once everything is agreed, we sign contracts, finalise the construction programme, and put all health &amp; safety measures in place."
+   },
+   {
+    "title": "8. Procurement &amp; Ordering",
+    "body": "Using our established supplier relationships, we order key materials early to keep everything on track."
+   },
+   {
+    "title": "9. Pre-construction set-up",
+    "body": "Site set up, mobilisation of plant and labour, pre-start meetings, and baseline surveys (asbestos, utilities etc). Client inductions and communications protocols are established."
+   },
+   {
+    "title": "10. Construction &amp; site management",
+    "body": "Our skilled team manages on-site works, coordinating directly with trusted subcontractors and suppliers to ensure consistent quality and progress."
+   },
+   {
+    "title": "11. Testing and snagging",
+    "body": "We test and commission systems, carry out final inspections, and resolve any snags so everything runs smoothly."
+   },
+   {
+    "title": "12. Handover",
+    "body": "We provide as-built drawings, manuals, warranties, and training before formally handing over your completed project."
+   },
+   {
+    "title": "13. Aftercare &amp; Maintenance",
+    "body": "We stay on hand to support you after completion, offering maintenance options through our trusted service partners."
+   }
+  ]
+ },
+ "bottomText": [
+  "Our Design &amp; Build process is tailored to the unique needs of each project. While the core principles remain consistent, the specific stages, timelines, and level of detail can differ depending on the nature of the work, whether it’s a new build home or a specialist fit-out such as a veterinary practice. We’ll guide you through the exact steps relevant to your project from initial concept to final completion"
+ ],
+ "riba": {
+  "heading": "RIBA Design Stages",
+  "stages": [
+   {
+    "number": "RIBA Stage 1:",
+    "heading": "Strategic Definition",
+    "body": "Clarifying project objectives, feasibility and overall belief."
+   },
+   {
+    "number": "RIBA Stage 2:",
+    "heading": "Preparation &amp; Briefing",
+    "body": "Developing the initial project brief, budget and programme, appointing the project team."
+   },
+   {
+    "number": "RIBA Stage 3:",
+    "heading": "Concept Design",
+    "body": "Creating initial design concepts, exploring layout options and agreeing the preferred design direction."
+   },
+   {
+    "number": "RIBA Stage 4:",
+    "heading": "Technical Design",
+    "body": "Producing detailed technical drawings and specifications ready for construction and tendering."
+   },
+   {
+    "number": "RIBA Stage 5:",
+    "heading": "Manufacturing &amp; Construction",
+    "body": "Construction work on site, with ongoing design support and coordination."
+   },
+   {
+    "number": "RIBA Stage 6:",
+    "heading": "Handover",
+    "body": "Completing the building, client handover, and post-occupancy review."
+   },
+   {
+    "number": "RIBA Stage 7:",
+    "heading": "Use",
+    "body": "In-use assessment, maintenance, feedback, and ongoing building performance evaluation."
+   }
+  ]
+ }
+}

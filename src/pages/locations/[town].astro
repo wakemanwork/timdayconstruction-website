@@ -1,0 +1,36 @@
+---
+// Location pages (WordPress template-location-page.php). Content: src/data/pages/location-<town>.json
+// (scripts/extract_design.py). Live order: banner, content rows, projects carousel, why choose TDC.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import LocationContent from '../../components/locations/LocationContent.astro';
+import LocationProjects from '../../components/locations/LocationProjects.astro';
+import WhyChooseTdc from '../../components/locations/WhyChooseTdc.astro';
+import canterbury from '../../data/pages/location-canterbury.json';
+import whitstable from '../../data/pages/location-whitstable.json';
+import { graph, webPage, breadcrumbs, pageTitle } from '../../lib/seo';
+
+export function getStaticPaths() {
+  return [
+    { params: { town: 'canterbury' }, props: { page: canterbury } },
+    { params: { town: 'whitstable' }, props: { page: whitstable } },
+  ];
+}
+type Page = typeof canterbury;
+const { page } = Astro.props as { page: Page };
+const path = `/locations/${Astro.params.town}/`;
+const name = page.banner.title;
+const title = pageTitle(page.seo.title, name);
+const description = page.seo.description;
+const image = page.rows[0]?.image ?? page.banner.image;
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.seo.published!), modified: new Date(page.seo.modified!), image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: 'Locations', path: '/locations/' }, { name, path }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld}>
+  <PageBanner title={name} image={page.banner.image} />
+  <LocationContent rows={page.rows} />
+  <LocationProjects {...page.projects} label={`Projects in ${name}`} />
+  <WhyChooseTdc {...page.why} />
+</BaseLayout>

@@ -1,0 +1,15 @@
+---
+// Live .why-choose-tdc panel on location pages (style.css 3916-3951, theme/41-why-choose-tdc.css).
+// The live heading carries a stray class "teal-txt." (typo, matches nothing); it is written as teal-txt here.
+interface Props { heading: string; button: { label: string; href: string }; paragraphs: string[] }
+const { heading, button, paragraphs } = Astro.props;
+---
+<section class="why-choose-tdc light-green-bg width-container">
+  <div>
+    <h2 class="section-title--large teal-txt mb-4" set:html={heading} />
+    <a class="btn btn--dark" href={button.href}>{button.label}</a>
+  </div>
+  <div class="content teal-txt">
+    {paragraphs.map((p) => <p set:html={p} />)}
+  </div>
+</section>

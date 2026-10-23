@@ -1,0 +1,36 @@
+---
+// DESIGN.md 6.20. Live #riba-stages (style.css 3656-3724, theme/37-riba-stages.css), Swiper settings in lib/carousels.ts.
+// Fixes: the icon-only prev/next buttons get accessible names; slides stay list items for screen readers.
+import Icon from '../Icon.astro';
+interface Props { heading: string; stages: { number: string; heading: string; body: string }[] }
+const { heading, stages } = Astro.props;
+---
+<section id="riba-stages" class="grey-bg padding-container">
+  <div class="width-container">
+    <div class="title-container">
+      <h2 class="section-heading" set:html={heading} />
+      <div class="carousel-btn-container">
+        <button type="button" class="riba-stages-carousel-nav__prev" aria-label="Previous RIBA stage"><span class="material-symbols-outlined"><Icon name="arrow_back" /></span></button>
+        <button type="button" class="riba-stages-carousel-nav__next" aria-label="Next RIBA stage"><span class="material-symbols-outlined"><Icon name="arrow_forward" /></span></button>
+      </div>
+    </div>
+    <div class="riba-stages-carousel swiper" role="region" aria-roledescription="carousel" aria-label="RIBA design stages">
+      <ul class="swiper-wrapper">
+        {stages.map((s) => (
+          <li class="riba-stage swiper-slide">
+            <h3 class="riba-stage__number" set:html={s.number} />
+            <h4 class="riba-stage__heading" set:html={s.heading} />
+            <p class="riba-stage__body" set:html={s.body} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { initCarousel } from '../../lib/carousels';
+  // slideRole 'listitem' keeps the <li> slides valid inside the <ul> (Swiper's default role is "group")
+  initCarousel('.riba-stages-carousel', { a11y: { enabled: true, slideRole: 'listitem' } });
+</script>
+
