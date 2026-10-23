@@ -1,0 +1,182 @@
+{
+ "url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+ "status": 200,
+ "bytes": 33109,
+ "title": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "profile",
+  "og:title": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+  "og:url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+  "og:site_name": "Building Contractor | Canterbury, Kent",
+  "og:image": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=500&d=mm&r=g"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image"
+ },
+ "h1": [],
+ "body_class": [
+  "archive",
+  "author",
+  "author-maddiepitchacaren",
+  "author-2",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "ProfilePage",
+     "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+     "url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+     "name": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/author/maddiepitchacaren/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Archives for maddiepitchacaren"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://timdayconstruction.co.uk/#/schema/person/ad238e7ab902516e1231b903761e6567",
+     "name": "maddiepitchacaren",
+     "image": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "url": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "contentUrl": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "caption": "maddiepitchacaren"
+     },
+     "mainEntityOfPage": {
+      "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/"
+     }
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

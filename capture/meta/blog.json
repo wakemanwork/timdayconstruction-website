@@ -1,0 +1,242 @@
+{
+ "url": "https://timdayconstruction.co.uk/blog/",
+ "status": 200,
+ "bytes": 41681,
+ "title": "Blog - Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/blog/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Blog - Building Contractor | Canterbury, Kent",
+  "og:url": "https://timdayconstruction.co.uk/blog/",
+  "og:site_name": "Building Contractor | Canterbury, Kent"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image"
+ },
+ "h1": [
+  "Blog"
+ ],
+ "body_class": [
+  "wp-singular",
+  "page-template-default",
+  "page",
+  "page-id-671",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://timdayconstruction.co.uk/blog/",
+     "url": "https://timdayconstruction.co.uk/blog/",
+     "name": "Blog - Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "datePublished": "2025-09-19T15:27:44+00:00",
+     "dateModified": "2025-09-19T16:57:56+00:00",
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/blog/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/blog/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/blog/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Blog"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/separator.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9451-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9494-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/IMG_0443-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/06/DSCF8763-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/05/DJI_20260512091008_0544_D-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/04/IMG_0547-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/03/DSCF5244-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/02/DJI_20250320144429_0051_D-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/02/TDC-VET-0325-13.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/12/TDC-PRN-1025-01-e1764861682827.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/04/IMG_1954-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/IMG_0563-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/09/TDC-PAS-0825.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/common-challenges-on-kent-building-sites/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/fire-safety-requirements-in-veterinary-practices/",
+  "https://timdayconstruction.co.uk/how-to-plan-a-successful-veterinary-practice-refurbishment/",
+  "https://timdayconstruction.co.uk/how-to-plan-a-veterinary-fit-out-project-from-concept-to-completion/",
+  "https://timdayconstruction.co.uk/key-safety-considerations-in-veterinary-practice-fit-outs/",
+  "https://timdayconstruction.co.uk/maximising-efficiency-space-planning-tips-for-veterinary-practices/",
+  "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/the-core-principles-of-a-passive-house/",
+  "https://timdayconstruction.co.uk/what-are-the-benefits-of-working-with-a-main-contractor-from-start-to-finish/",
+  "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+  "https://timdayconstruction.co.uk/what-should-you-consider-before-starting-a-clinical-fit-out/",
+  "https://timdayconstruction.co.uk/why-does-ventilation-and-air-quality-matter-in-veterinary-practices/",
+  "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

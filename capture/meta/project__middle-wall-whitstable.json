@@ -1,0 +1,230 @@
+{
+ "url": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/",
+ "status": 200,
+ "bytes": 39254,
+ "title": "Middle Wall, Whitstable - Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Middle Wall, Whitstable - Building Contractor | Canterbury, Kent",
+  "og:description": "This residential project in Whitstable involved a thoughtfully designed side and rear extension to enhance living space and functionality. The ground floor features a polished concrete floor and a bespoke handcrafted kitchen, with exposed plywood finishes that highlight clean edges and craftsmanship\u00a0whilst enhancing the existing traditional features. The kitchen is complemented by stainless steel worktops [\u2026]",
+  "og:url": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/",
+  "og:site_name": "Building Contractor | Canterbury, Kent"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:label1": "Est. reading time",
+  "twitter:data1": "1 minute"
+ },
+ "h1": [
+  "Middle Wall, Whitstable"
+ ],
+ "body_class": [
+  "wp-singular",
+  "project-template-default",
+  "single",
+  "single-project",
+  "postid-611",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/",
+     "url": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/",
+     "name": "Middle Wall, Whitstable - Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "datePublished": "2025-06-09T07:16:01+00:00",
+     "dateModified": "2026-01-07T18:48:41+00:00",
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/project/middle-wall-whitstable/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/project/middle-wall-whitstable/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Middle Wall, Whitstable"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-23.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-105.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-19.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-63.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-64.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-43.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-23.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-75.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-56.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-84.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/06/70MiddleWallWhitstable-4.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/contact/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

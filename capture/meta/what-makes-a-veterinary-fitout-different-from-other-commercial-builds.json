@@ -1,0 +1,227 @@
+{
+ "url": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+ "status": 200,
+ "bytes": 43686,
+ "title": "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?\u00a0 - Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?\u00a0 - Building Contractor | Canterbury, Kent",
+  "og:description": "A veterinary clinic fitout is a specialised type of commercial interior build, but with very specific requirements that general offices or retail spaces don\u2019t face. These unique demands stem from the nature of animal healthcare,\u00a0mixing clinical medicine with animal behaviour, hygiene needs, and\u00a0the best\u00a0operational efficiency. Sparked an interest? Have a look at a past vet [\u2026]",
+  "og:url": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+  "og:site_name": "Building Contractor | Canterbury, Kent"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:label1": "Written by",
+  "twitter:data1": "maddiepitchacaren",
+  "twitter:label2": "Est. reading time",
+  "twitter:data2": "4 minutes"
+ },
+ "h1": [
+  "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?"
+ ],
+ "body_class": [
+  "wp-singular",
+  "post-template-default",
+  "single",
+  "single-post",
+  "postid-792",
+  "single-format-standard",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Article",
+     "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/#article",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/"
+     },
+     "author": {
+      "name": "maddiepitchacaren",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/ad238e7ab902516e1231b903761e6567"
+     },
+     "headline": "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?\u00a0",
+     "datePublished": "2026-02-03T09:45:44+00:00",
+     "dateModified": "2026-02-03T09:45:47+00:00",
+     "mainEntityOfPage": {
+      "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/"
+     },
+     "wordCount": 808,
+     "commentCount": 0,
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "CommentAction",
+       "name": "Comment",
+       "target": [
+        "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/#respond"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+     "url": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/",
+     "name": "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?\u00a0 - Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "datePublished": "2026-02-03T09:45:44+00:00",
+     "dateModified": "2026-02-03T09:45:47+00:00",
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/what-makes-a-veterinary-fitout-different-from-other-commercial-builds/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "What Makes a Veterinary Fitout Different from\u00a0Other Commercial Builds?\u00a0"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://timdayconstruction.co.uk/#/schema/person/ad238e7ab902516e1231b903761e6567",
+     "name": "maddiepitchacaren",
+     "image": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "url": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "contentUrl": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+      "caption": "maddiepitchacaren"
+     },
+     "url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/"
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/02/TDC-VET-0325-13.jpeg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/project/vet-shack/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

@@ -1,0 +1,485 @@
+[
+ {
+  "id": 5,
+  "name": "Becca Kenny",
+  "url": "",
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/author/becca-kenny/",
+  "slug": "becca-kenny",
+  "avatar_urls": {
+   "24": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=24&d=mm&r=g",
+   "48": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=48&d=mm&r=g",
+   "96": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g"
+  },
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Becca Kenny, Author at Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/author/becca-kenny/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"profile\" />\n<meta property=\"og:title\" content=\"Becca Kenny, Author at Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/author/becca-kenny/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:image\" content=\"https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=500&d=mm&r=g\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"ProfilePage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/\",\"name\":\"Becca Kenny, Author at Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Archives for Becca Kenny\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/person\\/81f1459945f55067ad074052af6c73ab\",\"name\":\"Becca Kenny\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g\",\"contentUrl\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g\",\"caption\":\"Becca Kenny\"},\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/becca-kenny\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Becca Kenny, Author at Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/author/becca-kenny/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Becca Kenny, Author at Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/author/becca-kenny/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://timdayconstruction.co.uk/author/becca-kenny/",
+      "url": "https://timdayconstruction.co.uk/author/becca-kenny/",
+      "name": "Becca Kenny, Author at Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/author/becca-kenny/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/author/becca-kenny/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/author/becca-kenny/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Becca Kenny"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/81f1459945f55067ad074052af6c73ab",
+      "name": "Becca Kenny",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+       "caption": "Becca Kenny"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://timdayconstruction.co.uk/author/becca-kenny/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users/5",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users"
+    }
+   ]
+  }
+ },
+ {
+  "id": 8,
+  "name": "Connor Styche",
+  "url": "",
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/author/connor/",
+  "slug": "connor",
+  "avatar_urls": {
+   "24": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=24&d=mm&r=g",
+   "48": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=48&d=mm&r=g",
+   "96": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g"
+  },
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Connor Styche, Author at Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/author/connor/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"profile\" />\n<meta property=\"og:title\" content=\"Connor Styche, Author at Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/author/connor/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:image\" content=\"https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=500&d=mm&r=g\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"ProfilePage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/\",\"name\":\"Connor Styche, Author at Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Archives for Connor Styche\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/person\\/6b62ca809c52a658c145c394116888b9\",\"name\":\"Connor Styche\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g\",\"contentUrl\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g\",\"caption\":\"Connor Styche\"},\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/connor\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Connor Styche, Author at Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/author/connor/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "Connor Styche, Author at Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/author/connor/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://timdayconstruction.co.uk/author/connor/",
+      "url": "https://timdayconstruction.co.uk/author/connor/",
+      "name": "Connor Styche, Author at Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/author/connor/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/author/connor/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/author/connor/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for Connor Styche"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/6b62ca809c52a658c145c394116888b9",
+      "name": "Connor Styche",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+       "caption": "Connor Styche"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://timdayconstruction.co.uk/author/connor/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users/8",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users"
+    }
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "name": "maddiepitchacaren",
+  "url": "",
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+  "slug": "maddiepitchacaren",
+  "avatar_urls": {
+   "24": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=24&d=mm&r=g",
+   "48": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=48&d=mm&r=g",
+   "96": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g"
+  },
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>maddiepitchacaren, Author at Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/author/maddiepitchacaren/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"profile\" />\n<meta property=\"og:title\" content=\"maddiepitchacaren, Author at Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/author/maddiepitchacaren/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:image\" content=\"https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=500&d=mm&r=g\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"ProfilePage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/\",\"name\":\"maddiepitchacaren, Author at Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Archives for maddiepitchacaren\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/person\\/ad238e7ab902516e1231b903761e6567\",\"name\":\"maddiepitchacaren\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g\",\"url\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g\",\"contentUrl\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g\",\"caption\":\"maddiepitchacaren\"},\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/author\\/maddiepitchacaren\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+   "og_locale": "en_US",
+   "og_type": "profile",
+   "og_title": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "og_image": [
+    {
+     "url": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=500&d=mm&r=g",
+     "type": "",
+     "width": "",
+     "height": ""
+    }
+   ],
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+      "url": "https://timdayconstruction.co.uk/author/maddiepitchacaren/",
+      "name": "maddiepitchacaren, Author at Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/author/maddiepitchacaren/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Archives for maddiepitchacaren"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/ad238e7ab902516e1231b903761e6567",
+      "name": "maddiepitchacaren",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/9fec41470e22262e97022ebe6a030b491910517fc47c7bb08cfe45059b271182?s=96&d=mm&r=g",
+       "caption": "maddiepitchacaren"
+      },
+      "mainEntityOfPage": {
+       "@id": "https://timdayconstruction.co.uk/author/maddiepitchacaren/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users/2",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/users"
+    }
+   ]
+  }
+ }
+]

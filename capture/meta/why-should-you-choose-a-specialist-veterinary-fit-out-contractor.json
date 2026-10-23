@@ -1,0 +1,227 @@
+{
+ "url": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+ "status": 200,
+ "bytes": 42008,
+ "title": "Why Should you Choose a Specialist Veterinary Fit-Out Contractor? - Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Why Should you Choose a Specialist Veterinary Fit-Out Contractor? - Building Contractor | Canterbury, Kent",
+  "og:description": "When planning a new veterinary practice or refurbishing an existing one, selecting the right contractor is one of the most important decisions you\u2019ll make. While many commercial contractors are highly skilled, veterinary practices have unique requirements that demand specialist knowledge and experience. Choosing a contractor with a proven track record in veterinary fit-outs like Tim [\u2026]",
+  "og:url": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+  "og:site_name": "Building Contractor | Canterbury, Kent"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Becca Kenny",
+  "twitter:label2": "Est. reading time",
+  "twitter:data2": "3 minutes"
+ },
+ "h1": [
+  "Why Should you Choose a Specialist Veterinary Fit-Out Contractor?"
+ ],
+ "body_class": [
+  "wp-singular",
+  "post-template-default",
+  "single",
+  "single-post",
+  "postid-842",
+  "single-format-standard",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Article",
+     "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/#article",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/"
+     },
+     "author": {
+      "name": "Becca Kenny",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/81f1459945f55067ad074052af6c73ab"
+     },
+     "headline": "Why Should you Choose a Specialist Veterinary Fit-Out Contractor?",
+     "datePublished": "2026-09-23T08:48:58+00:00",
+     "dateModified": "2026-09-23T08:49:00+00:00",
+     "mainEntityOfPage": {
+      "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/"
+     },
+     "wordCount": 568,
+     "commentCount": 0,
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "CommentAction",
+       "name": "Comment",
+       "target": [
+        "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/#respond"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+     "url": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/",
+     "name": "Why Should you Choose a Specialist Veterinary Fit-Out Contractor? - Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "datePublished": "2026-09-23T08:48:58+00:00",
+     "dateModified": "2026-09-23T08:49:00+00:00",
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/why-should-you-choose-a-specialist-veterinary-fit-out-contractor/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Why Should you Choose a Specialist Veterinary Fit-Out Contractor?"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://timdayconstruction.co.uk/#/schema/person/81f1459945f55067ad074052af6c73ab",
+     "name": "Becca Kenny",
+     "image": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+      "url": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+      "contentUrl": "https://secure.gravatar.com/avatar/c10437444c2518c5c5c73036bd6d257d1fa38c131d628c1dfc4d6110c7ec71bd?s=96&d=mm&r=g",
+      "caption": "Becca Kenny"
+     },
+     "url": "https://timdayconstruction.co.uk/author/becca-kenny/"
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9494-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/sector/change-of-use/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

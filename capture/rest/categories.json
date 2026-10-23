@@ -1,0 +1,1024 @@
+[
+ {
+  "id": 15,
+  "count": 3,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/change-of-use/",
+  "name": "Change of Use",
+  "slug": "change-of-use",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Change of Use Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/change-of-use/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Change of Use Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/change-of-use/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/change-of-use\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/change-of-use\\/\",\"name\":\"Change of Use Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/change-of-use\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/change-of-use\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Change of Use\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Change of Use Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/change-of-use/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Change of Use Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/change-of-use/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/change-of-use/",
+      "url": "https://timdayconstruction.co.uk/category/change-of-use/",
+      "name": "Change of Use Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/change-of-use/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/change-of-use/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Change of Use"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/15",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=15"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=15"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 18,
+  "count": 2,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/",
+  "name": "Clinical &amp; Veterinary Fit-Outs",
+  "slug": "clinical-veterinary-fit-outs",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/clinical-veterinary-fit-outs\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/clinical-veterinary-fit-outs\\/\",\"name\":\"Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/clinical-veterinary-fit-outs\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/clinical-veterinary-fit-outs\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Clinical &amp; Veterinary Fit-Outs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/",
+      "url": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/",
+      "name": "Clinical &amp; Veterinary Fit-Outs Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/clinical-veterinary-fit-outs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Clinical &amp; Veterinary Fit-Outs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/18",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=18"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=18"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 12,
+  "count": 3,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/extensions/",
+  "name": "Extensions",
+  "slug": "extensions",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Extensions Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/extensions/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Extensions Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/extensions/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/extensions\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/extensions\\/\",\"name\":\"Extensions Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/extensions\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/extensions\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Extensions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Extensions Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/extensions/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Extensions Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/extensions/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/extensions/",
+      "url": "https://timdayconstruction.co.uk/category/extensions/",
+      "name": "Extensions Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/extensions/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/extensions/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Extensions"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/12",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=12"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=12"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 13,
+  "count": 2,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/listed-buildings/",
+  "name": "Listed Buildings",
+  "slug": "listed-buildings",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Listed Buildings Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/listed-buildings/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Listed Buildings Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/listed-buildings/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/listed-buildings\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/listed-buildings\\/\",\"name\":\"Listed Buildings Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/listed-buildings\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/listed-buildings\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Listed Buildings\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Listed Buildings Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/listed-buildings/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Listed Buildings Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/listed-buildings/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/listed-buildings/",
+      "url": "https://timdayconstruction.co.uk/category/listed-buildings/",
+      "name": "Listed Buildings Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/listed-buildings/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/listed-buildings/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Listed Buildings"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/13",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=13"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=13"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 11,
+  "count": 5,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/new-build-residential/",
+  "name": "New Build Residential",
+  "slug": "new-build-residential",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>New Build Residential Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/new-build-residential/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"New Build Residential Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/new-build-residential/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/new-build-residential\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/new-build-residential\\/\",\"name\":\"New Build Residential Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/new-build-residential\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/new-build-residential\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"New Build Residential\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "New Build Residential Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/new-build-residential/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "New Build Residential Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/new-build-residential/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/new-build-residential/",
+      "url": "https://timdayconstruction.co.uk/category/new-build-residential/",
+      "name": "New Build Residential Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/new-build-residential/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/new-build-residential/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "New Build Residential"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/11",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=11"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=11"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 14,
+  "count": 2,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/refurbishments/",
+  "name": "Refurbishments",
+  "slug": "refurbishments",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Refurbishments Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/refurbishments/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Refurbishments Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/refurbishments/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/refurbishments\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/refurbishments\\/\",\"name\":\"Refurbishments Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/refurbishments\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/refurbishments\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Refurbishments\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Refurbishments Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/refurbishments/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Refurbishments Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/refurbishments/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/refurbishments/",
+      "url": "https://timdayconstruction.co.uk/category/refurbishments/",
+      "name": "Refurbishments Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/refurbishments/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/refurbishments/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Refurbishments"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/14",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=14"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=14"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1,
+  "count": 13,
+  "description": "",
+  "link": "https://timdayconstruction.co.uk/category/uncategorized/",
+  "name": "Uncategorized",
+  "slug": "uncategorized",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Uncategorized Archives - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/category/uncategorized/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Uncategorized Archives - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/category/uncategorized/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/uncategorized\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/uncategorized\\/\",\"name\":\"Uncategorized Archives - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/uncategorized\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/category\\/uncategorized\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Uncategorized\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Uncategorized Archives - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/category/uncategorized/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Uncategorized Archives - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/category/uncategorized/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://timdayconstruction.co.uk/category/uncategorized/",
+      "url": "https://timdayconstruction.co.uk/category/uncategorized/",
+      "name": "Uncategorized Archives - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/category/uncategorized/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/category/uncategorized/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uncategorized"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories/1",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/posts?categories=1"
+    },
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/project?categories=1"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

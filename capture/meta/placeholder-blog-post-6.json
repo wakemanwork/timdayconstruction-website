@@ -1,0 +1,227 @@
+{
+ "url": "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+ "status": 200,
+ "bytes": 39688,
+ "title": "What is a Passive House? - Building Contractor | Canterbury, Kent",
+ "description": null,
+ "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+ "canonical": "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "What is a Passive House? - Building Contractor | Canterbury, Kent",
+  "og:description": "As energy efficiency and sustainability become increasingly important in construction, Passive House design is gaining attention as a top standard for ultra-efficient, comfortable, and low-energy homes. But what exactly is a Passive House, and what makes it so different from traditional construction? Understanding Passive House A Passive House is a building designed to maintain comfortable [\u2026]",
+  "og:url": "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+  "og:site_name": "Building Contractor | Canterbury, Kent"
+ },
+ "twitter": {
+  "twitter:card": "summary_large_image",
+  "twitter:label1": "Written by",
+  "twitter:data1": "Connor Styche",
+  "twitter:label2": "Est. reading time",
+  "twitter:data2": "2 minutes"
+ },
+ "h1": [
+  "What is a Passive House?"
+ ],
+ "body_class": [
+  "wp-singular",
+  "post-template-default",
+  "single",
+  "single-post",
+  "postid-687",
+  "single-format-standard",
+  "wp-custom-logo",
+  "wp-theme-tim-day-custom-theme"
+ ],
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Article",
+     "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/#article",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/"
+     },
+     "author": {
+      "name": "Connor Styche",
+      "@id": "https://timdayconstruction.co.uk/#/schema/person/6b62ca809c52a658c145c394116888b9"
+     },
+     "headline": "What is a Passive House?",
+     "datePublished": "2025-09-19T16:57:14+00:00",
+     "dateModified": "2025-10-16T11:21:00+00:00",
+     "mainEntityOfPage": {
+      "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/"
+     },
+     "wordCount": 446,
+     "commentCount": 0,
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "CommentAction",
+       "name": "Comment",
+       "target": [
+        "https://timdayconstruction.co.uk/placeholder-blog-post-6/#respond"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+     "url": "https://timdayconstruction.co.uk/placeholder-blog-post-6/",
+     "name": "What is a Passive House? - Building Contractor | Canterbury, Kent",
+     "isPartOf": {
+      "@id": "https://timdayconstruction.co.uk/#website"
+     },
+     "datePublished": "2025-09-19T16:57:14+00:00",
+     "dateModified": "2025-10-16T11:21:00+00:00",
+     "breadcrumb": {
+      "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/#breadcrumb"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": [
+      {
+       "@type": "ReadAction",
+       "target": [
+        "https://timdayconstruction.co.uk/placeholder-blog-post-6/"
+       ]
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://timdayconstruction.co.uk/placeholder-blog-post-6/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://timdayconstruction.co.uk/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "What is a Passive House?"
+      }
+     ]
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://timdayconstruction.co.uk/#website",
+     "url": "https://timdayconstruction.co.uk/",
+     "name": "Tim Day Construction",
+     "description": "\u2018Concept to completion\u2019 construction and  project management",
+     "publisher": {
+      "@id": "https://timdayconstruction.co.uk/#organization"
+     },
+     "potentialAction": [
+      {
+       "@type": "SearchAction",
+       "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+       },
+       "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+       }
+      }
+     ],
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Organization",
+     "@id": "https://timdayconstruction.co.uk/#organization",
+     "name": "Tim Day Construction",
+     "url": "https://timdayconstruction.co.uk/",
+     "logo": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+      "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+      "width": 286,
+      "height": 42,
+      "caption": "Tim Day Construction"
+     },
+     "image": {
+      "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://timdayconstruction.co.uk/#/schema/person/6b62ca809c52a658c145c394116888b9",
+     "name": "Connor Styche",
+     "image": {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+      "url": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+      "contentUrl": "https://secure.gravatar.com/avatar/4997bca5af49e6f63cd53a7c6ceefdb191d072b2f8a7755db7df30fc8b8f5094?s=96&d=mm&r=g",
+      "caption": "Connor Styche"
+     },
+     "url": "https://timdayconstruction.co.uk/author/connor/"
+    }
+   ]
+  }
+ ],
+ "images": [
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+   "alt": "Building Contractor | Canterbury, Kent"
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/09/TDC-PAS-0825.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/fmb-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/01/nhbc-light.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/uploads/2025/08/seal_en.png",
+   "alt": ""
+  },
+  {
+   "src": "https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/zarach.png",
+   "alt": ""
+  }
+ ],
+ "links": [
+  "/contact",
+  "http://tim-day.local/contact/",
+  "https://cms.passivehouse.com/en/training/certificates/tradesperson/",
+  "https://timdayconstruction.co.uk/",
+  "https://timdayconstruction.co.uk/about/",
+  "https://timdayconstruction.co.uk/blog/",
+  "https://timdayconstruction.co.uk/cookies/",
+  "https://timdayconstruction.co.uk/portfolio/",
+  "https://timdayconstruction.co.uk/privacy-policy/",
+  "https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf",
+  "https://www.facebook.com/timdayconstruction",
+  "https://www.fmb.org.uk",
+  "https://www.linkedin.com/company/tim-day-construction-ltd/",
+  "https://www.nhbc.co.uk",
+  "https://zarach.org/",
+  "mailto:info@timdayconstruction.co.uk",
+  "tel:01227 281 749"
+ ]
+}

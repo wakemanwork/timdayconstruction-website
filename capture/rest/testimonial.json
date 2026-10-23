@@ -1,0 +1,857 @@
+[
+ {
+  "id": 444,
+  "date": "2025-01-31T17:04:11",
+  "date_gmt": "2025-01-31T17:04:11",
+  "guid": {
+   "rendered": "https://timdayconstruction.co.uk/?post_type=testimonial&#038;p=444"
+  },
+  "modified": "2025-02-11T14:53:31",
+  "modified_gmt": "2025-02-11T14:53:31",
+  "slug": "mr-bryan-joyce",
+  "status": "publish",
+  "type": "testimonial",
+  "link": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/",
+  "title": {
+   "rendered": "Mr Bryan Joyce"
+  },
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "class_list": [
+   "post-444",
+   "testimonial",
+   "type-testimonial",
+   "status-publish",
+   "hentry"
+  ],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mr Bryan Joyce - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mr Bryan Joyce - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"article:modified_time\" content=\"2025-02-11T14:53:31+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-bryan-joyce\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-bryan-joyce\\/\",\"name\":\"Mr Bryan Joyce - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"datePublished\":\"2025-01-31T17:04:11+00:00\",\"dateModified\":\"2025-02-11T14:53:31+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-bryan-joyce\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-bryan-joyce\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-bryan-joyce\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mr Bryan Joyce\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Mr Bryan Joyce - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Mr Bryan Joyce - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "article_modified_time": "2025-02-11T14:53:31+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/",
+      "url": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/",
+      "name": "Mr Bryan Joyce - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "datePublished": "2025-01-31T17:04:11+00:00",
+      "dateModified": "2025-02-11T14:53:31+00:00",
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/testimonial/mr-bryan-joyce/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mr Bryan Joyce"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial/444",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/types/testimonial"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/media?parent=444"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 122,
+  "date": "2024-12-04T17:03:29",
+  "date_gmt": "2024-12-04T17:03:29",
+  "guid": {
+   "rendered": "https://timdayconstruction.co.uk/?post_type=testimonial&#038;p=122"
+  },
+  "modified": "2025-01-29T03:59:29",
+  "modified_gmt": "2025-01-29T03:59:29",
+  "slug": "vetshack",
+  "status": "publish",
+  "type": "testimonial",
+  "link": "https://timdayconstruction.co.uk/testimonial/vetshack/",
+  "title": {
+   "rendered": "VetShack"
+  },
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "class_list": [
+   "post-122",
+   "testimonial",
+   "type-testimonial",
+   "status-publish",
+   "hentry"
+  ],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>VetShack - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/testimonial/vetshack/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"VetShack - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/testimonial/vetshack/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"article:modified_time\" content=\"2025-01-29T03:59:29+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/vetshack\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/vetshack\\/\",\"name\":\"VetShack - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"datePublished\":\"2024-12-04T17:03:29+00:00\",\"dateModified\":\"2025-01-29T03:59:29+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/vetshack\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/vetshack\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/vetshack\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"VetShack\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "VetShack - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/testimonial/vetshack/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "VetShack - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/testimonial/vetshack/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "article_modified_time": "2025-01-29T03:59:29+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://timdayconstruction.co.uk/testimonial/vetshack/",
+      "url": "https://timdayconstruction.co.uk/testimonial/vetshack/",
+      "name": "VetShack - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "datePublished": "2024-12-04T17:03:29+00:00",
+      "dateModified": "2025-01-29T03:59:29+00:00",
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/testimonial/vetshack/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/testimonial/vetshack/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/testimonial/vetshack/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "VetShack"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial/122",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/types/testimonial"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/media?parent=122"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 121,
+  "date": "2024-12-04T17:02:51",
+  "date_gmt": "2024-12-04T17:02:51",
+  "guid": {
+   "rendered": "https://timdayconstruction.co.uk/?post_type=testimonial&#038;p=121"
+  },
+  "modified": "2025-01-29T03:19:23",
+  "modified_gmt": "2025-01-29T03:19:23",
+  "slug": "mr-l-reddy",
+  "status": "publish",
+  "type": "testimonial",
+  "link": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/",
+  "title": {
+   "rendered": "Mr L. Reddy"
+  },
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "class_list": [
+   "post-121",
+   "testimonial",
+   "type-testimonial",
+   "status-publish",
+   "hentry"
+  ],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mr L. Reddy - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/testimonial/mr-l-reddy/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mr L. Reddy - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/testimonial/mr-l-reddy/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"article:modified_time\" content=\"2025-01-29T03:19:23+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-l-reddy\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-l-reddy\\/\",\"name\":\"Mr L. Reddy - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"datePublished\":\"2024-12-04T17:02:51+00:00\",\"dateModified\":\"2025-01-29T03:19:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-l-reddy\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-l-reddy\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/mr-l-reddy\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mr L. Reddy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Mr L. Reddy - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Mr L. Reddy - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "article_modified_time": "2025-01-29T03:19:23+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/",
+      "url": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/",
+      "name": "Mr L. Reddy - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "datePublished": "2024-12-04T17:02:51+00:00",
+      "dateModified": "2025-01-29T03:19:23+00:00",
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/testimonial/mr-l-reddy/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mr L. Reddy"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial/121",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/types/testimonial"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/media?parent=121"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 120,
+  "date": "2024-12-04T17:02:37",
+  "date_gmt": "2024-12-04T17:02:37",
+  "guid": {
+   "rendered": "https://timdayconstruction.co.uk/?post_type=testimonial&#038;p=120"
+  },
+  "modified": "2025-01-29T03:17:54",
+  "modified_gmt": "2025-01-29T03:17:54",
+  "slug": "national-trust",
+  "status": "publish",
+  "type": "testimonial",
+  "link": "https://timdayconstruction.co.uk/testimonial/national-trust/",
+  "title": {
+   "rendered": "National Trust"
+  },
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "class_list": [
+   "post-120",
+   "testimonial",
+   "type-testimonial",
+   "status-publish",
+   "hentry"
+  ],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>National Trust - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/testimonial/national-trust/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"National Trust - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/testimonial/national-trust/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"article:modified_time\" content=\"2025-01-29T03:17:54+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/national-trust\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/national-trust\\/\",\"name\":\"National Trust - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"datePublished\":\"2024-12-04T17:02:37+00:00\",\"dateModified\":\"2025-01-29T03:17:54+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/national-trust\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/national-trust\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/national-trust\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"National Trust\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "National Trust - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/testimonial/national-trust/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "National Trust - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/testimonial/national-trust/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "article_modified_time": "2025-01-29T03:17:54+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://timdayconstruction.co.uk/testimonial/national-trust/",
+      "url": "https://timdayconstruction.co.uk/testimonial/national-trust/",
+      "name": "National Trust - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "datePublished": "2024-12-04T17:02:37+00:00",
+      "dateModified": "2025-01-29T03:17:54+00:00",
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/testimonial/national-trust/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/testimonial/national-trust/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/testimonial/national-trust/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "National Trust"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial/120",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/types/testimonial"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/media?parent=120"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 119,
+  "date": "2024-12-04T17:02:22",
+  "date_gmt": "2024-12-04T17:02:22",
+  "guid": {
+   "rendered": "https://timdayconstruction.co.uk/?post_type=testimonial&#038;p=119"
+  },
+  "modified": "2025-01-29T03:18:18",
+  "modified_gmt": "2025-01-29T03:18:18",
+  "slug": "andy-boorman",
+  "status": "publish",
+  "type": "testimonial",
+  "link": "https://timdayconstruction.co.uk/testimonial/andy-boorman/",
+  "title": {
+   "rendered": "Andy Boorman"
+  },
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "class_list": [
+   "post-119",
+   "testimonial",
+   "type-testimonial",
+   "status-publish",
+   "hentry"
+  ],
+  "acf": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.7 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Andy Boorman - Building Contractor | Canterbury, Kent</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://timdayconstruction.co.uk/testimonial/andy-boorman/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Andy Boorman - Building Contractor | Canterbury, Kent\" />\n<meta property=\"og:url\" content=\"https://timdayconstruction.co.uk/testimonial/andy-boorman/\" />\n<meta property=\"og:site_name\" content=\"Building Contractor | Canterbury, Kent\" />\n<meta property=\"article:modified_time\" content=\"2025-01-29T03:18:18+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/andy-boorman\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/andy-boorman\\/\",\"name\":\"Andy Boorman - Building Contractor | Canterbury, Kent\",\"isPartOf\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\"},\"datePublished\":\"2024-12-04T17:02:22+00:00\",\"dateModified\":\"2025-01-29T03:18:18+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/andy-boorman\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/andy-boorman\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/testimonial\\/andy-boorman\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/timdayconstruction.co.uk\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Andy Boorman\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#website\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"name\":\"Tim Day Construction\",\"description\":\"\u2018Concept to completion\u2019 construction and  project management\",\"publisher\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/timdayconstruction.co.uk\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#organization\",\"name\":\"Tim Day Construction\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"contentUrl\":\"https:\\/\\/timdayconstruction.co.uk\\/wp-content\\/uploads\\/2024\\/12\\/tim-day-logo-darker.png\",\"width\":286,\"height\":42,\"caption\":\"Tim Day Construction\"},\"image\":{\"@id\":\"https:\\/\\/timdayconstruction.co.uk\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Andy Boorman - Building Contractor | Canterbury, Kent",
+   "robots": {
+    "index": "index",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "canonical": "https://timdayconstruction.co.uk/testimonial/andy-boorman/",
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Andy Boorman - Building Contractor | Canterbury, Kent",
+   "og_url": "https://timdayconstruction.co.uk/testimonial/andy-boorman/",
+   "og_site_name": "Building Contractor | Canterbury, Kent",
+   "article_modified_time": "2025-01-29T03:18:18+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://timdayconstruction.co.uk/testimonial/andy-boorman/",
+      "url": "https://timdayconstruction.co.uk/testimonial/andy-boorman/",
+      "name": "Andy Boorman - Building Contractor | Canterbury, Kent",
+      "isPartOf": {
+       "@id": "https://timdayconstruction.co.uk/#website"
+      },
+      "datePublished": "2024-12-04T17:02:22+00:00",
+      "dateModified": "2025-01-29T03:18:18+00:00",
+      "breadcrumb": {
+       "@id": "https://timdayconstruction.co.uk/testimonial/andy-boorman/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://timdayconstruction.co.uk/testimonial/andy-boorman/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://timdayconstruction.co.uk/testimonial/andy-boorman/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://timdayconstruction.co.uk/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Andy Boorman"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://timdayconstruction.co.uk/#website",
+      "url": "https://timdayconstruction.co.uk/",
+      "name": "Tim Day Construction",
+      "description": "\u2018Concept to completion\u2019 construction and  project management",
+      "publisher": {
+       "@id": "https://timdayconstruction.co.uk/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://timdayconstruction.co.uk/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://timdayconstruction.co.uk/#organization",
+      "name": "Tim Day Construction",
+      "url": "https://timdayconstruction.co.uk/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/",
+       "url": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "contentUrl": "https://timdayconstruction.co.uk/wp-content/uploads/2024/12/tim-day-logo-darker.png",
+       "width": 286,
+       "height": 42,
+       "caption": "Tim Day Construction"
+      },
+      "image": {
+       "@id": "https://timdayconstruction.co.uk/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial/119",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/testimonial"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/types/testimonial"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://timdayconstruction.co.uk/wp-json/wp/v2/media?parent=119"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

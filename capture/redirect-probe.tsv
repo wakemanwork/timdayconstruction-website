@@ -1,0 +1,68 @@
+301	https://timdayconstruction.co.uk/about/	/about
+301	https://timdayconstruction.co.uk/contact/	/contact
+301	https://timdayconstruction.co.uk/blog/	/blog
+301	https://timdayconstruction.co.uk/portfolio/	/portfolio
+301	https://timdayconstruction.co.uk/project/vet-shack/	/project/vet-shack
+301	https://timdayconstruction.co.uk/	/index.php
+404		/?p=1
+301	https://timdayconstruction.co.uk/	/?page_id=7
+404		/?p=99999
+200		/blog/page/2/
+200		/page/2/
+200		/feed/
+301	https://timdayconstruction.co.uk/feed/	/feed
+200		/comments/feed/
+200		/category/uncategorized/feed/
+200		/author/connor/feed/
+404		/project/feed/
+404		/project/
+404		/sector/
+404		/testimonial/
+301	https://timdayconstruction.co.uk/project/vet-shack/	/vet-shack/
+301	https://timdayconstruction.co.uk/project/pure-vet-ashford/	/pure-vet-ashford/
+301	https://timdayconstruction.co.uk/project/stables/	/stables/
+301	https://timdayconstruction.co.uk/project/preston-parade/	/preston
+301	https://timdayconstruction.co.uk/placeholder-blog-post-6/	/placeholder
+404		/passive-house/
+404		/what-is-a-passive-house/
+301	https://timdayconstruction.co.uk/sector/veterinary-fit-outs/	/veterinary-fit-outs/
+301	https://timdayconstruction.co.uk/sector/new-builds/	/new-builds/
+301	https://timdayconstruction.co.uk/locations/canterbury/	/canterbury/
+301	https://timdayconstruction.co.uk/locations/whitstable/	/whitstable/
+404		/services/
+404		/projects/
+404		/our-work/
+404		/news/
+404		/home/
+404		/sample-page/
+404		/hello-world/
+301	https://timdayconstruction.co.uk/privacy-policy/	/privacy/
+404		/cookie-policy/
+404		/contact-us/
+404		/about-us/
+404		/team/
+404		/gallery/
+404		/tag/kent/
+200		/2025/
+200		/2026/10/
+200		/wp-json/
+000		/xmlrpc.php
+200		/wp-login.php
+301	https://timdayconstruction.co.uk/sitemap_index.xml	/sitemap.xml
+301	https://timdayconstruction.co.uk/sitemap_index.xml	/wp-sitemap.xml
+200		/sitemap_index.xml
+404		/llms.txt
+404		/type/image/
+200		/search/kent/
+200		/?s=kent
+404		/attachment/
+301	https://timdayconstruction.co.uk/	/tim-day-construction/
+200		/wp-content/uploads/2024/12/separator.jpg
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/10/logo-smas-workplace-3.png	https://timdayconstruction.co.uk/tim-day-construction/logo-smas-workplace-3/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/10/myWorksafeCompliancePack-1.pdf	https://timdayconstruction.co.uk/myworksafecompliancepack-1/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/10/715313751-img_0563-scaled.jpg	https://timdayconstruction.co.uk/sector/veterinary-fit-outs/715313751-img_0563/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9540-scaled.jpg	https://timdayconstruction.co.uk/project/pure-vet-ashford/dscf9540/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9537-scaled.jpg	https://timdayconstruction.co.uk/project/pure-vet-ashford/dscf9537/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9532-scaled.jpg	https://timdayconstruction.co.uk/project/pure-vet-ashford/dscf9532/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9516-scaled.jpg	https://timdayconstruction.co.uk/project/pure-vet-ashford/dscf9516/
+301	https://timdayconstruction.co.uk/wp-content/uploads/2026/07/DSCF9494-scaled.jpg	https://timdayconstruction.co.uk/project/pure-vet-ashford/dscf9494/

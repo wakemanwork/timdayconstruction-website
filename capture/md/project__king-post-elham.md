@@ -1,0 +1,67 @@
+---
+url: https://timdayconstruction.co.uk/project/king-post-elham/
+title: "King Post, Elham - Building Contractor | Canterbury, Kent"
+description: "Tim Day Construction were trusted to maintain the conservation of this cherished historical building by giving it a general refurbishment."
+---
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716681720-img_1557-scaled.jpg) ![](https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg)
+
+# King Post, Elham
+
+King Post in Elham is 400 years old and was formerly a house and shop. The building from the late 15th century is on the National Heritage List for England, which is a unique register of our country’s most significant historic buildings and sites.
+
+The Grade II listed building has been continuously refurbished in its time, in line with every significant architectural fashion from its origin.
+
+Come recent times, after centuries of alterations, modifications to the remainder of the structure are, for the most part, focussed on the back of the building and interior fixtures and fittings.
+
+Tim Day Construction were trusted to maintain the conservation of this cherished historical building by giving it a general refurbishment. TDC carried out various repairs, decorated the interior and gave the electrical works a re-fresh.
+
+![](https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg)
+
+#### Location
+
+Canterbury, Kent
+
+#### Client
+
+The National Trust
+
+#### Type Of Work
+
+Listed Building Conservation
+
+#### Architect
+
+#### Status
+
+Complete
+
+arrow\_back arrow\_forward
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716681720-img_1557-scaled.jpg)
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716221481-img_1559.jpg)
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716681701-img_1560-scaled.jpg)
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716221491-img_1558.jpg)
+
+![](https://timdayconstruction.co.uk/wp-content/uploads/2024/12/716221478-img_1561.jpg)
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![](https://timdayconstruction.co.uk/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg)
+
+### Looking for trusted builders in Kent?
+
+This countryside, national heritage project in Canterbury is a great example of the craftsmanship and care Tim Day Construction brings to every build. As experienced builders in Kent, we work on historical building construction projects. Whether it’s a new build, listed building, or full renovation, we’re proud to be a trusted name for construction in Whitstable, Canterbury and surrounding areas in Kent.
+
+[Get in touch now!](https://timdayconstruction.co.uk/contact/)
