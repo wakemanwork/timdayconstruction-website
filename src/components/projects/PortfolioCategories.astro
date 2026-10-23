@@ -1,0 +1,57 @@
+---
+// Live .portfolio-category rows + .portfolio-category__image (style.css 2562–2637).
+// Parallax: the live theme ran gsap.to(img, { y: 0, scrollTrigger: { trigger: img, scrub: true } })
+// from the CSS start position translateY(-200px) scale(1.3). Same tween here, with gsap loaded
+// only on this page, after first paint, and skipped under prefers-reduced-motion (DESIGN.md 2.6).
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+interface Row { title: string; tone: 'grey' | 'green'; button: { label: string; href: string }; body: string[]; image: string; }
+interface Props { rows: Row[]; }
+const { rows } = Astro.props;
+---
+{rows.map((r) => {
+  const green = r.tone === 'green';
+  return (
+    <>
+      <div class:list={['portfolio-category', green ? 'green-bg' : 'grey-bg']}>
+        <div class="portfolio-category-container width-container">
+          <div class="portfolio-category-column">
+            <h2 class:list={['portfolio-category__title', 'section-title--large', { 'white-txt': green }]}>{r.title}</h2>
+            <a class:list={['btn', green ? 'btn--transparent' : 'btn--dark']} href={r.button.href}>{r.button.label}<span class="sr-only">: {r.title}</span></a>
+          </div>
+          <div class="portfolio-category-column">
+            <div class:list={['portfolio-category__body', { 'white-txt': green }]}>
+              {r.body.map((p) => <p>{p}</p>)}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-category__image">
+        <Img src={r.image} alt={alt(r.image)} sizes="100vw" />
+      </div>
+    </>
+  );
+})}
+
+<style is:global>
+  /* Reduced motion: no parallax. Hold the image at the midpoint of the live tween (-200px → 0)
+     so it still covers its frame without GSAP. */
+  @media (prefers-reduced-motion: reduce) {
+    .portfolio-category__image img { transform: translateY(-100px) scale(1.3); }
+  }
+</style>
+
+<script>
+  const start = () => {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    Promise.all([import('gsap'), import('gsap/ScrollTrigger')]).then(([{ gsap }, { ScrollTrigger }]) => {
+      gsap.registerPlugin(ScrollTrigger);
+      document.querySelectorAll<HTMLElement>('.portfolio-category__image img').forEach((img) => {
+        gsap.to(img, { y: 0, duration: 100, scrollTrigger: { trigger: img, scrub: true } });
+      });
+      ScrollTrigger.refresh();
+    });
+  };
+  if (document.readyState === 'complete') requestAnimationFrame(start);
+  else addEventListener('load', () => requestAnimationFrame(start), { once: true });
+</script>

@@ -1,0 +1,13 @@
+---
+// Live .portfolio-page-intro (style.css 2501–2561). Also reused as the short intro on the
+// category archives (F7), where it has no heading.
+interface Props { heading?: string | null; body: string[]; }
+const { heading, body } = Astro.props;
+---
+<section class="portfolio-page-intro width-container">
+  <div class="portfolio-page-intro__content">
+    {heading && <h2>{heading}</h2>}
+    {body.map((p) => <p>{p}</p>)}
+  </div>
+  <img aria-hidden="true" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" loading="lazy" />
+</section>

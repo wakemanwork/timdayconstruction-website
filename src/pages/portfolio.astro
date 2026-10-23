@@ -1,0 +1,26 @@
+---
+// Portfolio (DESIGN.md section 5): PageBanner → portfolio intro → portfolio category rows with parallax images.
+// Content: src/data/pages/portfolio.json (scripts/extract_projects.py from capture/html/portfolio.html).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageBanner from '../components/PageBanner.astro';
+import PortfolioIntro from '../components/projects/PortfolioIntro.astro';
+import PortfolioCategories from '../components/projects/PortfolioCategories.astro';
+import page from '../data/pages/portfolio.json';
+import drafts from '../data/pages/projects-drafts.json';
+import { pageTitle, graph, webPage, breadcrumbs } from '../lib/seo';
+
+const path = '/portfolio/';
+const title = pageTitle(page.seo.title, page.title);
+// F10: no live description; draft awaiting approval (src/data/pages/projects-drafts.json)
+const description = page.seo.description ?? drafts.portfolio.description;
+const ogImage = page.seo.ogImage ?? page.bannerImage;
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.date + 'Z'), modified: new Date(page.modified + 'Z'), image: ogImage, type: 'CollectionPage' }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: page.title, path }]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={ogImage} jsonld={jsonld} bodyClass="page-template-default page">
+  <PageBanner title={page.title} image={page.bannerImage} />
+  <PortfolioIntro heading={page.intro.heading} body={page.intro.body} />
+  <PortfolioCategories rows={page.categories as any} />
+</BaseLayout>

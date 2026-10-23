@@ -1,0 +1,51 @@
+---
+// Project template (DESIGN.md section 5): PageBanner → content + details panel → image carousel → project CTA.
+// Content: src/content/projects/*.md (extracted by scripts/extract.py). Live example: capture/html/project__vet-shack.html.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import ImageCarousel from '../../components/ImageCarousel.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import CtaButtonContrast from '../../components/projects/CtaButtonContrast.astro';
+import ProjectDetail from '../../components/projects/ProjectDetail.astro';
+import drafts from '../../data/pages/projects-drafts.json';
+import { pageTitle, graph, webPage, breadcrumbs } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((p) => ({ params: { slug: p.id }, props: { project: p } }));
+}
+
+const { project } = Astro.props;
+const d = project.data;
+const { Content } = await render(project);
+const path = `/project/${project.id}/`;
+const title = pageTitle(d.seo.title, d.title);
+// F10: live Yoast description, else the draft awaiting approval (src/data/pages/projects-drafts.json)
+const description = d.seo.description ?? (drafts.projects as Record<string, string>)[project.id] ?? null;
+const ogImage = d.seo.ogImage ?? d.bannerImage;
+// Pure Vet's live CTA band is empty (empty <h3> and an unnamed link: axe empty-heading, link-name).
+// Fill an empty CTA with the heading and button every other project page uses; the body stays empty.
+let cta = d.cta;
+if (!cta.title.trim()) {
+  const ref = (await getCollection('projects')).map((p) => p.data.cta).find((c) => c.title.trim())!;
+  cta = { title: ref.title, body: cta.body, button: ref.button, href: ref.href };
+}
+const jsonld = graph(
+  webPage(path, title, description, { published: d.date, modified: d.modified, image: ogImage }),
+  breadcrumbs(path, [
+    { name: 'Home', path: '/' },
+    { name: 'Portfolio', path: '/portfolio/' },
+    { name: d.title, path },
+  ]),
+);
+---
+<BaseLayout title={title} description={description} ogImage={ogImage} jsonld={jsonld} bodyClass="project-template-default single single-project">
+  <PageBanner title={d.title} image={d.bannerImage} />
+  <ProjectDetail location={d.location} client={d.client} typeOfWork={d.typeOfWork} architect={d.architect} status={d.status}>
+    <Content />
+  </ProjectDetail>
+  <ImageCarousel images={d.gallery} variant="project" label={`${d.title} photos`} />
+  <CtaButtonContrast />
+  <CtaBand variant="project" {...cta} />
+</BaseLayout>
