@@ -61,7 +61,10 @@ const config = {
   outputDirectory: 'dist',
   cleanUrls: false,
   redirects,
+  // Astro writes the RSS feed to /feed/index.xml; Vercel only auto-serves index.html for folder URLs
+  rewrites: [{ source: '/feed/', destination: '/feed/index.xml' }],
   headers: [
+    { source: '/feed/(index\\.xml)?', headers: [{ key: 'Content-Type', value: 'application/rss+xml; charset=utf-8' }] },
     { source: '/_astro/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] },
     { source: '/wp-content/(.*)', headers: [{ key: 'Cache-Control', value: 'public, max-age=2592000, stale-while-revalidate=86400' }] },
     { source: '/(.*)\\.md', headers: [{ key: 'Content-Type', value: 'text/markdown; charset=utf-8' }, { key: 'X-Robots-Tag', value: 'noindex' }] },

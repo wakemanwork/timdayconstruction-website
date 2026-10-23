@@ -55,7 +55,8 @@ def soup(path):
 def rel(url):
     if not url:
         return url
-    return url.replace(SITE, '') or '/'
+    # also strip the agency's local dev host, which leaked into some live links
+    return url.replace(SITE, '').replace('http://tim-day.local', '') or '/'
 
 def md(html_fragment, where, headings_from_bold=False):
     s = BeautifulSoup(html_fragment, 'lxml')

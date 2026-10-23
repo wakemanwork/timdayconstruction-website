@@ -43,4 +43,4 @@ A **Passive House tradesperson like Tim Day,** is essential to this transition, 
 
 Whether you’re planning a new project or looking to upgrade an existing home, embracing Passive House principles can help you create a home that’s built for the future.
 
-Interested in a passive house? [Give us a call.](http://tim-day.local/contact/)
+Interested in a passive house? [Give us a call.](/contact/)

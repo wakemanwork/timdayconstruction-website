@@ -105,7 +105,7 @@ for (const p of pages) {
     : p.path.startsWith('/testimonial/') ? 'testimonial'
     : p.path.startsWith('/category/') ? 'category'
     : postSlugs.has(p.path) ? 'post' : 'page';
-  groups[g].push({ loc: SITE + p.path, lastmod: lastmod[p.path] ?? p.modified ?? now });
+  groups[g].push({ loc: SITE + p.path, lastmod: p.modified ?? lastmod[p.path] ?? now }); // page's own article:modified_time wins (e.g. updated cookie policy)
 }
 const xml = (body) => `<?xml version="1.0" encoding="UTF-8"?>\n${body}\n`;
 const index = [];

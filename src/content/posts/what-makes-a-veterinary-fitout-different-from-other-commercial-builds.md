@@ -52,7 +52,7 @@ These design considerations go far beyond what’s needed in most commercial pro
 
 The way veterinary clinics are designed continues to evolve, blending clinical sophistication with comfort, efficiency, and future-proofing.
 
-1. Fear-Free, Pet-Centric Design
+1\. Fear-Free, Pet-Centric Design
 
 Fear-free environments aim to reduce animal anxiety from the moment they enter:
 
@@ -62,7 +62,7 @@ Fear-free environments aim to reduce animal anxiety from the moment they enter:
 
 – Noise reduction through acoustic design to avoid startled responses.
 
-2. Open, Flexible and Efficient Spaces
+2\. Open, Flexible and Efficient Spaces
 
 Modern veterinary clinics favour spaces that can adapt to changing needs:
 
@@ -74,7 +74,7 @@ Modern veterinary clinics favour spaces that can adapt to changing needs:
 
 – Flexible layouts to help clinics grow services, without costly expansions.
 
-3. Calming Environments
+3\. Calming Environments
 
 Bringing nature indoors is a rising trend:
 
@@ -84,7 +84,7 @@ Bringing nature indoors is a rising trend:
 
 – Soft, neutral colour schemes add to a calming environment suitable for pets and clients.
 
-5. Sustainability and Health-Focused Materials
+5\. Sustainability and Health-Focused Materials
 
 It’s 2026, sustainable design is expected:
 

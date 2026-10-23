@@ -1792,7 +1792,22 @@
       "statusCode": 301
     }
   ],
+  "rewrites": [
+    {
+      "source": "/feed/",
+      "destination": "/feed/index.xml"
+    }
+  ],
   "headers": [
+    {
+      "source": "/feed/(index\\.xml)?",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        }
+      ]
+    },
     {
       "source": "/_astro/(.*)",
       "headers": [
