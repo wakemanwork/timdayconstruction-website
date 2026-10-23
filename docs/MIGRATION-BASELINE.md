@@ -96,17 +96,17 @@ WordPress (SiteGround) → static Astro on Vercel. Captured 23 October 2026 from
 | 43 | `/sector/extensions/` | sector | 747 | – | Keep |
 | 44 | `/sector/veterinary-fit-outs/` | sector | 635 | – | Keep |
 | 45 | `/sector/new-builds/` | sector | 694 | – | Keep |
-| 46 | `/testimonial/national-trust/` | testimonial | 7 | – | Keep; see F8 |
-| 47 | `/testimonial/andy-boorman/` | testimonial | 7 | – | Keep; see F8 |
-| 48 | `/testimonial/mr-l-reddy/` | testimonial | 8 | – | Keep; see F8 |
-| 49 | `/testimonial/vetshack/` | testimonial | 6 | – | Keep; see F8 |
-| 50 | `/testimonial/mr-bryan-joyce/` | testimonial | 8 | – | Keep; see F8 |
-| 51 | `/category/change-of-use/` | category | 0 | – | Decision needed – see fix log F7 |
-| 52 | `/category/clinical-veterinary-fit-outs/` | category | 0 | – | Decision needed – see fix log F7 |
-| 53 | `/category/extensions/` | category | 0 | – | Decision needed – see fix log F7 |
-| 54 | `/category/listed-buildings/` | category | 0 | – | Decision needed – see fix log F7 |
-| 55 | `/category/new-build-residential/` | category | 0 | – | Decision needed – see fix log F7 |
-| 56 | `/category/refurbishments/` | category | 0 | – | Decision needed – see fix log F7 |
+| 46 | `/testimonial/national-trust/` | testimonial | 7 | – | Keep, fill with quote + photo (F8) |
+| 47 | `/testimonial/andy-boorman/` | testimonial | 7 | – | Keep, fill with quote + photo (F8) |
+| 48 | `/testimonial/mr-l-reddy/` | testimonial | 8 | – | Keep, fill with quote + photo (F8) |
+| 49 | `/testimonial/vetshack/` | testimonial | 6 | – | Keep, fill with quote + photo (F8) |
+| 50 | `/testimonial/mr-bryan-joyce/` | testimonial | 8 | – | Keep, fill with quote + photo (F8) |
+| 51 | `/category/change-of-use/` | category | 0 | – | Project list per category (F7) |
+| 52 | `/category/clinical-veterinary-fit-outs/` | category | 0 | – | Project list per category (F7) |
+| 53 | `/category/extensions/` | category | 0 | – | Project list per category (F7) |
+| 54 | `/category/listed-buildings/` | category | 0 | – | Project list per category (F7) |
+| 55 | `/category/new-build-residential/` | category | 0 | – | Project list per category (F7) |
+| 56 | `/category/refurbishments/` | category | 0 | – | Project list per category (F7) |
 | 57 | `/category/uncategorized/` | category | 0 | – | 301 → /blog/ (Phase 0 #2) |
 | 58 | `/author/becca-kenny/` | author | 0 | – | 301 → /blog/ (Phase 0 #2) |
 | 59 | `/author/connor/` | author | 0 | – | 301 → /blog/ (Phase 0 #2) |
@@ -139,11 +139,11 @@ Status: **Agreed** = decided in Phase 0. **Proposed** = my recommendation, await
 | F4 | Contact forms have no spam protection; recipient can't be verified without admin access | Vercel function to info@, honeypot + Turnstile. Test send before cutover | Agreed |
 | F5 | 7 pages have FAQ accordions (54 Q&As) but no FAQPage schema | Add FAQPage JSON-LD from the visible Q&As | Auto |
 | F6 | GA4 and VisitorQueue load with no consent | Consent banner; scripts load on opt-in only | Agreed |
-| F7 | All 7 category archives render empty (header and footer only, no H1, no description). The 6 real categories tag **projects**, not posts | **Proposed:** keep the 6 URLs and render each as a list of the projects in that category (H1, short intro, project cards). Alternative: 301 all to `/portfolio/` | Proposed |
-| F8 | The 5 `/testimonial/…` pages are empty shells: name, date and a broken empty `<img>` (6–8 words) | **Proposed:** keep the URLs (Phase 0 #10) but render the quote, client name and photo already used in the home carousel, so each page has real content | Proposed |
-| F9 | Home hero H1 ("…construction &") runs underneath the FMB logo at 1440px | Reflow so the H1 and logos don't overlap, keeping the design | Proposed |
-| F10 | 46 of 60 URLs have no meta description; 57 have no OG image | Write descriptions in TDC's voice for every indexable page; use the page's lead image as OG image (default: brand image) | Proposed |
-| F11 | Titles on 37 URLs exceed 60 characters (posts up to 118) because of the " - Building Contractor \| Canterbury, Kent" suffix | Keep titles verbatim but drop the suffix where it pushes beyond ~60 characters (brand name stays) | Proposed |
+| F7 | All 7 category archives render empty (header and footer only, no H1, no description). The 6 real categories tag **projects**, not posts | Keep the 6 URLs and render each as a list of the projects in that category (H1, short intro, project cards). Alternative: 301 all to `/portfolio/` | **Agreed** (23 Oct) |
+| F8 | The 5 `/testimonial/…` pages are empty shells: name, date and a broken empty `<img>` (6–8 words) | Keep the URLs (Phase 0 #10) but render the quote, client name and photo already used in the home carousel, so each page has real content | **Agreed** (23 Oct) |
+| F9 | Home hero H1 ("…construction &") runs underneath the FMB logo at 1440px | Reflow so the H1 and logos don't overlap, keeping the design | **Agreed** (23 Oct) |
+| F10 | 46 of 60 URLs have no meta description; 57 have no OG image | Write descriptions in TDC's voice for every indexable page; use the page's lead image as OG image (default: brand image) | **Agreed** (23 Oct) |
+| F11 | Titles on 37 URLs exceed 60 characters (posts up to 118) because of the " - Building Contractor \| Canterbury, Kent" suffix | Keep titles verbatim but drop the suffix where it pushes beyond ~60 characters (brand name stays) | **Agreed** (23 Oct) |
 | F12 | 13 pages lack an H1 (all the empty archives and blank pages) | Resolved by F1, F3 and F7 | Auto |
 | F13 | Accessibility (axe, 12 templates): 91 links without accessible names (icon-only cards, social links, logos); 12 invalid `aria-expanded` on the mobile-menu `<div>`; 8 invalid ARIA attributes; 20 contrast failures; no `<main>` landmark on 6 templates; heading-order skips on 5; one malformed list | Fix all in the new components: accessible names, valid ARIA, `<main>`, heading order, alt text. Contrast depends on the Phase 2 decision | Auto |
 | F14 | Images: empty `alt` on 36 home images and about 20 per project; accreditation logos link out with no label | Descriptive alt text for content images; `alt=""` stays on purely decorative ones; logos get accessible names | Auto |
