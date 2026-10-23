@@ -1,0 +1,36 @@
+---
+// DESIGN.md 6.13 cards in the live .location-projects-carousel (style.css 3893-3915, theme/40-location-projects.css;
+// Swiper settings in lib/carousels.ts). Cards keep the titles and locations shown on the live location page.
+// Fix (as ProjectBlocks.astro): links are named by their visible title and location, not the live aria-label.
+import Img from '../Img.astro';
+interface Props { label: string; heading: string; intro: string; cards: { title: string; location: string; href: string; image: string }[] }
+const { label, heading, intro, cards } = Astro.props;
+---
+<section class="location-projects">
+  <div>
+    <div class="width-container">
+      <h2 class="section-title--large" set:html={heading} />
+      <p set:html={intro} />
+    </div>
+    <div class="project-blocks location-projects-carousel" role="region" aria-roledescription="carousel" aria-label={label}>
+      <div class="swiper-wrapper">
+        {cards.map((c) => (
+          <div class="project-block swiper-slide">
+            <a href={c.href}>
+              <Img class="project-block__thumbnail" src={c.image} alt="" sizes="(max-width: 1024px) 100vw, 50vw" />
+              <div class="project-block-overlay">
+                <h3 class="project-block-overlay__title">{c.title}</h3>
+                <span class="project-block-overlay__location">{c.location}</span>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { initCarousel } from '../../lib/carousels';
+  initCarousel('.location-projects-carousel');
+</script>

@@ -1,0 +1,50 @@
+---
+// Locations hub (new, F1: the live /locations/ is blank). DESIGN.md section 5: page banner, intro,
+// location cards (SectorCards), CTA band. Content: src/data/pages/locations.json (scripts/extract_design.py);
+// the intro, card images and CTA body are drafts awaiting Simon's approval.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import SectorCards from '../../components/SectorCards.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import page from '../../data/pages/locations.json';
+import { graph, webPage, breadcrumbs, pageTitle } from '../../lib/seo';
+
+const path = '/locations/';
+const title = pageTitle(page.seo.title, page.banner.title);
+const description = page.seo.description;
+const image = page.cards.cards[0].image;
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.seo.published), image, type: 'CollectionPage' }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: page.banner.title, path }]),
+  {
+    '@type': 'ItemList',
+    '@id': `https://timdayconstruction.co.uk${path}#locations`,
+    itemListElement: page.cards.cards.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.label, url: `https://timdayconstruction.co.uk${c.href}` })),
+  },
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld}>
+  <PageBanner title={page.banner.title} image={page.banner.image} />
+  <section id="locations-intro">
+    <div class="width-container">
+      <p>{page.intro}</p>
+    </div>
+  </section>
+  <div id="locations-hub">
+    <SectorCards {...page.cards} />
+  </div>
+  <CtaBand variant="project" {...page.cta} />
+</BaseLayout>
+
+<style is:global>
+  /* Intro: same type and colour as the Design & Build intro (theme/35-design-and-build-page.css),
+     with the location-page section spacing (theme/39-location-content.css). */
+  #locations-intro { padding: 6rem 0 0; }
+  #locations-intro p { color: var(--teal); font-size: 1.1rem; line-height: 1.8; width: 60%; text-wrap: balance; }
+  @media screen and (max-width: 1360px) { #locations-intro p { width: 80%; } }
+  @media screen and (max-width: 560px) { #locations-intro { padding-top: 5rem; } #locations-intro p { width: 100%; } }
+  /* Two locations, not five sectors: two columns on desktop (one at <=1360, as the theme) */
+  #locations-hub #sectors { padding-top: 4rem; }
+  #locations-hub #sectors .sector-cards { grid-template-columns: repeat(2, 1fr); }
+  @media screen and (max-width: 1360px) { #locations-hub #sectors .sector-cards { grid-template-columns: 1fr; } }
+</style>

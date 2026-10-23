@@ -1,0 +1,96 @@
+{
+ "seo": {
+  "title": "Canterbury - Building Contractor | Canterbury, Kent",
+  "description": "Tim Day Construction builds new homes, extensions and veterinary fit-outs in Canterbury, including Vet Shack. See our local projects and get in touch.",
+  "ogImage": null,
+  "published": "2026-01-07T18:06:48+00:00",
+  "modified": "2026-01-08T07:53:17+00:00"
+ },
+ "banner": {
+  "title": "Canterbury",
+  "image": "/wp-content/uploads/2024/12/change-of-use.jpg"
+ },
+ "rows": [
+  {
+   "heading": "Working in Canterbury",
+   "paragraphs": [
+    "Tim Day Construction has extensive experience delivering high-quality construction and <a href=\"/design-and-build/\">design and build</a> projects across Canterbury and the surrounding areas. With a strong understanding of local planning requirements, access constraints, and ground conditions, we work closely with clients to deliver safe, efficient, and reliable results. Our local knowledge and hands-on approach ensure every project in Canterbury is completed to the highest standard."
+   ],
+   "image": "/wp-content/uploads/2024/12/IMG_1526-scaled.jpg"
+  },
+  {
+   "heading": "Veterinary Fit-Outs in Canterbury",
+   "paragraphs": [
+    "Tim Day Construction has extensive experience delivering specialist veterinary fit-outs in Canterbury, combining strong technical knowledge with meticulous attention to detail. Working from architectural drawings, we manage consultants and coordinate projects from concept through to completion, ensuring full compliance with key regulations including accessibility, fire safety, and building control.",
+    "Many veterinary fit-outs involve the refurbishment or repurposing of existing buildings, often requiring significant structural upgrades. Our work commonly includes the safe removal and replacement of outdated or hazardous materials, the installation of durable modern roofing solutions, and the integration of energy-efficient technologies such as solar panels.",
+    "We design and deliver fit-outs to meet or exceed modern building standards, with a strong focus on insulation, thermal performance, and energy efficiency to improve EPC ratings. This is supported by the installation of modern heating and ventilation systems, creating safe, comfortable, and compliant environments for veterinary teams, clients, and animal patients."
+   ],
+   "image": "/wp-content/uploads/2024/12/IMG_0563-scaled.jpg"
+  }
+ ],
+ "projects": {
+  "heading": "Projects In <span class=\"light-teal-txt\">Canterbury</span>",
+  "intro": "Tim Day Construction has extensive experience working on projects in Canterbury",
+  "cards": [
+   {
+    "title": "Pure Vet, Ashford",
+    "location": "Ashford, Kent",
+    "href": "/project/pure-vet-ashford/",
+    "image": "/wp-content/uploads/2026/07/DSCF9451-scaled.jpg"
+   },
+   {
+    "title": "Old Dover Road, Canterbury",
+    "location": "Canterbury, Kent",
+    "href": "/project/old-dover-road/",
+    "image": "/wp-content/uploads/2024/12/Old-Dover-Road-scaled.jpg"
+   },
+   {
+    "title": "Stables, Kent",
+    "location": "Kent",
+    "href": "/project/stables/",
+    "image": "/wp-content/uploads/2024/12/IMG_3116.jpg"
+   },
+   {
+    "title": "Vet Shack, Canterbury",
+    "location": "Canterbury, Kent",
+    "href": "/project/vet-shack/",
+    "image": "/wp-content/uploads/2024/12/IMG_0443-scaled.jpg"
+   },
+   {
+    "title": "Riverside Social, Canterbury",
+    "location": "Canterbury, Kent",
+    "href": "/project/riverside-social/",
+    "image": "/wp-content/uploads/2024/12/IMG_9083.jpg"
+   },
+   {
+    "title": "King Post, Elham",
+    "location": "Canterbury, Kent",
+    "href": "/project/king-post-elham/",
+    "image": "/wp-content/uploads/2024/12/716681720-img_1557-scaled.jpg"
+   },
+   {
+    "title": "Whitstable Road, Canterbury",
+    "location": "Canterbury, Kent",
+    "href": "/project/whitstable-road/",
+    "image": "/wp-content/uploads/2024/12/IMG_7598.jpg"
+   },
+   {
+    "title": "Pett Cottage, Canterbury",
+    "location": "Canterbury, Kent",
+    "href": "/project/pett-cottage/",
+    "image": "/wp-content/uploads/2024/12/IMG_1526-scaled.jpg"
+   }
+  ]
+ },
+ "why": {
+  "heading": "Why Choose Tim Day Construction?",
+  "button": {
+   "label": "Get Started",
+   "href": "/contact/"
+  },
+  "paragraphs": [
+   "Tim Day Construction are a team of trusted builders who focus on providing expert advice, identifying the best options and efficiencies, and working with our clients to deliver their vision with professionalism and dedication to an outstanding end result.",
+   "TDC has extensive experience working in and around Canterbury on projects with NHBC Buildmark warranty with impressive specifications and meticulous detail."
+  ]
+ }
+}

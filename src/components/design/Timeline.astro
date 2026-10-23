@@ -1,0 +1,57 @@
+---
+// DESIGN.md 6.19. Live .timeline-container (style.css 3525-3655, theme/36-timeline.css).
+// Progress line: the live theme JS sets .timeline-line-progress height to (scroll % x 130)%.
+// Milestones fade in with AOS (data-aos="fade-in", AOS.init({ once: true })), loaded on this page only.
+// Under prefers-reduced-motion: no AOS and the progress line is shown full height (DESIGN.md 2.6).
+interface Props { heading: string; milestones: { title: string; body: string }[]; bottomText: string[] }
+const { heading, milestones, bottomText } = Astro.props;
+---
+<section class="timeline-container width-container">
+  <h2 class="section-heading" set:html={heading} />
+  <div class="timeline-line" aria-hidden="true"><div class="timeline-line-progress"></div></div>
+  <ol class="timeline padding-container">
+    {milestones.map((m) => (
+      <li class="milestone" data-aos="fade-in">
+        <h3 set:html={m.title} />
+        <p set:html={m.body} />
+      </li>
+    ))}
+  </ol>
+</section>
+<div class="timeline-bottom-text width-container">
+  <div class="content">
+    {bottomText.map((p) => <p set:html={p} />)}
+  </div>
+</div>
+
+<script>
+  import AOS from 'aos';
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const bar = document.querySelector<HTMLElement>('.timeline-line-progress');
+  if (reduce) {
+    if (bar) bar.style.height = '100%';
+  } else {
+    AOS.init({ once: true });
+    if (bar) {
+      let queued = false;
+      const update = () => {
+        queued = false;
+        const top = document.body.scrollTop || document.documentElement.scrollTop;
+        const max = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        bar.style.height = `${max > 0 ? (top / max) * 130 : 0}%`;
+      };
+      addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+      update();
+    }
+  }
+</script>
+
+<style is:global>
+  /* AOS fade rules copied from aos/dist/aos.css (2.3.4) instead of loading its 26KB stylesheet: this page
+     only uses fade-in with the defaults (400ms, ease). Hiding is gated on the attribute AOS.init() sets on
+     <body>, so the milestones stay visible without JS and under reduced motion (DESIGN.md 2.6). */
+  body[data-aos-easing] .timeline [data-aos^='fade'] { opacity: 0; transition-property: opacity, transform; transition-duration: 0.4s; transition-timing-function: ease; }
+  body[data-aos-easing] .timeline [data-aos^='fade'].aos-animate { opacity: 1; transform: translateZ(0); }
+  /* Reduced motion: the line is static at full height (DESIGN.md 6.19) */
+  @media (prefers-reduced-motion: reduce) { .timeline-container .timeline-line .timeline-line-progress { height: 100%; } }
+</style>

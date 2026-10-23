@@ -1,0 +1,21 @@
+---
+// 404 (live #error-404__container, style.css 3725-3781, theme/38-error-404.css). Copy from the live
+// 404 response via scripts/extract_design.py into src/data/pages/error-404.json. Not indexed.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import page from '../data/pages/error-404.json';
+import { graph } from '../lib/seo';
+
+// F11: the live title "Page not found - Building Contractor | Canterbury, Kent" fits in 60 characters
+const title = page.title;
+---
+<BaseLayout title={title} description={null} jsonld={graph()} bodyClass="error404" noindex>
+  <section id="error-404__container">
+    <img class="background-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" width="600" height="600" />
+    <div class="error-404__content">
+      <h1 class="error-404__title">{page.heading}</h1>
+      <div class="error-404__subtitle">{page.subtitle}</div>
+      <a class="btn btn--dark" href={page.button.href}>{page.button.label}</a>
+    </div>
+  </section>
+</BaseLayout>
+

@@ -1,0 +1,38 @@
+---
+// Design & Build (DESIGN.md section 5). Content: src/data/pages/design-and-build.json (scripts/extract_design.py).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageBanner from '../components/PageBanner.astro';
+import DesignIntro from '../components/design/DesignIntro.astro';
+import Timeline from '../components/design/Timeline.astro';
+import RibaStages from '../components/design/RibaStages.astro';
+import page from '../data/pages/design-and-build.json';
+import { graph, webPage, breadcrumbs, pageTitle, SITE, ORG_ID } from '../lib/seo';
+import { mdText } from '../lib/md';
+
+const path = '/design-and-build/';
+const title = pageTitle(page.seo.title, 'Design & Build');
+const description = page.seo.description;
+const image = page.banner.image;
+const name = mdText(page.banner.title);
+const service = {
+  '@type': 'Service',
+  '@id': `${SITE}${path}#service`,
+  name,
+  url: `${SITE}${path}`,
+  description: mdText(page.intro.paragraphs.join(' ')),
+  provider: { '@id': ORG_ID },
+  areaServed: { '@type': 'AdministrativeArea', name: 'Kent' },
+  mainEntityOfPage: { '@id': `${SITE}${path}` },
+};
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.seo.published!), modified: new Date(page.seo.modified!), image }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name, path }]),
+  service,
+);
+---
+<BaseLayout title={title} description={description} ogImage={image} jsonld={jsonld}>
+  <PageBanner title={page.banner.title} image={image} />
+  <DesignIntro {...page.intro} />
+  <Timeline {...page.timeline} bottomText={page.bottomText} />
+  <RibaStages {...page.riba} />
+</BaseLayout>

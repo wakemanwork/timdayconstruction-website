@@ -1,0 +1,16 @@
+---
+// Live #design-and-build intro (style.css 3488-3524, theme/35-design-and-build-page.css).
+// HTML strings come from src/data/pages/design-and-build.json (extracted, with F19 fixes).
+interface Props { paragraphs: string[]; list: string[] }
+const { paragraphs, list } = Astro.props;
+---
+<section id="design-and-build">
+  <div class="intro width-container">
+    <div class="content">
+      {paragraphs.map((p) => <p class="wp-block-paragraph" set:html={p} />)}
+      <ul class="wp-block-list">
+        {list.map((li) => <li set:html={li} />)}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+---
+// DESIGN.md 5 (Location). Live .location-content-container (style.css 3782-3892, theme/39-location-content.css):
+// alternating text/image rows over a faded monogram. Copy is HTML from src/data/pages/location-*.json.
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+interface Props { rows: { heading: string; paragraphs: string[]; image: string | null }[] }
+const { rows } = Astro.props;
+---
+<section class="location-content-container">
+  {rows.map((r) => (
+    <div class="location-content width-container">
+      <div class="column text-side">
+        <h2 class="section-title--large" set:html={r.heading} />
+        <div class="content">
+          {r.paragraphs.map((p) => <p set:html={p} />)}
+        </div>
+      </div>
+      <div class="column image-side">
+        {r.image && <Img src={r.image} alt={alt(r.image)} sizes="(max-width: 560px) 90vw, 40vw" />}
+      </div>
+    </div>
+  ))}
+  <img class="bg-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon.svg" alt="" aria-hidden="true" width="600" height="600" loading="lazy" />
+</section>
