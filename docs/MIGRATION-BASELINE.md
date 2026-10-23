@@ -155,6 +155,11 @@ Status: **Agreed** = decided in Phase 0. **Proposed** = my recommendation, await
 | F20 | 9 of 13 posts use bold paragraphs as pseudo-headings (no H2s); one post has no subheadings at all | Convert bold-only paragraphs to `<h2>` (same words). Improves accessibility and AEO; visual style per DESIGN.md Article | Auto |
 | F21 | Hidden behaviours to carry over: `first_visit` cookie (1 year) gating the entrance animation; Site Kit sends CF7 submissions to GA4 as a lead event | Keep the cookie (listed in the cookie policy); fire GA4 `generate_lead` on form success, consent permitting | Auto |
 | F22 | Content accuracy (left as-is in v1, raise with TDC): "Projects in Canterbury" lists Pure Vet, Ashford and Stables, Kent; Herne Bay reuses Whitstable's description on About; project "Valkyrie Avenue" lives at `/project/valkyrie-road/` (URL kept) | Flag to TDC after launch | Flag only |
+| F23 | Live links point at the agency's local dev host `http://tim-day.local/` (Canterbury copy, one post) and Portfolio's "Listed Buildings" link goes to a 404 (`/?post_type=sector&p=66`) | Rewritten to the real pages (`/design-and-build/`, `/contact/`, `/category/listed-buildings/`); the extractor strips the dev host | Auto |
+| F24 | Contrast failures in the theme: project details values (white at 0.6 opacity), blog card and post dates, the highlighted "now!" inside teal CTA buttons | Raised to pass AA with the nearest on-brand tone | Auto |
+| F25 | Pure Vet's project CTA band is empty on live (empty heading, unnamed link) | Uses the standard project CTA heading and button | Proposed (APPROVALS.md) |
+| F26 | Contact form: live requires Name, Email and Subject; Message is "(optional)" | Kept as live (DESIGN.md 6.21 corrected) | Auto |
+| F27 | No robots.txt beyond Yoast's; RSS at /feed/ | robots.txt reproduced; /feed/ served via a Vercel rewrite with an RSS content type | Auto |
 
 ## 7. Unverified (no admin access)
 
