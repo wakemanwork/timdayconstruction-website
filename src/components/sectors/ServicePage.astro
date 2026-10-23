@@ -1,0 +1,35 @@
+---
+// Service page template (WordPress template-service.php): /clinical-veterinary-fit-outs/ and
+// /new-homes-and-residential/. Content: src/data/pages/<slug>.json (scripts/extract_sectors.py).
+// Order as live: PageBanner → intro → teal/white sections → projects → FAQ → CTA.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../PageBanner.astro';
+import Faq from '../Faq.astro';
+import CtaBand from '../CtaBand.astro';
+import ServiceIntro from './ServiceIntro.astro';
+import ServiceSection from './ServiceSection.astro';
+import ServiceProjects from './ServiceProjects.astro';
+import { graph, webPage, breadcrumbs, faqPage, pageTitle } from '../../lib/seo';
+import { mdText } from '../../lib/md';
+
+interface Props { slug: string; page: any; }
+const { slug, page } = Astro.props;
+const path = `/${slug}/`;
+const name = page.title.replace(/&amp;/g, '&');
+const title = pageTitle(page.seo.title, name);
+const description = page.seo.description;
+const ogImage = page.bannerImage; // lead photo (F10)
+const jsonld = graph(
+  webPage(path, title, description, { published: new Date(page.published), modified: new Date(page.modified), image: ogImage }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name, path }]),
+  faqPage(path, page.faq.items.map((i: { q: string; a: string }) => ({ q: i.q, aText: mdText(i.a) }))),
+);
+---
+<BaseLayout title={title} description={description} ogImage={ogImage} jsonld={jsonld} bodyClass="page-template-template-service">
+  <PageBanner title={page.title} image={page.bannerImage} />
+  <ServiceIntro {...page.intro} />
+  {page.sections.map((s: any) => <ServiceSection {...s} />)}
+  <ServiceProjects {...page.projects} />
+  <Faq label={page.faq.label} title={page.faq.title} items={page.faq.items} />
+  <CtaBand variant="sector" {...page.cta} />
+</BaseLayout>

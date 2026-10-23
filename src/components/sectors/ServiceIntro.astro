@@ -1,0 +1,24 @@
+---
+// Service page intro (template-service.php). The live markup reuses #meet-the-founder (DESIGN.md 6.7,
+// style.css 1651-1777): heading + paragraphs beside a full-height photo.
+// Paragraphs are the live inner HTML, kept as-is (the leading <br> and empty last paragraph set the
+// live spacing).
+import Img from '../Img.astro';
+import { alt } from '../../lib/alt';
+interface Props { title: string; paragraphs: string[]; image: string; }
+const { title, paragraphs, image } = Astro.props;
+---
+<section id="meet-the-founder">
+  <img class="bg-faded-icon" src="/wp-content/themes/tim-day-custom-theme/assets/images/tim-day-icon-dark.svg" alt="" aria-hidden="true" loading="lazy" /><!-- no width/height, as live: absolutely positioned, CSS sets width only -->
+  <div class="row width-container">
+    <div class="column text-side">
+      <div class="content">
+        <h2 class="section-title" set:html={title} />
+        {paragraphs.map((p) => <p class="wp-block-paragraph" set:html={p} />)}
+      </div>
+    </div>
+    <div class="column image-side">
+      <Img src={image} alt={alt(image)} sizes="(max-width: 1360px) 90vw, 40vw" />
+    </div>
+  </div>
+</section>

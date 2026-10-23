@@ -1,0 +1,45 @@
+---
+// Sector pages (/sector/<slug>/). Content: src/content/sectors/*.md (scripts/extract.py).
+// Order as live (single-sector.php): PageBanner → .sector-intro → ProjectBlocks → FAQ → sector CTA.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageBanner from '../../components/PageBanner.astro';
+import ProjectBlocks from '../../components/ProjectBlocks.astro';
+import Faq from '../../components/Faq.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import SectorIntro from '../../components/sectors/SectorIntro.astro';
+import { graph, webPage, breadcrumbs, faqPage, pageTitle } from '../../lib/seo';
+import { mdText } from '../../lib/md';
+import drafts from '../../data/pages/sectors.json';
+
+export async function getStaticPaths() {
+  const sectors = await getCollection('sectors');
+  return sectors.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+const path = `/sector/${entry.id}/`;
+const title = pageTitle(d.seo.title, d.title);
+// F10: no live description; drafts pending Simon's approval (src/data/pages/sectors.json)
+const description = d.seo.description ?? (drafts.descriptions as Record<string, string>)[entry.id] ?? null;
+const ogImage = d.seo.ogImage ?? d.bannerImage;
+// WordPress dates are UTC without an offset; zod parses them as build-machine local time, so
+// read the wall-clock parts back as UTC to keep the output the same on any machine.
+const utc = (x: Date) => new Date(Date.UTC(x.getFullYear(), x.getMonth(), x.getDate(), x.getHours(), x.getMinutes(), x.getSeconds()));
+const jsonld = graph(
+  webPage(path, title, description, { published: utc(d.date), modified: utc(d.modified), image: ogImage }),
+  breadcrumbs(path, [{ name: 'Home', path: '/' }, { name: d.title, path }]),
+  faqPage(path, d.faq.map((i) => ({ q: i.q, aText: mdText(i.a) }))),
+);
+---
+<BaseLayout title={title} description={description} ogImage={ogImage} jsonld={jsonld} bodyClass="single-sector">
+  <PageBanner title={d.title} image={d.bannerImage} />
+  <SectorIntro heading={d.introHeading} image={d.introImage}>
+    <Content />
+  </SectorIntro>
+  <ProjectBlocks slugs={d.projects} headingLevel={3} />
+  {d.faq.length > 0 && <Faq label={d.faqLabel} title={d.faqTitle} items={d.faq} />}
+  <CtaBand variant="sector" {...d.cta} />
+</BaseLayout>
