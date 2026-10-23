@@ -256,7 +256,7 @@ Three white cards on a teal band (H3 + paragraph). They're used for "How we work
 Horizontal carousel of numbered stage cards with prev/next buttons in the title row.
 
 ### 6.21 Contact form (`ContactForm.astro`) · 2261–2478, 2058–2195
-- Fields: Name, Email, Subject, Message (all required except Subject, matching CF7).
+- Fields: Name, Email, Subject, Message. Name, Email and Subject are required and Message is labelled "(optional)", matching the live CF7 form.
 - Sits on a teal panel. Inputs are filled `--teal-mid` with white text, a 2px `--teal-mid` border that turns `--teal-light` on focus, 1rem padding, 1.1rem text, 2rem gap, and white labels above. Submit is white with teal text (hover opacity 0.6).
 - Posts to `/api/contact` (Vercel function). Spam protection is a hidden honeypot plus Turnstile.
 - Success and error messages go in an `aria-live="polite"` region.
@@ -302,4 +302,5 @@ Changes to tokens or components are recorded in the changelog below with a date 
 | Date | Change | Reason |
 |---|---|---|
 | 2026-10-23 | Initial capture from live theme. Added `--teal-highlight-on-light` `#5f969c` | F15 contrast decision |
+| 2026-10-23 | Contact form required fields corrected to match live (Message optional) | Found while building the form |
 | 2026-10-23 | Focus indicator: teal/white 3px outline replaces red 4px border | Agreed with Simon; on-brand, no layout shift |

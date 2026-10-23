@@ -38,3 +38,8 @@ body { font-family: var(--font-sans); }
 /* Base styles the icon fonts' own CSS used to provide (Material Symbols, Font Awesome) */
 .material-symbols-outlined { font-size: 24px; line-height: 1; display: inline-block; white-space: nowrap; font-weight: normal; font-style: normal; letter-spacing: normal; text-transform: none; }
 .quote-icon, .footer-socials a, .social-icons a { line-height: 1; display: inline-block; }
+
+/* The theme names "Montserrat" on form fields; the self-hosted font is "Montserrat Variable" (DESIGN.md 6.21) */
+input, textarea, select, button { font-family: var(--font-sans); }
+.contact-form { --hl: var(--teal-light-text); }
+.contact-form :focus-visible { outline-color: var(--white); }

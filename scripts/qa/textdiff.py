@@ -18,7 +18,7 @@ fix_words = set()
 for f in FIXES:
     for side in ('from', 'to', 'text'):
         if f.get(side):
-            fix_words.update(w.lower() for w in re.findall(r"[\w’']+", f[side]))
+            fix_words.update(w.lower().replace('’', "'") for w in re.findall(r"[\w’']+", f[side]))
 
 DROP = 'script,style,noscript,header,footer,.entrance-animation,.device-menu,.sr-only,.consent,svg,.material-symbols-outlined,form'
 
