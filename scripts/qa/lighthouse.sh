@@ -6,7 +6,8 @@ for path in "$@"; do
   slug=$(echo "$path" | sed 's#^/##; s#/$##; s#/#__#g'); slug=${slug:-home}
   for ff in mobile desktop; do
     extra=""; [ $ff = desktop ] && extra="--preset=desktop"
-    "$LH" "$base$path" --chrome-flags="--headless=new --no-sandbox" $extra --output=json --output-path="qa/lighthouse/$slug-$ff.json" --quiet >/dev/null 2>&1
+    hdr=""; [ -n "$VERCEL_BYPASS" ] && hdr="--extra-headers={\"x-vercel-protection-bypass\":\"$VERCEL_BYPASS\"}"
+    "$LH" "$base$path" --chrome-flags="--headless=new --no-sandbox" $extra "$hdr" --output=json --output-path="qa/lighthouse/$slug-$ff.json" --quiet >/dev/null 2>&1
     python3 -I - "$slug" "$ff" <<'P'
 import json, sys
 slug, ff = sys.argv[1], sys.argv[2]

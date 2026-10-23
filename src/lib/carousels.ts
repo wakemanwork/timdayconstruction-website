@@ -25,10 +25,21 @@ export const CONFIGS: Record<string, object> = {
   },
 };
 
-/** Initialise every carousel matching `selector` on the page. Optional prev/next buttons inside it. */
+/** Initialise every carousel matching `selector` on the page, lazily: each one starts only when it
+ *  comes within 300px of the viewport (keeps Swiper off the critical path; Lighthouse TBT). */
 export function initCarousel(selector: string, extra: object = {}) {
+  const els = Array.from(document.querySelectorAll<HTMLElement>(selector));
+  if (!('IntersectionObserver' in window)) return els.forEach((el) => start(el, selector, extra));
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); start(e.target as HTMLElement, selector, extra); }
+  }, { rootMargin: '300px 0px' });
+  els.forEach((el) => io.observe(el));
+}
+
+function start(el: HTMLElement, selector: string, extra: object) {
+  if ((el as any).swiper) return;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  document.querySelectorAll<HTMLElement>(selector).forEach((el) => {
+  {
     const base: any = { ...CONFIGS[selector], ...extra };
     if (reduce) base.autoplay = false;
     else if (base.autoplay) base.autoplay = { ...base.autoplay, pauseOnMouseEnter: true };
@@ -37,5 +48,5 @@ export function initCarousel(selector: string, extra: object = {}) {
       el.addEventListener('focusin', () => swiper.autoplay?.stop());
       el.addEventListener('focusout', () => swiper.autoplay?.start());
     }
-  });
+  }
 }
