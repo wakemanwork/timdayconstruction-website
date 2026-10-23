@@ -151,6 +151,10 @@ Status: **Agreed** = decided in Phase 0. **Proposed** = my recommendation, await
 | F16 | `/blog/page/2/` duplicates page 1; date archives and search results are indexable | 301s in section 5 | Auto |
 | F17 | Heavy third-party CSS/JS: full Font Awesome, full Material Symbols variable font, Montserrat 100–900, Swiper/GSAP/AOS on every page, WP emoji script | Self-host and subset; load per page | Auto |
 | F18 | DMARC is `p=none` at IONOS (no spoofing protection) | **Not touched in the cutover.** Flag to TDC separately | Flag only |
+| F19 | Copy errors (systematic proofread, 23 Oct): "yoru project" and "It providers cover" (Design & Build); "recoveryto" (post: veterinary fit-out vs other builds); "We provide offer a concept to completion" (4 sector FAQs); "extensions to and change of use" (4 sector FAQs); "We have experience in Veterinary practices Based just outside Canterbury" (About, broken sentence); "team include", "30 years' of", "firmly embed" (About); "Why Should you Choose" (post title case); "Fitout"/"fitouts" vs "Fit-Out"; straight apostrophes on 10 lines; "wood fiber" → "wood fibre" | Correct spelling, grammar and punctuation only, without changing meaning. Each change listed in the build's text-diff report | Auto |
+| F20 | 9 of 13 posts use bold paragraphs as pseudo-headings (no H2s); one post has no subheadings at all | Convert bold-only paragraphs to `<h2>` (same words). Improves accessibility and AEO; visual style per DESIGN.md Article | Auto |
+| F21 | Hidden behaviours to carry over: `first_visit` cookie (1 year) gating the entrance animation; Site Kit sends CF7 submissions to GA4 as a lead event | Keep the cookie (listed in the cookie policy); fire GA4 `generate_lead` on form success, consent permitting | Auto |
+| F22 | Content accuracy (left as-is in v1, raise with TDC): "Projects in Canterbury" lists Pure Vet, Ashford and Stables, Kent; Herne Bay reuses Whitstable's description on About; project "Valkyrie Avenue" lives at `/project/valkyrie-road/` (URL kept) | Flag to TDC after launch | Flag only |
 
 ## 7. Unverified (no admin access)
 
